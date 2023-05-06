@@ -1,0 +1,12 @@
+title: Nickvision
+author: Nicholas Logozzo
+email: nlogozzo225@gmail.com
+description: >-
+  Creating quality, open-source software for all!
+url: "https://nickvisionapps.github.io"
+github_username:  nlogozzo
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
