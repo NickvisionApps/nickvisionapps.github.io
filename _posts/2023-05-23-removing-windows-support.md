@@ -10,7 +10,7 @@ Nickvision has recently decided to remove support for Windows as a platform for 
 
 ## Problems with Windows as an OS
 
-Windows 11 is becoming a platform for Microsoft to push ads instead of a platform to get work done. Although having a pretty design, Windows is becoming an OS for Microsoft to push ads and steal and seal users' data and it's become more and more apparent which each update. 
+Windows 11 is becoming a platform for Microsoft to push ads instead of a platform to get work done. Although having a pretty design, Microsoft uses Windows to steal and seal users' data and it's become more and more apparent with each update. 
 
 Not to mention the load of design inconsistencies and legacy code baked into the operating system, with no cleanup in sight.
 
@@ -20,7 +20,7 @@ The Windows versions of our apps are distributed as MSIX packages on the Microso
 
 Being built with the new [Windows App SDK](https://github.com/microsoft/WindowsAppSDK), Microsoft basically forces developers into using MSIX packaging instead of EXEs and like I said, we didn't mind, however, this came with a ton of issues:
 - First, MSIX packages cannot be installed freely as EXEs can. They require a digital signature which can only be generated using complicated CLI tools from Microsoft. Although increasing security, there are no options for power-users who want to quickly test their unsigned MSIX packages.
-- Secondly, MSIX apps are weirdly sandboxed. Flatpak gets it right, provided limiting file-system access, but besides that you are free to run other commands and utilities as they will only effect the sandboxed app. When it comes to MSIX, not only is the file-system restricted, but you can't run external utilities that edit this sandboxed filesystem without getting permissions denied errors (which makes no sense because if the file system is sandboxed, these utilities should be allowed to run since they wouldn't effect the host system).
+- Secondly, MSIX apps are weirdly sandboxed. Flatpak gets it right, provided limiting file-system access, but besides that you are free to run other commands and utilities available inside the sandbox as they will only effect the sandboxed app. When it comes to MSIX, not only is the file-system restricted, but you can't run external utilities that edit this sandboxed filesystem without getting permissions denied errors (which makes no sense because if the file system is sandboxed, these utilities should be allowed to run since they wouldn't effect the host system).
 
 Besides MSIX issues, the Microsoft Store is also a mess. 
 
