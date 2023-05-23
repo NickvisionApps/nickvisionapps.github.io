@@ -36,4 +36,12 @@ For users who cannot switch to Linux but wish to continue using Nickvision apps,
 
 We will continue to support and develop our apps for Linux (GNOME specificity with libadwaita) and plan to develop mobile companions for our apps in the near future.
 
+<script src="https://utteranc.es/client.js"
+        repo="nickvisionapps/nickvisionapps.github.io"
+        issue-term="url"
+        label="blog-comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 We thank all contributors, users, and sponsors for the continued support of our applications :)
