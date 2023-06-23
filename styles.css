@@ -66,6 +66,12 @@ body {
   flex-grow: 2;
 }
 
+.card-blog {
+  flex-basis: calc(var(--card-size) * 4);
+  flex-grow: 2;
+  cursor: pointer;
+}
+
 .card-blue {
   background: linear-gradient(125deg, rgba(153,193,241,1) 0%, rgba(28,113,216,1) 100%);
 }
@@ -90,6 +96,10 @@ body {
   background: linear-gradient(125deg, rgba(255,210,0,1) 0%, rgba(255,200,0,1) 100%);
 }
 
+.card-orange {
+  background: linear-gradient(125deg, rgba(255,110,40,1) 0%, rgba(255,90,28,1) 100%);
+}
+
 /* ## Header Card */
 .card-header {
   display: flex;
@@ -106,8 +116,20 @@ body {
   font-variation-settings: "wght" 900;
 }
 
+.header-two {
+  color: #FFFFFF;
+  width: 5em;
+  font-size: 2rem;
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
+}
+
 .profile-picture {
   height: 5em;
+}
+
+.profile-picture-two {
+  height: 3.4em;
 }
 
 /* ## Social Card */
