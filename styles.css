@@ -41,6 +41,12 @@ body {
   gap: 1.5em;
 }
 
+.heading {
+  display: block;
+  flex-basis: calc(var(--card-size) * 4);
+  flex-grow: 2;
+}
+
 /* ## Global Card Styles */
 .card {
   /* Edit the `--card-size` variable in the top of this document*/
@@ -62,7 +68,7 @@ body {
 
 /* ## Header Card */
 .card-header {
-  background: linear-gradient(125deg, rgba(247,18,45,1) 0%, rgba(130,0,0,1) 100%);
+  background: linear-gradient(125deg, rgba(255,30,60,1) 0%, rgba(230,20,40,1) 100%);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -143,6 +149,14 @@ body {
   background: linear-gradient(125deg, rgba(192,97,203,1) 0%, rgba(129,61,156,1) 100%);
 }
 
+.card-info-gray {
+  background: linear-gradient(125deg, rgba(240,240,240) 0%, rgba(250,250,250,1) 100%);
+}
+
+.card-info-red {
+  background: linear-gradient(125deg, rgba(255,30,60,1) 0%, rgba(230,20,40,1) 100%);
+}
+
 /* ## Project Cards */
 .card-project {
   border: 1px solid rgba(120, 120, 120, 0.4);
@@ -182,6 +196,10 @@ body {
 
   .project-title {
     color: #AAAAAA;
+  }
+
+  .card-info-gray {
+      background: linear-gradient(125deg, rgba(51,51,51,1) 0%, rgba(36,36,36,1) 100%);
   }
 }
 
