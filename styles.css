@@ -1,5 +1,63 @@
 /* ## General Setup */
 :root {
+  --blue1: rgb(153,193,241);
+  --blue2: rgb(98,160,234);
+  --blue3: rgb(53,132,228);
+  --blue4: rgb(28,113,216);
+  --blue5: rgb(26,95,180);
+  --green1: rgb(143,240,164);
+  --green2: rgb(87,227,137);
+  --green3: rgb(51,209,122);
+  --green4: rgb(46,194,126);
+  --green5: rgb(38,162,105);
+  --yellow1: rgb(249,240,107);
+  --yellow2: rgb(248,228,92);
+  --yellow3: rgb(246,211,45);
+  --yellow4: rgb(245,194,17);
+  --yellow5: rgb(229,165,10);
+  --orange1: rgb(255,190,111);
+  --orange2: rgb(255,163,72);
+  --orange3: rgb(255,120,0);
+  --orange4: rgb(230,97,0);
+  --orange5: rgb(198,70,0);
+  --red1: rgb(246,97,81);
+  --red2: rgb(237,51,59);
+  --red3: rgb(224,27,36);
+  --red4: rgb(192,28,40);
+  --red5: rgb(165,29,45);
+  --purple1: rgb(220,138,221);
+  --purple2: rgb(192,97,203);
+  --purple3: rgb(145,65,172);
+  --purple4: rgb(129,61,156);
+  --purple5: rgb(97,53,131);
+  --brown1: rgb(205,171,143);
+  --brown2: rgb(181,131,90);
+  --brown3: rgb(152,106,68);
+  --brown4: rgb(134,94,60);
+  --brown5: rgb(99,69,44);
+  --light1: rgb(255,255,255);
+  --light2: rgb(246,245,244);
+  --light3: rgb(222,221,218);
+  --light4: rgb(192,191,188);
+  --light5: rgb(154,153,150);
+  --dark1: rgb(119,118,123);
+  --dark2: rgb(94,92,100);
+  --dark3: rgb(61,56,70);
+  --dark4: rgb(36,31,49);
+  --dark5: rgb(0,0,0);
+
+  --text1: rgba(255,255,255, 0.8);
+  --text2: rgba(255,255,255, 0.9);
+  --text3: rgb(85, 85, 85);
+  --text4: rgb(119, 119, 119);
+  --text5: rgb(170, 170, 170);
+  --border: rgba(120, 120, 120, 0.4);
+  --background-color: rgb(255,255,255);
+  --background-color-dark: rgb(36, 36, 36);
+
+  --gray1: rgb(58,58,58);
+  --gray2: rgb(42,42,42);
+
   --card-size: 12em; /* Used to conveniently scale cards */
 }
 
@@ -22,7 +80,7 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: var(--background-color);
 }
 
 a {
@@ -76,31 +134,31 @@ a {
 }
 
 .card-blue {
-  background: linear-gradient(125deg, rgba(153,193,241,1) 0%, rgba(28,113,216,1) 100%);
+  background: linear-gradient(125deg, var(--blue1) 0%, var(--blue4) 100%);
 }
 
 .card-green {
-  background: linear-gradient(125deg, rgba(87,227,137,1) 0%, rgba(38,162,105,1) 100%);
+  background: linear-gradient(125deg, var(--green2) 0%, var(--green5) 100%);
 }
 
 .card-purple {
-  background: linear-gradient(125deg, rgba(192,97,203,1) 0%, rgba(129,61,156,1) 100%);
+  background: linear-gradient(125deg, var(--purple2) 0%, var(--purple4) 100%);
 }
 
 .card-gray {
-  background: linear-gradient(125deg, rgba(240,240,240) 0%, rgba(250,250,250,1) 100%);
+  background: linear-gradient(125deg, var(--light2) 0%, var(--light1) 100%);
 }
 
 .card-red {
-  background: linear-gradient(125deg, rgba(255,30,60,1) 0%, rgba(230,20,40,1) 100%);
+  background: linear-gradient(125deg, var(--red2) 0%, var(--red3) 100%);
 }
 
 .card-yellow {
-  background: linear-gradient(125deg, rgba(255,210,0,1) 0%, rgba(255,200,0,1) 100%);
+  background: linear-gradient(125deg, var(--yellow5) 0%, var(--yellow2) 100%);
 }
 
 .card-orange {
-  background: linear-gradient(125deg, rgba(255,110,40,1) 0%, rgba(255,90,28,1) 100%);
+  background: linear-gradient(125deg, var(--orange3) 0%, var(--orange4) 100%);
 }
 
 /* ## Header Card */
@@ -112,7 +170,7 @@ a {
 }
 
 .header {
-  color: #FFFFFF;
+  color: var(--text1);
   width: 5em;
   font-size: 2.5rem;
   font-weight: 900;
@@ -120,7 +178,7 @@ a {
 }
 
 .header-two {
-  color: #FFFFFF;
+  color: var(--text1);
   width: 5em;
   font-size: 2rem;
   font-weight: 700;
@@ -137,7 +195,7 @@ a {
 
 /* ## Social Card */
 .card-social {
-  background: linear-gradient(125deg, rgba(87,227,137,1) 0%, rgba(38,162,105,1) 100%);
+  background: linear-gradient(125deg, var(--green2) 0%, var(--green5) 100%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -180,21 +238,19 @@ a {
 }
 
 .info-text {
-  color: #FFFFFF;
+  color: var(--text2);
   text-align: center;
-  opacity: 0.9;
 }
 
 .info-text-bold {
-  color: #FFFFFF;
+  color: var(--text2);
   text-align: center;
-  opacity: 0.9;
   font-weight: bold;
 }
 
 /* ## Project Cards */
 .card-project {
-  border: 1px solid rgba(120, 120, 120, 0.4);
+  border: 1px solid var(--border);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,12 +273,12 @@ a {
   font-size: 1.5rem;
   font-weight: 900;
   font-variation-settings: "wght" 900;
-  color: #555555;
+  color: var(--text3);
 }
 
 .project-description {
   font-size: 1rem;
-  color: #777777;
+  color: var(--text4);
 }
 
 /* ## Blog Cards */
@@ -230,7 +286,7 @@ a {
   flex-basis: calc(var(--card-size) * 4);
   flex-grow: 2;
   border-radius: 12px;
-  background: linear-gradient(125deg, rgba(240,240,240) 0%, rgba(250,250,250,1) 100%);
+  background: linear-gradient(125deg, var(--light2) 0%, var(--light1) 100%);
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -238,13 +294,13 @@ a {
 }
 
 .blog-text {
-  color: #000000;
+  color: var(--dark5);
   padding: 1rem;
   opacity: 0.9;
 }
 
 .blog-text-bold {
-  color: #000000;
+  color: var(--dark5);
   padding: 1rem;
   opacity: 0.9;
   font-weight: bold;
@@ -252,27 +308,27 @@ a {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #242424;
+    background-color: var(--background-color-dark);
   }
 
   .project-title {
-    color: #AAAAAA;
+    color: var(--text5);
   }
 
   .card-gray {
-    background: linear-gradient(125deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 100%);
+    background: linear-gradient(125deg, var(--gray1) 0%, var(--gray2) 100%);
   }
 
   .card-blog {
-    background: linear-gradient(125deg, rgba(58,58,58,1) 0%, rgba(42,42,42,1) 100%);
+    background: linear-gradient(125deg, var(--gray1) 0%, var(--gray2) 100%);
   }
 
   .blog-text {
-    color: #FFFFFF;
+    color: var(--light1);
   }
 
   .blog-text-bold {
-    color: #FFFFFF;
+    color: var(--light1);
   }
 }
 
