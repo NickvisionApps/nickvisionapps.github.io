@@ -126,7 +126,7 @@ a {
 
 .card-wide {
   flex-basis: calc(var(--card-size) * 2);
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 .card-super-wide {
@@ -214,6 +214,14 @@ a {
 }
 
 .card-social-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+}
+
+.card-social-row-dark {
+  color: var(--background-color-dark);
   display: flex;
   justify-content: center;
   align-items: center;

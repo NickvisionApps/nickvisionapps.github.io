@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="1.97"
-     inkscape:cx="115.48223"
-     inkscape:cy="114.72081"
+     inkscape:zoom="5.5720014"
+     inkscape:cx="109.38619"
+     inkscape:cy="161.16292"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="0"
@@ -99,29 +99,21 @@
        style="fill:#babdb6;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.30217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6984"
        d="M 193.48547,51.609212 V 102.76818" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:138.683px;font-family:System-ui;-inkscape-font-specification:'System-ui, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#f3f3f3;stroke-width:4.33386;stroke-opacity:1"
-       x="61.860958"
-       y="220.01376"
-       id="text429"><tspan
-         sodipodi:role="line"
-         id="tspan427"
-         x="61.860958"
-         y="220.01376"
-         style="fill:#ffffff;fill-opacity:1;stroke:#f3f3f3;stroke-width:4.33386;stroke-opacity:1">#<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:138.683px;font-family:System-ui;-inkscape-font-specification:'System-ui, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#f3f3f3;stroke-width:4.33386;stroke-opacity:1"
-   id="tspan431" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.126px;font-family:System-ui;-inkscape-font-specification:'System-ui, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#f3f3f3;stroke-width:4.33386;stroke-opacity:1"
-       x="153.00102"
-       y="232.48729"
-       id="text11159"><tspan
-         sodipodi:role="line"
-         id="tspan11157"
-         x="153.00102"
-         y="232.48729"
-         style="stroke-width:4.33386">+</tspan></text>
+    <g
+       aria-label="#"
+       id="text429"
+       style="font-size:138.683px;font-family:System-ui;-inkscape-font-specification:'System-ui, Normal';fill:#ffffff;stroke:#f3f3f3;stroke-width:4.33386">
+      <path
+         d="m 120.10782,220.01376 h 9.56912 l 0.13869,-96.246 H 120.2465 Z M 66.57618,194.63477 h 81.12955 v -9.01439 H 66.57618 Z m 18.167473,25.37899 h 9.569127 l 0.138683,-96.246 H 84.882336 Z M 66.57618,157.05168 h 81.12955 v -9.01439 H 66.57618 Z"
+         id="path672" />
+    </g>
+    <g
+       aria-label="+"
+       id="text11159"
+       style="font-size:127.126px;font-family:System-ui;-inkscape-font-specification:'System-ui, Normal';fill:#ffffff;stroke:#f3f3f3;stroke-width:4.33386">
+      <path
+         d="m 185.03677,219.90182 h 9.66158 V 160.1526 h -9.66158 z m -25.04382,-25.17095 h 59.74922 v -9.40733 h -59.74922 z"
+         id="path669" />
+    </g>
   </g>
 </svg>
