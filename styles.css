@@ -127,11 +127,13 @@ a {
 .card-wide {
   flex-basis: calc(var(--card-size) * 2);
   flex-grow: 1;
+  justify-content: center;
 }
 
 .card-super-wide {
   flex-basis: calc(var(--card-size) * 4);
   flex-grow: 2;
+  justify-content: center;
 }
 
 .card-blue {
@@ -269,7 +271,6 @@ a {
 .card-project {
   border: 1px solid var(--border);
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 0 2.5em;
   gap: 2em;
