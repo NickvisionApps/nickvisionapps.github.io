@@ -324,6 +324,12 @@ a {
   font-weight: bold;
 }
 
+.blog-list {
+  color: var(--dark5);
+  padding: 1rem;
+  opacity: 0.9;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--background-color-dark);

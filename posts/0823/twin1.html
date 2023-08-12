@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" href="../../styles.css" />
+    <title>This Week in Nickvision #1</title>
+    <link rel="icon" href="../../favicon.svg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Nickvision" />
+    <meta name="Description" content="Developing quality software for all" />
+    <meta name="keywords" content="developer, software, GNOME, Nickvision" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nickvision" />
+    <meta property="og:description" content="Developing quality software for all." />
+</head>
+
+<body>
+<div class="container">
+    <div class="main">
+        <div class="heading">
+            <a class="project-title" href="../../blog.html">
+                < Go Back</a>
+        </div>
+
+        <div class="card card-wide card-info card-purple">
+            <h2 class="info-text-bold">This Week in Nickvision #1</h2>
+            <p class="info-text">Here's what happened across Nickvision from August 05 to August 12</p>
+        </div>
+
+        <div class="card card-square card-info card-green">
+            <p class="info-text-bold">August 12, 2023</p>
+            <p class="info-text">Nicholas Logozzo</p>
+        </div>
+
+        <div class="card-blog">
+            <h3 class="blog-text-bold">Cavalier 🕺</h3>
+            <p class="blog-text">Cavalier V2023.8.1 was released!</p>
+            <p class="blog-text">Tired of existing 6 drawing modes? Well, now there are 11, because every mode except Splitter got Circle variant! We also fixed the issue that caused incorrect drawing with display scaling enabled, and added a cute easter egg eyes</p>
+            <p class="blog-text">Full changelog:</p>
+            <ul class="blog-list">
+                <li class="blog-text">All drawing modes except Splitter now have Circle variants</li>
+                <li class="blog-text">Added an easter egg (run the program with --help to find how to activate it)</li>
+                <li class="blog-text">Fixed an issue where the app wasn't drawing correctly with >100% display scaling</li>
+                <li class="blog-text">Added welcome screen that is shown on start until any sound gets detected</li>
+                <li class="blog-text">Added Cairo backend that can be used in case of problems with OpenGL. To activate, run the program with environment variable CAVALIER_RENDERER=cairo</li>
+                <li class="blog-text">CAVA was updated to 0.9.0</li>
+                <li class="blog-text">Pipewire is now used as default input method, you can still change back to Pulse Audio using environment variable CAVALIER_INPUT_METHOD=pulse</li>
+                <li class="blog-text">Updated translations (Thanks everyone on Weblate!)</li>
+            </ul>
+        </div>
+
+        <div class="card-blog">
+            <h3 class="blog-text-bold">Denaro 🪙</h3>
+            <p class="blog-text">Denaro V2023.8.0-beta3 was released!</p>
+            <p class="blog-text">Compared to beta 2, this release introduces tags that can be used with transactions for finer management and filtering!</p>
+            <p class="blog-text">Compared to beta 1, this release finally introduces graphs into the Account view as well as exported PDFs! We've been hard at work implementing many types of graphs for you to visualize your data :)</p>
+            <p class="blog-text-bold">NOTE: Please do not use .nmoney files that contain real data in the pre-release versions as they could get corrupted due to bugs and/or changes in the database schema as development moves to stable.</p>
+            <p class="blog-text">Full changelog:</p>
+            <ul class="blog-list">
+                <li class="blog-text">Added graph visuals to the Account view as well as in exported PDFs</li>
+                <li class="blog-text">Added tags that can be used with transactions for finer management and filtering</li>
+                <li class="blog-text">Added the option to select the entire current month as the date range filter</li>
+                <li class="blog-text">Improved the transaction description suggestion algorithm with fuzzy search</li>
+                <li class="blog-text">Fixed an issue where the help button in the import toast was not working</li>
+                <li class="blog-text">Fixed an issue where Denaro would crash if an account had incorrect formatted metadata</li>
+                <li class="blog-text">Fixed an issue where docs were not available when running Denaro via snap</li>
+                <li class="blog-text">Updated translations (Thanks everyone on Weblate!)</li>
+            </ul>
+        </div>
+
+        <div class="card-blog">
+            <h3 class="blog-text-bold">Parabolic 📥️</h3>
+            <p class="blog-text">Parabolic V2023.8.1 was released!</p>
+            <p class="blog-text">This release is packed with new features, improvements, and bug fixes. Read about them below :)</p>
+            <p class="blog-text">Full changelog:</p>
+            <ul class="blog-list">
+                <li class="blog-text">Added the option to prevent suspend while using Parabolic</li>
+                <li class="blog-text">Added the ability to skip the password dialog when unlocking Keyring</li>
+                <li class="blog-text">Added the ability to reset the Keyring when locked</li>
+                <li class="blog-text">Improved bitrate used for audio-only downloads with the best quality</li>
+                <li class="blog-text">Parabolic will now prefer videos with the h264 codec when downloading in the mp4 format. If space is a concern, users are recommended to download in the webm format which uses the vp* codec</li>
+                <li class="blog-text">If overwriting files is off and a download's file name exists, a numbered suffix will be attached to the end of the file name to prevent error</li>
+                <li class="blog-text">Fixed an issue where downloads with specific timeframes would download incorrectly</li>
+                <li class="blog-text">Fixed an issue where opus downloads would sometimes fail</li>
+                <li class="blog-text">Fixed an issue where Parabolic would be unusable on systems without NetworkManager installed</li>
+                <li class="blog-text">Fixed an issue where Parabolic would say no active internet connection even though there was a connection established</li>
+                <li class="blog-text">Updated translations (Thanks everyone on Weblate!)</li>
+            </ul>
+        </div>
+
+        <div class="card-blog">
+            <h3 class="blog-text-bold">Tagger 🏷️</h3>
+            <p class="blog-text">Tagger V2023.8.2 was released!</p>
+            <p class="blog-text">This release is packed with new features and fixes that make Tagger a lot more powerful to use.</p>
+            <p class="blog-text">Full changelog:</p>
+            <ul class="blog-list">
+                <li class="blog-text">Added support for managing a file's lyrics</li>
+                <li class="blog-text">Tagger will now provide suggestions while typing a genre</li>
+                <li class="blog-text">Fixed an issue where downloading MusicBrainz metadata would fail even if metadata was available</li>
+                <li class="blog-text">Fixed an issue where Web Services were disabled even though network connection was available</li>
+                <li class="blog-text">Fixed an issue where back album art was not saved correctly</li>
+                <li class="blog-text">An Info button will appear when MusicBrainz lookup fails and will provide more information about why the process failed</li>
+                <li class="blog-text">Improved tag panel design</li>
+                <li class="blog-text">Updated translations (Thanks everyone on Weblate!)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
