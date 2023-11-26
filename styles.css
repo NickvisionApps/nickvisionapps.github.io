@@ -206,7 +206,7 @@ a {
 
 /* ## Social Card */
 .card-social {
-  background: linear-gradient(125deg, var(--green2) 0%, var(--green5) 100%);
+  background: linear-gradient(125deg, var(--red2) 0%, var(--red4) 100%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
