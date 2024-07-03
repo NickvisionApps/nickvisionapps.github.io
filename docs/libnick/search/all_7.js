@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['handlerid_0',['HandlerId',['../event_8h.html#af66a61cebcc9953b3d177eed072bf329',1,'Nickvision::Events']]],
-  ['hascompleted_1',['hasCompleted',['../class_nickvision_1_1_system_1_1_process.html#af7b0926a5aa14dad193f87a55e33b545',1,'Nickvision::System::Process']]],
-  ['home_2',['Home',['../userdirectory_8h.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa8cf04a9734132302f96da8e113e80ce5',1,'Nickvision::Filesystem']]]
+  ['data_20files_0',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]],
+  ['datafilebase_1',['DataFileBase',['../class_nickvision_1_1_app_1_1_data_file_base.html',1,'Nickvision::App::DataFileBase'],['../class_nickvision_1_1_app_1_1_data_file_base.html#a212c327905599a0fe3b592838fcdd633',1,'Nickvision::App::DataFileBase::DataFileBase()']]],
+  ['datafilebase_2eh_2',['datafilebase.h',['../datafilebase_8h.html',1,'']]],
+  ['datafilemanager_3',['DataFileManager',['../class_nickvision_1_1_app_1_1_data_file_manager.html',1,'Nickvision::App::DataFileManager'],['../class_nickvision_1_1_app_1_1_data_file_manager.html#ab3d0a40aaa93bbbcc7c97812e48d63ac',1,'Nickvision::App::DataFileManager::DataFileManager(const std::string &amp;appName)'],['../class_nickvision_1_1_app_1_1_data_file_manager.html#a8c39b51bb830cb57254d78c63e5825a1',1,'Nickvision::App::DataFileManager::DataFileManager(const DataFileManager &amp;)=delete'],['../class_nickvision_1_1_app_1_1_data_file_manager.html#a5efae6fb0261b0c4ec14770c878931f9',1,'Nickvision::App::DataFileManager::DataFileManager(DataFileManager &amp;&amp;)=delete']]],
+  ['datafilemanager_2eh_4',['datafilemanager.h',['../datafilemanager_8h.html',1,'']]],
+  ['datafiles_2emd_5',['datafiles.md',['../datafiles_8md.html',1,'']]],
+  ['debug_6',['Debug',['../namespace_nickvision_1_1_logging.html#a5a9cd2a8425c99f0331b60e0600036d5aa603905470e2a5b8c13e96b579ef0dba',1,'Nickvision::Logging']]],
+  ['decode_7',['decode',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a8b75147364e050fa9eb1809db9a47549',1,'Nickvision::Helpers::StringHelpers']]],
+  ['defining_20events_20in_20your_20classes_8',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
+  ['deletecredential_9',['deleteCredential',['../class_nickvision_1_1_keyring_1_1_keyring.html#a7454e4f6843e522de0e22c2066e373c8',1,'Nickvision::Keyring::Keyring::deleteCredential()'],['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#aa595c8d4c286c0cd91f707e58ae40b2e',1,'Nickvision::Keyring::KeyringDialogController::deleteCredential()'],['../class_nickvision_1_1_keyring_1_1_store.html#a84e8c753f846025f32d8529a2d7fc67a',1,'Nickvision::Keyring::Store::deleteCredential()'],['../namespace_nickvision_1_1_keyring_1_1_system_credentials.html#a4b5737bb65328417e3b921283e80f639',1,'Nickvision::Keyring::SystemCredentials::deleteCredential()']]],
+  ['dependencies_10',['Dependencies',['../index.html#autotoc_md13',1,'']]],
+  ['deploymentmode_11',['DeploymentMode',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3',1,'Nickvision::System']]],
+  ['deploymentmode_2eh_12',['deploymentmode.h',['../deploymentmode_8h.html',1,'']]],
+  ['desktop_13',['Desktop',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa2310408a63388fe57e3a4177168a8798',1,'Nickvision::Filesystem']]],
+  ['destroy_14',['destroy',['../class_nickvision_1_1_keyring_1_1_keyring.html#af9906a2833af35016d57e8af0c1b8887',1,'Nickvision::Keyring::Keyring::destroy()'],['../class_nickvision_1_1_keyring_1_1_keyring.html#a7f2d3be5f6e2d85036068772b8710742',1,'Nickvision::Keyring::Keyring::destroy(const std::string &amp;name)'],['../class_nickvision_1_1_keyring_1_1_store.html#a53de9343baccad7aeeed361757d127c2',1,'Nickvision::Keyring::Store::destroy()'],['../class_nickvision_1_1_keyring_1_1_store.html#a7c8dc10eb66c0b9cd4e88fc63ae7a61c',1,'Nickvision::Keyring::Store::destroy(const std::string &amp;name)']]],
+  ['directoryname_15',['DirectoryName',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a0ea74e18ab553375efcef66e875be4f0',1,'Nickvision::Filesystem']]],
+  ['disablekeyring_16',['disableKeyring',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#a191ee4a29e0917d2213b061d54dce4df',1,'Nickvision::Keyring::KeyringDialogController']]],
+  ['disconnected_17',['Disconnected',['../namespace_nickvision_1_1_network.html#af978e12a27102d8b7e98d9dd38d624d9aef70e46fd3bbc21e3e1f0b6815e750c0',1,'Nickvision::Network']]],
+  ['documentation_2eh_18',['documentation.h',['../documentation_8h.html',1,'']]],
+  ['documents_19',['Documents',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaaf28128b38efbc6134dc40751ee21fd29',1,'Nickvision::Filesystem']]],
+  ['downloadfile_20',['downloadFile',['../class_nickvision_1_1_network_1_1_web_client.html#a71c3150bb7e4c1181c8aaf339b494c90',1,'Nickvision::Network::WebClient']]],
+  ['downloads_21',['Downloads',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaac20c35ef53bf1b70789ce94e66800147',1,'Nickvision::Filesystem']]]
 ];

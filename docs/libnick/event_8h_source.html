@@ -104,12 +104,13 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="eventargs_8h.html">eventargs.h</a>&quot;</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">namespace </span>Nickvision::Events</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespace_nickvision_1_1_events.html">   33</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_events.html">Nickvision::Events</a></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="concept_nickvision_1_1_events_1_1_derived_event_args.html">   36</a></span>    <span class="keyword">concept </span><a class="code hl_concept" href="concept_nickvision_1_1_events_1_1_derived_event_args.html">DerivedEventArgs</a> = std::is_base_of_v&lt;EventArgs, T&gt;;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">   41</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> : <span class="keywordtype">size_t</span> {};</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">   41</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> : <span class="keywordtype">size_t</span> {};</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">template</span> &lt;DerivedEventArgs T&gt;</div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
@@ -132,15 +133,15 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
 </div>
 <div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a5e63dcbce0e3eb1836a5798142e6f9d6">   78</a></span>        <a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a5e63dcbce0e3eb1836a5798142e6f9d6">subscribe</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt;&amp; handler)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a5e63dcbce0e3eb1836a5798142e6f9d6">   78</a></span>        <a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a5e63dcbce0e3eb1836a5798142e6f9d6">subscribe</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt;&amp; handler)</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            std::lock_guard&lt;std::mutex&gt; lock{ m_mutex };</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            m_handlers.push_back(handler);</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">return</span> <a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a>{ m_handlers.size() - 1 };</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">return</span> <a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a>{ m_handlers.size() - 1 };</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
 </div>
 <div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">   88</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">unsubscribe</a>(<a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <span class="keywordtype">id</span>)</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">   88</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">unsubscribe</a>(<a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <span class="keywordtype">id</span>)</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        {</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            std::lock_guard&lt;std::mutex&gt; lock{ m_mutex };</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordflow">if</span> (<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<span class="keywordtype">id</span>) &lt; 0 || <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<span class="keywordtype">id</span>) &gt;= m_handlers.size())</div>
@@ -161,13 +162,13 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        }</div>
 </div>
 <div class="foldopen" id="foldopen00114" data-start="{" data-end="}">
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a1ffd25dfd53bad2ea3cbee95c8e85be1">  114</a></span>        <a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a1ffd25dfd53bad2ea3cbee95c8e85be1">operator+=</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt;&amp; handler)</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#a1ffd25dfd53bad2ea3cbee95c8e85be1">  114</a></span>        <a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a1ffd25dfd53bad2ea3cbee95c8e85be1">operator+=</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt;&amp; handler)</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        {</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a5e63dcbce0e3eb1836a5798142e6f9d6">subscribe</a>(handler);</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        }</div>
 </div>
 <div class="foldopen" id="foldopen00122" data-start="{" data-end="}">
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#ad3c906d0b1d334896cfe8de1605eb939">  122</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#ad3c906d0b1d334896cfe8de1605eb939">operator-=</a>(<a class="code hl_enumeration" href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <span class="keywordtype">id</span>)</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_nickvision_1_1_events_1_1_event.html#ad3c906d0b1d334896cfe8de1605eb939">  122</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#ad3c906d0b1d334896cfe8de1605eb939">operator-=</a>(<a class="code hl_enumeration" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a> <span class="keywordtype">id</span>)</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        {</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <a class="code hl_function" href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">unsubscribe</a>(<span class="keywordtype">id</span>);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        }</div>
@@ -209,6 +210,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    };</div>
 </div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>}</div>
+</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="preprocessor">#endif </span><span class="comment">//EVENT_H</span></div>
 <div class="ttc" id="aclass_nickvision_1_1_events_1_1_event_html"><div class="ttname"><a href="class_nickvision_1_1_events_1_1_event.html">Nickvision::Events::Event</a></div><div class="ttdoc">An event that can have handlers subscribe to it, which in turn will be called when the event is invok...</div><div class="ttdef"><b>Definition</b> event.h:49</div></div>
@@ -224,8 +226,9 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclass_nickvision_1_1_events_1_1_event_html_a7e037b47658c4b43abdc8a53a2c719ba"><div class="ttname"><a href="class_nickvision_1_1_events_1_1_event.html#a7e037b47658c4b43abdc8a53a2c719ba">Nickvision::Events::Event::unsubscribe</a></div><div class="ttdeci">void unsubscribe(HandlerId id)</div><div class="ttdoc">Unsubscribes a handler from the event.</div><div class="ttdef"><b>Definition</b> event.h:88</div></div>
 <div class="ttc" id="aclass_nickvision_1_1_events_1_1_event_html_ad3c906d0b1d334896cfe8de1605eb939"><div class="ttname"><a href="class_nickvision_1_1_events_1_1_event.html#ad3c906d0b1d334896cfe8de1605eb939">Nickvision::Events::Event::operator-=</a></div><div class="ttdeci">void operator-=(HandlerId id)</div><div class="ttdoc">Unsubscribes a handler from the event.</div><div class="ttdef"><b>Definition</b> event.h:122</div></div>
 <div class="ttc" id="aconcept_nickvision_1_1_events_1_1_derived_event_args_html"><div class="ttname"><a href="concept_nickvision_1_1_events_1_1_derived_event_args.html">Nickvision::Events::DerivedEventArgs</a></div><div class="ttdef"><b>Definition</b> event.h:36</div></div>
-<div class="ttc" id="aevent_8h_html_af66a61cebcc9953b3d177eed072bf329"><div class="ttname"><a href="event_8h.html#af66a61cebcc9953b3d177eed072bf329">Nickvision::Events::HandlerId</a></div><div class="ttdeci">HandlerId</div><div class="ttdoc">The ID of a handler for an event.</div><div class="ttdef"><b>Definition</b> event.h:41</div></div>
 <div class="ttc" id="aeventargs_8h_html"><div class="ttname"><a href="eventargs_8h.html">eventargs.h</a></div></div>
+<div class="ttc" id="anamespace_nickvision_1_1_events_html"><div class="ttname"><a href="namespace_nickvision_1_1_events.html">Nickvision::Events</a></div><div class="ttdef"><b>Definition</b> event.h:34</div></div>
+<div class="ttc" id="anamespace_nickvision_1_1_events_html_af66a61cebcc9953b3d177eed072bf329"><div class="ttname"><a href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">Nickvision::Events::HandlerId</a></div><div class="ttdeci">HandlerId</div><div class="ttdoc">The ID of a handler for an event.</div><div class="ttdef"><b>Definition</b> event.h:41</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

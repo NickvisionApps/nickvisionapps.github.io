@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['valid_0',['Valid',['../credentialcheckstatus_8h.html#ae5598b61227dc7f68423e9095206f31da3ac705f2acd51a4613f9188c05c91d0d',1,'Nickvision::Keyring']]],
-  ['validatecredential_1',['validateCredential',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#ae7b2c5a8d423e42c8820769e141c9dfd',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['vcpkg_2',['vcpkg',['../index.html#autotoc_md13',1,'Configuring vcpkg'],['../index.html#autotoc_md11',1,'Consuming libnick via vcpkg']]],
-  ['version_3',['Version',['../class_nickvision_1_1_update_1_1_version.html',1,'Nickvision::Update::Version'],['../class_nickvision_1_1_update_1_1_version.html#a33eb04bbda56b77c2f79bbef93df80a5',1,'Nickvision::Update::Version::Version()'],['../class_nickvision_1_1_update_1_1_version.html#a6df3f0bb28937118e129acc6c0f56b9d',1,'Nickvision::Update::Version::Version(int major, int minor, int build)'],['../class_nickvision_1_1_update_1_1_version.html#a7dce1d83b70690e5b79d8982a25a072f',1,'Nickvision::Update::Version::Version(int major, int minor, int build, const std::string &amp;dev)'],['../class_nickvision_1_1_update_1_1_version.html#a1314923eb2b6d7f68af9a904c8118c49',1,'Nickvision::Update::Version::Version(const std::string &amp;version)']]],
-  ['version_2eh_4',['version.h',['../version_8h.html',1,'']]],
-  ['versiontype_5',['VersionType',['../versiontype_8h.html#a69dce6cf29b036c94933303281e37a5e',1,'Nickvision::Update']]],
-  ['versiontype_2eh_6',['versiontype.h',['../versiontype_8h.html',1,'']]],
-  ['verystrong_7',['VeryStrong',['../passwordstrength_8h.html#a9cd56409a5e4905bf52205bf8ee23f4ca1388ffbc21c8b316e5a272a1b09aa9eb',1,'Nickvision::Keyring']]],
-  ['veryweak_8',['VeryWeak',['../passwordstrength_8h.html#a9cd56409a5e4905bf52205bf8ee23f4ca5c66d174e1527d6b658043fb65d80f4e',1,'Nickvision::Keyring']]],
-  ['via_20vcpkg_9',['Consuming libnick via vcpkg',['../index.html#autotoc_md11',1,'']]],
-  ['videos_10',['Videos',['../userdirectory_8h.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa554cfab3938e21d9270bd6b75931f96f',1,'Nickvision::Filesystem']]]
+  ['readfilebytes_0',['readFileBytes',['../namespace_nickvision_1_1_helpers_1_1_code_helpers.html#af42b499ff3b568b428f86301988c023a',1,'Nickvision::Helpers::CodeHelpers']]],
+  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['registerfunction_2',['registerFunction',['../class_nickvision_1_1_database_1_1_sql_database.html#ad4a37cf719b75ee11415750c1114d255',1,'Nickvision::Database::SqlDatabase']]],
+  ['removed_3',['Removed',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a93f07b720ebf7d1246512569761a5804',1,'Nickvision::Filesystem']]],
+  ['removeextensionfilter_4',['removeExtensionFilter',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#aaf524f11f1b3a68d81f81e9aa8e4a615',1,'Nickvision::Filesystem::FileSystemWatcher']]],
+  ['renamed_5',['Renamed',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178ab28f2757ce8f7bb1a72486d7a3500a4e',1,'Nickvision::Filesystem']]],
+  ['replace_6',['replace',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#af0f3a4f3297882aa3154d6515ec94ad4',1,'Nickvision::Helpers::StringHelpers']]],
+  ['reset_7',['reset',['../class_nickvision_1_1_network_1_1_curl_easy.html#a9a69cccecb857fe449f07f0bff5f830a',1,'Nickvision::Network::CurlEasy']]],
+  ['resetkeyring_8',['resetKeyring',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#a25fec91e65aab0aced284915bb953947',1,'Nickvision::Keyring::KeyringDialogController']]],
+  ['result_9',['result',['../class_nickvision_1_1_database_1_1_sql_context.html#afc2a4bbeae49a36e956d433dd04ed76b',1,'Nickvision::Database::SqlContext::result()'],['../class_nickvision_1_1_database_1_1_sql_context.html#a68a3a54deb4d94ed366996952620d365',1,'Nickvision::Database::SqlContext::result(int value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#af31d6e18cd6f4b160f536faac9f2eb76',1,'Nickvision::Database::SqlContext::result(sqlite3_int64 value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#a7184645b50751e626f7e63bdbc2b2779',1,'Nickvision::Database::SqlContext::result(double value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#ac9f75d94222d9d95735970e6b3b7bc45',1,'Nickvision::Database::SqlContext::result(bool value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#aa12bc2f11e9e328c323d397af6cbc3f7',1,'Nickvision::Database::SqlContext::result(const std::string &amp;value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#aa2226df3c104ca8a12f55280c5575661',1,'Nickvision::Database::SqlContext::result(void *value, int n)']]]
 ];

@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['readfilebytes_0',['readFileBytes',['../codehelpers_8h.html#af42b499ff3b568b428f86301988c023a',1,'Nickvision::Helpers::CodeHelpers']]],
-  ['registerfunction_1',['registerFunction',['../class_nickvision_1_1_database_1_1_sql_database.html#ad4a37cf719b75ee11415750c1114d255',1,'Nickvision::Database::SqlDatabase']]],
-  ['removed_2',['Removed',['../fileaction_8h.html#a2ab0a9147887a01966de0ea9ec663178a93f07b720ebf7d1246512569761a5804',1,'Nickvision::Filesystem']]],
-  ['removeextensionfilter_3',['removeExtensionFilter',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#aaf524f11f1b3a68d81f81e9aa8e4a615',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['renamed_4',['Renamed',['../fileaction_8h.html#a2ab0a9147887a01966de0ea9ec663178ab28f2757ce8f7bb1a72486d7a3500a4e',1,'Nickvision::Filesystem']]],
-  ['replace_5',['replace',['../stringhelpers_8h.html#af0f3a4f3297882aa3154d6515ec94ad4',1,'Nickvision::Helpers::StringHelpers']]],
-  ['reset_6',['reset',['../class_nickvision_1_1_network_1_1_curl_easy.html#a9a69cccecb857fe449f07f0bff5f830a',1,'Nickvision::Network::CurlEasy']]],
-  ['resetkeyring_7',['resetKeyring',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#a25fec91e65aab0aced284915bb953947',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['result_8',['result',['../class_nickvision_1_1_database_1_1_sql_context.html#afc2a4bbeae49a36e956d433dd04ed76b',1,'Nickvision::Database::SqlContext::result()'],['../class_nickvision_1_1_database_1_1_sql_context.html#a68a3a54deb4d94ed366996952620d365',1,'Nickvision::Database::SqlContext::result(int value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#af31d6e18cd6f4b160f536faac9f2eb76',1,'Nickvision::Database::SqlContext::result(sqlite3_int64 value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#a7184645b50751e626f7e63bdbc2b2779',1,'Nickvision::Database::SqlContext::result(double value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#ac9f75d94222d9d95735970e6b3b7bc45',1,'Nickvision::Database::SqlContext::result(bool value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#aa12bc2f11e9e328c323d397af6cbc3f7',1,'Nickvision::Database::SqlContext::result(const std::string &amp;value)'],['../class_nickvision_1_1_database_1_1_sql_context.html#aa2226df3c104ca8a12f55280c5575661',1,'Nickvision::Database::SqlContext::result(void *value, int n)']]]
+  ['m_5faction_0',['m_action',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#ab5f696f82f2d23f3dad4c3740882dfd7',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
+  ['m_5factionparam_1',['m_actionParam',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a89ad1320d070998f60a474b9319a3760',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
+  ['m_5fjson_2',['m_json',['../class_nickvision_1_1_app_1_1_data_file_base.html#a93e907dc2382c6488ace6853bbc9194d',1,'Nickvision::App::DataFileBase']]],
+  ['m_5fmessage_3',['m_message',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a0726ea899a9f7b0f1ef1b2f0658f3461',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
+  ['m_5fseverity_4',['m_severity',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a58376eb83c1fc41ebac767e7ffae2ba1',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
+  ['m_5ftitle_5',['m_title',['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html#a1c590ef4f3dc055985444b83378c3e63',1,'Nickvision::Notifications::ShellNotificationSentEventArgs']]],
+  ['macos_6',['MacOS',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3a0a5b7edb55b772c60bfa8af868b679cf',1,'Nickvision::System']]],
+  ['macos_7',['macOS',['../index.html#autotoc_md17',1,'macOS'],['../index.html#autotoc_md28',1,'macOS']]],
+  ['macos_20apple_20silicon_8',['macOS (Apple Silicon)',['../index.html#autotoc_md24',1,'']]],
+  ['macos_20intel_9',['macOS (Intel)',['../index.html#autotoc_md23',1,'']]],
+  ['manually_10',['Building and Installing Manually',['../index.html#autotoc_md19',1,'']]],
+  ['medium_11',['Medium',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca87f8a6ab85c9ced3702b4ea641ad4bb5',1,'Nickvision::Keyring']]],
+  ['menu_12',['Creating a Context Menu',['../md_manual_2notifyicon.html',1,'']]],
+  ['modified_13',['Modified',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a35e0c8c0b180c95d4e122e55ed62cc64',1,'Nickvision::Filesystem']]],
+  ['monitoring_20network_20connectivity_14',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
+  ['music_15',['Music',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa47dcbd834e669233d7eb8a51456ed217',1,'Nickvision::Filesystem']]]
 ];

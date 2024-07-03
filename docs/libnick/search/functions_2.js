@@ -4,7 +4,7 @@ var searchData=
   ['changed_1',['changed',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#a629bdd9d9658f07bac913bd51565a436',1,'Nickvision::Filesystem::FileSystemWatcher']]],
   ['changepassword_2',['changePassword',['../class_nickvision_1_1_database_1_1_sql_database.html#aa9eb0996e6092630fbe4e279966f7166',1,'Nickvision::Database::SqlDatabase']]],
   ['clearextensionfilters_3',['clearExtensionFilters',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#a64525d379136fbd985ef59e3c6348ca0',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['clearvariable_4',['clearVariable',['../environment_8h.html#ae5d7713fa9cb007583ce41997c06b42d',1,'Nickvision::System::Environment']]],
+  ['clearvariable_4',['clearVariable',['../namespace_nickvision_1_1_system_1_1_environment.html#ae5d7713fa9cb007583ce41997c06b42d',1,'Nickvision::System::Environment']]],
   ['commandreceived_5',['commandReceived',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a8a46d1c5270ca1b22c5685a352d58469',1,'Nickvision::App::InterProcessCommunicator']]],
   ['communicate_6',['communicate',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a0587bd9ac274f481754d175c0cd63259',1,'Nickvision::App::InterProcessCommunicator']]],
   ['converturlmaptovector_7',['convertUrlMapToVector',['../class_nickvision_1_1_app_1_1_app_info.html#a74e2675fc54a56592a91b068a9577d59',1,'Nickvision::App::AppInfo']]],

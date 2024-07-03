@@ -91,6 +91,7 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">gettext.h File Reference</div></div>
@@ -101,36 +102,40 @@ $(function(){ initResizable(false); });
 </div>
 <p><a href="gettext_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision.html">Nickvision</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization.html">Nickvision::Localization</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html">Nickvision::Localization::Gettext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a21effad598b4e9b5cf5556328212d013" id="r_a21effad598b4e9b5cf5556328212d013"><td class="memItemLeft" align="right" valign="top"><a id="a21effad598b4e9b5cf5556328212d013" name="a21effad598b4e9b5cf5556328212d013"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GETTEXT_CONTEXT_SEPARATOR</b>&#160;&#160;&#160;&quot;\004&quot;</td></tr>
+<tr class="memitem:a21effad598b4e9b5cf5556328212d013" id="r_a21effad598b4e9b5cf5556328212d013"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21effad598b4e9b5cf5556328212d013">GETTEXT_CONTEXT_SEPARATOR</a>&#160;&#160;&#160;&quot;\004&quot;</td></tr>
 <tr class="separator:a21effad598b4e9b5cf5556328212d013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a3cf3d9dd914f5aeeca5423c157934" id="r_a32a3cf3d9dd914f5aeeca5423c157934"><td class="memItemLeft" align="right" valign="top"><a id="a32a3cf3d9dd914f5aeeca5423c157934" name="a32a3cf3d9dd914f5aeeca5423c157934"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_</b>(String)&#160;&#160;&#160;dgettext(<a class="el" href="#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String)</td></tr>
+<tr class="memitem:a32a3cf3d9dd914f5aeeca5423c157934" id="r_a32a3cf3d9dd914f5aeeca5423c157934"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a3cf3d9dd914f5aeeca5423c157934">_</a>(String)&#160;&#160;&#160;dgettext(<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String)</td></tr>
 <tr class="separator:a32a3cf3d9dd914f5aeeca5423c157934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2dc050f7fe210ddcc985c720346a73" id="r_aad2dc050f7fe210ddcc985c720346a73"><td class="memItemLeft" align="right" valign="top"><a id="aad2dc050f7fe210ddcc985c720346a73" name="aad2dc050f7fe210ddcc985c720346a73"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_n</b>(String,  StringPlural,  N)&#160;&#160;&#160;dngettext(<a class="el" href="#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td></tr>
+<tr class="memitem:aad2dc050f7fe210ddcc985c720346a73" id="r_aad2dc050f7fe210ddcc985c720346a73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad2dc050f7fe210ddcc985c720346a73">_n</a>(String,  StringPlural,  N)&#160;&#160;&#160;dngettext(<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td></tr>
 <tr class="separator:aad2dc050f7fe210ddcc985c720346a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a96e8c0fd1a8069b54f6daa0bbe248" id="r_a08a96e8c0fd1a8069b54f6daa0bbe248"><td class="memItemLeft" align="right" valign="top"><a id="a08a96e8c0fd1a8069b54f6daa0bbe248" name="a08a96e8c0fd1a8069b54f6daa0bbe248"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_p</b>(Context,  String)&#160;&#160;&#160;<a class="el" href="#a4da199b492a5aa2a5baa16c615e8ed74">::Nickvision::Localization::Gettext::pgettext</a>(Context GETTEXT_CONTEXT_SEPARATOR String, String)</td></tr>
+<tr class="memitem:a08a96e8c0fd1a8069b54f6daa0bbe248" id="r_a08a96e8c0fd1a8069b54f6daa0bbe248"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a96e8c0fd1a8069b54f6daa0bbe248">_p</a>(Context,  String)&#160;&#160;&#160;<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a4da199b492a5aa2a5baa16c615e8ed74">::Nickvision::Localization::Gettext::pgettext</a>(Context <a class="el" href="#a21effad598b4e9b5cf5556328212d013">GETTEXT_CONTEXT_SEPARATOR</a> String, String)</td></tr>
 <tr class="separator:a08a96e8c0fd1a8069b54f6daa0bbe248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f89ae37fc879b0894fe2d83cf950f6" id="r_a80f89ae37fc879b0894fe2d83cf950f6"><td class="memItemLeft" align="right" valign="top"><a id="a80f89ae37fc879b0894fe2d83cf950f6" name="a80f89ae37fc879b0894fe2d83cf950f6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_pn</b>(Context,  String,  StringPlural,  N)&#160;&#160;&#160;<a class="el" href="#a59483217fce70e844938df422882f419">::Nickvision::Localization::Gettext::pngettext</a>(Context GETTEXT_CONTEXT_SEPARATOR String, String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td></tr>
+<tr class="memitem:a80f89ae37fc879b0894fe2d83cf950f6" id="r_a80f89ae37fc879b0894fe2d83cf950f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f89ae37fc879b0894fe2d83cf950f6">_pn</a>(Context,  String,  StringPlural,  N)&#160;&#160;&#160;<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a59483217fce70e844938df422882f419">::Nickvision::Localization::Gettext::pngettext</a>(Context <a class="el" href="#a21effad598b4e9b5cf5556328212d013">GETTEXT_CONTEXT_SEPARATOR</a> String, String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td></tr>
 <tr class="separator:a80f89ae37fc879b0894fe2d83cf950f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acf42e9f0312600c14b6911f4158cb60f" id="r_acf42e9f0312600c14b6911f4158cb60f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf42e9f0312600c14b6911f4158cb60f">Nickvision::Localization::Gettext::init</a> (const std::string &amp;domainName)</td></tr>
+<tr class="memitem:acf42e9f0312600c14b6911f4158cb60f" id="r_acf42e9f0312600c14b6911f4158cb60f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#acf42e9f0312600c14b6911f4158cb60f">Nickvision::Localization::Gettext::init</a> (const std::string &amp;domainName)</td></tr>
 <tr class="memdesc:acf42e9f0312600c14b6911f4158cb60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the gettext system. This function should only be called once, regardless of with different domain names.  <br /></td></tr>
 <tr class="separator:acf42e9f0312600c14b6911f4158cb60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e8915eef021bcce744bca0e48d4ff11" id="r_a1e8915eef021bcce744bca0e48d4ff11"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8915eef021bcce744bca0e48d4ff11">Nickvision::Localization::Gettext::getDomainName</a> ()</td></tr>
+<tr class="memitem:a1e8915eef021bcce744bca0e48d4ff11" id="r_a1e8915eef021bcce744bca0e48d4ff11"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a1e8915eef021bcce744bca0e48d4ff11">Nickvision::Localization::Gettext::getDomainName</a> ()</td></tr>
 <tr class="memdesc:a1e8915eef021bcce744bca0e48d4ff11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the domain name used for gettext translations.  <br /></td></tr>
 <tr class="separator:a1e8915eef021bcce744bca0e48d4ff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4da199b492a5aa2a5baa16c615e8ed74" id="r_a4da199b492a5aa2a5baa16c615e8ed74"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4da199b492a5aa2a5baa16c615e8ed74">Nickvision::Localization::Gettext::pgettext</a> (const char *context, const char *msg)</td></tr>
+<tr class="memitem:a4da199b492a5aa2a5baa16c615e8ed74" id="r_a4da199b492a5aa2a5baa16c615e8ed74"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a4da199b492a5aa2a5baa16c615e8ed74">Nickvision::Localization::Gettext::pgettext</a> (const char *context, const char *msg)</td></tr>
 <tr class="memdesc:a4da199b492a5aa2a5baa16c615e8ed74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message for a given context.  <br /></td></tr>
 <tr class="separator:a4da199b492a5aa2a5baa16c615e8ed74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59483217fce70e844938df422882f419" id="r_a59483217fce70e844938df422882f419"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59483217fce70e844938df422882f419">Nickvision::Localization::Gettext::pngettext</a> (const char *context, const char *msg, const char *msgPlural, unsigned long n)</td></tr>
+<tr class="memitem:a59483217fce70e844938df422882f419" id="r_a59483217fce70e844938df422882f419"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a59483217fce70e844938df422882f419">Nickvision::Localization::Gettext::pngettext</a> (const char *context, const char *msg, const char *msgPlural, unsigned long n)</td></tr>
 <tr class="memdesc:a59483217fce70e844938df422882f419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message for a given context.  <br /></td></tr>
 <tr class="separator:a59483217fce70e844938df422882f419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -143,124 +148,113 @@ LICENSE</h1>
 <h1><a class="anchor" id="DESCRIPTION"></a>
 DESCRIPTION</h1>
 <p>Functions for working with gettext (libintl) translations. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a1e8915eef021bcce744bca0e48d4ff11" name="a1e8915eef021bcce744bca0e48d4ff11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e8915eef021bcce744bca0e48d4ff11">&#9670;&#160;</a></span>getDomainName()</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a32a3cf3d9dd914f5aeeca5423c157934" name="a32a3cf3d9dd914f5aeeca5423c157934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a3cf3d9dd914f5aeeca5423c157934">&#9670;&#160;</a></span>_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; Nickvision::Localization::Gettext::getDomainName </td>
+          <td class="memname">#define _</td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>String</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;dgettext(<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Gets the domain name used for gettext translations. </p>
-<dl class="section return"><dt>Returns</dt><dd>The gettext domain name </dd></dl>
-
 </div>
 </div>
-<a id="acf42e9f0312600c14b6911f4158cb60f" name="acf42e9f0312600c14b6911f4158cb60f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf42e9f0312600c14b6911f4158cb60f">&#9670;&#160;</a></span>init()</h2>
+<a id="aad2dc050f7fe210ddcc985c720346a73" name="aad2dc050f7fe210ddcc985c720346a73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2dc050f7fe210ddcc985c720346a73">&#9670;&#160;</a></span>_n</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Nickvision::Localization::Gettext::init </td>
+          <td class="memname">#define _n</td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>String</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StringPlural</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>N</em></span>&#160;)&#160;&#160;&#160;dngettext(<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a1e8915eef021bcce744bca0e48d4ff11">::Nickvision::Localization::Gettext::getDomainName</a>().c_str(), String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initializes the gettext system. This function should only be called once, regardless of with different domain names. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">domainName</td><td>The domain name to use for gettext translations. Must be lowercase and contain no spaces. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if initialized, else false </dd></dl>
-
 </div>
 </div>
-<a id="a4da199b492a5aa2a5baa16c615e8ed74" name="a4da199b492a5aa2a5baa16c615e8ed74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4da199b492a5aa2a5baa16c615e8ed74">&#9670;&#160;</a></span>pgettext()</h2>
+<a id="a08a96e8c0fd1a8069b54f6daa0bbe248" name="a08a96e8c0fd1a8069b54f6daa0bbe248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08a96e8c0fd1a8069b54f6daa0bbe248">&#9670;&#160;</a></span>_p</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char * Nickvision::Localization::Gettext::pgettext </td>
+          <td class="memname">#define _p</td>
           <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>context</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Context</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>msg</em></span>&#160;)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>String</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a4da199b492a5aa2a5baa16c615e8ed74">::Nickvision::Localization::Gettext::pgettext</a>(Context <a class="el" href="#a21effad598b4e9b5cf5556328212d013">GETTEXT_CONTEXT_SEPARATOR</a> String, String)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Translates a message for a given context. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>The context of the message </td></tr>
-    <tr><td class="paramname">msg</td><td>The message to translate </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The translated message for the given context. </dd></dl>
-
 </div>
 </div>
-<a id="a59483217fce70e844938df422882f419" name="a59483217fce70e844938df422882f419"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59483217fce70e844938df422882f419">&#9670;&#160;</a></span>pngettext()</h2>
+<a id="a80f89ae37fc879b0894fe2d83cf950f6" name="a80f89ae37fc879b0894fe2d83cf950f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f89ae37fc879b0894fe2d83cf950f6">&#9670;&#160;</a></span>_pn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char * Nickvision::Localization::Gettext::pngettext </td>
+          <td class="memname">#define _pn</td>
           <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>context</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Context</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>msg</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>String</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>msgPlural</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>StringPlural</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>N</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="namespace_nickvision_1_1_localization_1_1_gettext.html#a59483217fce70e844938df422882f419">::Nickvision::Localization::Gettext::pngettext</a>(Context <a class="el" href="#a21effad598b4e9b5cf5556328212d013">GETTEXT_CONTEXT_SEPARATOR</a> String, String, StringPlural, static_cast&lt;unsigned long&gt;(N))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Translates a plural message for a given context. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>The context of the message </td></tr>
-    <tr><td class="paramname">msg</td><td>The message to translate </td></tr>
-    <tr><td class="paramname">msgPlural</td><td>The plural version of the message to translate </td></tr>
-    <tr><td class="paramname">n</td><td>The number of objects (used to determine whether or not to use the plural version of the message) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The translated message for the given context and number of objects. </dd></dl>
+</div>
+</div>
+<a id="a21effad598b4e9b5cf5556328212d013" name="a21effad598b4e9b5cf5556328212d013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21effad598b4e9b5cf5556328212d013">&#9670;&#160;</a></span>GETTEXT_CONTEXT_SEPARATOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GETTEXT_CONTEXT_SEPARATOR&#160;&#160;&#160;&quot;\004&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

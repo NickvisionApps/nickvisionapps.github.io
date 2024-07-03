@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevel_0',['LogLevel',['../loglevel_8h.html#a5a9cd2a8425c99f0331b60e0600036d5',1,'Nickvision::Logging']]]
+  ['handlerid_0',['HandlerId',['../namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329',1,'Nickvision::Events']]]
 ];
