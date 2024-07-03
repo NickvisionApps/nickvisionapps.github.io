@@ -8,7 +8,8 @@ var searchData=
   ['updater_5',['Updater',['../class_nickvision_1_1_update_1_1_updater.html',1,'Nickvision::Update::Updater'],['../class_nickvision_1_1_update_1_1_updater.html#a009c2750078bffea24694fb500fd8b7b',1,'Nickvision::Update::Updater::Updater(std::string githubRepoUrl)'],['../class_nickvision_1_1_update_1_1_updater.html#a6355912ef3438cd185932ead1821926c',1,'Nickvision::Update::Updater::Updater(const Updater &amp;u)'],['../class_nickvision_1_1_update_1_1_updater.html#a89514febd7ee0e5d10a284abe9e5353e',1,'Nickvision::Update::Updater::Updater(Updater &amp;&amp;u) noexcept']]],
   ['updater_2eh_6',['updater.h',['../updater_8h.html',1,'']]],
   ['upper_7',['upper',['../stringhelpers_8h.html#aab30b376853a003cd472c7c1237ff555',1,'Nickvision::Helpers::StringHelpers']]],
-  ['userdirectories_2eh_8',['userdirectories.h',['../userdirectories_8h.html',1,'']]],
-  ['userdirectory_9',['UserDirectory',['../userdirectory_8h.html#ad36e956435e29b3f3a7a3a4aaeef7cda',1,'Nickvision::Filesystem']]],
-  ['userdirectory_2eh_10',['userdirectory.h',['../userdirectory_8h.html',1,'']]]
+  ['uppercase_8',['Uppercase',['../passwordcontent_8h.html#a2f686ca292f526beb67f50929496e3c6a621e7b8ece62fecc55e883252ff2fbe7',1,'Nickvision::Keyring']]],
+  ['userdirectories_2eh_9',['userdirectories.h',['../userdirectories_8h.html',1,'']]],
+  ['userdirectory_10',['UserDirectory',['../userdirectory_8h.html#ad36e956435e29b3f3a7a3a4aaeef7cda',1,'Nickvision::Filesystem']]],
+  ['userdirectory_2eh_11',['userdirectory.h',['../userdirectory_8h.html',1,'']]]
 ];

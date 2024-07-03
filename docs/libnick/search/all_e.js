@@ -14,5 +14,6 @@ var searchData=
   ['operator_3d_3d_11',['operator==',['../class_nickvision_1_1_keyring_1_1_credential.html#ab336d53d3183748f0b57e507f1658cbb',1,'Nickvision::Keyring::Credential::operator==()'],['../class_nickvision_1_1_update_1_1_version.html#a9863547e8d09236cd9163946a16ae061',1,'Nickvision::Update::Version::operator==()']]],
   ['operator_3e_12',['operator&gt;',['../class_nickvision_1_1_keyring_1_1_credential.html#a4ae4611b13c7e5bfc3237f285fe21350',1,'Nickvision::Keyring::Credential::operator&gt;()'],['../class_nickvision_1_1_update_1_1_version.html#ab81c9df8e9fd946b6faf545795a00067',1,'Nickvision::Update::Version::operator&gt;(const Version &amp;compare) const']]],
   ['operator_3e_3d_13',['operator&gt;=',['../class_nickvision_1_1_update_1_1_version.html#aa54fd8318e4b408a3493814f9f4a3531',1,'Nickvision::Update::Version']]],
-  ['own_20data_20files_14',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]]
+  ['other_14',['Other',['../operatingsystem_8h.html#adcb88658352c84f837dc8447677867e3a6311ae17c1ee52b36e68aaf4ad066387',1,'Nickvision::System']]],
+  ['own_20data_20files_15',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]]
 ];
