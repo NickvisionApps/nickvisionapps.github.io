@@ -93,7 +93,7 @@ $(function(){ initResizable(false); });
 <p><b>A cross-platform base for native <a class="el" href="namespace_nickvision.html">Nickvision</a> applications.</b></p>
 <p>libnick provides <a class="el" href="namespace_nickvision.html">Nickvision</a> apps with a common set of cross-platform APIs for managing system and desktop app functionality such as network management, taskbar icons, translations, app updates, and more.</p>
 <h1><a class="anchor" id="autotoc_md6"></a>
-2024.6.10 (next)</h1>
+2024.7.0</h1>
 <h2><a class="anchor" id="autotoc_md7"></a>
 Breaking Changes</h2>
 <h3><a class="anchor" id="autotoc_md8"></a>
@@ -109,17 +109,23 @@ Filesystem</h3>
 <li>Added <code><a class="el" href="namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238" title="Supported application user directories.">Nickvision::Filesystem::ApplicationUserDirectory</a></code> enum</li>
 <li>Added <code><a class="el" href="namespace_nickvision_1_1_filesystem_1_1_user_directories.html#ad7d5e368c05fcf0d2b2b3a9729960e14" title="Gets the path of a user directory.">Nickvision::Filesystem::UserDirectories::get()</a></code> function overload for <code><a class="el" href="namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238" title="Supported application user directories.">Nickvision::Filesystem::ApplicationUserDirectory</a></code> support </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Helpers</h3>
+<ul>
+<li>Added <code><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a9a875c80187b20111e113a3c5b5107c4" title="Normalizes a string for use in a filename.">Nickvision::Helpers::StringHelpers::normalizeForFilename()</a></code></li>
+<li>Added <code><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#af0f3a4f3297882aa3154d6515ec94ad4" title="Replaces a substring within a string with a new string.">Nickvision::Helpers::StringHelpers::replace()</a></code> character overload </li>
+</ul>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Fixes</h2>
-<h3><a class="anchor" id="autotoc_md12"></a>
+<h3><a class="anchor" id="autotoc_md13"></a>
 Update</h3>
 <ul>
 <li>Fixed an issue where <code>Nickvision::Update::Updater::windowsUpdate()</code> did not work correctly</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Dependencies</h1>
 <p>The following are a list of dependencies used by libnick.</p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 All Platforms</h2>
 <ul>
 <li>gtest</li>
@@ -128,12 +134,12 @@ All Platforms</h2>
 <li>libintl</li>
 <li>maddy</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Windows</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for Windows systems:</p><ul>
 <li>sqlcipher</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Linux</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for Linux systems:</p><ul>
 <li>glib</li>
@@ -144,7 +150,7 @@ Linux</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 macOS</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for macOS systems:</p><ul>
 <li>glib</li>
@@ -154,23 +160,23 @@ macOS</h2>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md18"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Consuming libnick via vcpkg</h1>
 <p>libnick is available through <code>vcpkg</code>.</p>
 <p>Simply install and configure vcpkg for your system, and run: </p><div class="fragment"><div class="line">vcpkg install libnick</div>
 </div><!-- fragment --><p> You can then use libnick from cmake with the following: </p><div class="fragment"><div class="line">find_package(libnick CONFIG REQUIRED)</div>
 <div class="line">target_link_libraries(main PRIVATE libnick::libnick)</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md19"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md20"></a>
 Building and Installing Manually</h1>
 <p>libnick uses <code>vcpkg</code> to manage its dependencies and <code>cmake</code> as its build system.</p>
 <p>Ensure both <code>vcpkg</code> and <code>cmake</code> are installed on your system before building and installing libnick.</p>
 <p>A C++20 compiler is also required to build libnick.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Configuring vcpkg</h2>
 <ol type="1">
 <li>Set the <code>VCPKG_ROOT</code> environment variable to the path of your vcpkg installation's root directory. </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md21"></a>
+<h3><a class="anchor" id="autotoc_md22"></a>
 Windows</h3>
 <ol type="1">
 <li>Set the <code>VCPKG_DEFAULT_TRIPLET</code> environment variable to <code>x64-windows</code></li>
@@ -178,7 +184,7 @@ Windows</h3>
 <ol type="1">
 <li>Run <code>vcpkg install curl gettext-libintl gtest jsoncpp maddy sqlcipher</code> </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md22"></a>
+<h3><a class="anchor" id="autotoc_md23"></a>
 Linux</h3>
 <ol type="1">
 <li>Set the <code>VCPKG_DEFAULT_TRIPLET</code> environment variable to <code>x64-linux</code></li>
@@ -186,7 +192,7 @@ Linux</h3>
 <ol type="1">
 <li>Run <code>vcpkg install curl gettext-libintl glib gtest jsoncpp libsecret libuuid maddy openssl</code> </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md23"></a>
+<h3><a class="anchor" id="autotoc_md24"></a>
 macOS (Intel)</h3>
 <ol type="1">
 <li>Set the <code>VCPKG_DEFAULT_TRIPLET</code> environment variable to <code>x64-osx</code></li>
@@ -194,7 +200,7 @@ macOS (Intel)</h3>
 <ol type="1">
 <li>Run <code>vcpkg install curl gettext-libintl glib gtest jsoncpp libsecret maddy openssl</code> </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
 macOS (Apple Silicon)</h3>
 <ol type="1">
 <li>Set the <code>VCPKG_DEFAULT_TRIPLET</code> environment variable to <code>arm64-osx</code></li>
@@ -202,7 +208,7 @@ macOS (Apple Silicon)</h3>
 <ol type="1">
 <li>Run <code>vcpkg install curl gettext-libintl glib gtest jsoncpp libsecret maddy openssl</code></li>
 </ol>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 Building</h2>
 <ol type="1">
 <li>First, clone/download the repo.</li>
@@ -213,7 +219,7 @@ Building</h2>
 <ol type="1">
 <li>Create a new <code>build</code> directory and <code>cd</code> into it. </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md26"></a>
+<h3><a class="anchor" id="autotoc_md27"></a>
 Windows</h3>
 <ol type="1">
 <li>From the <code>build</code> folder, run <code>cmake .. -G "Visual Studio 17 2022"</code>.<ul>
@@ -228,7 +234,7 @@ Windows</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <code>Release</code> folder of the <code>build</code> folder. </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md27"></a>
+<h3><a class="anchor" id="autotoc_md28"></a>
 Linux</h3>
 <ol type="1">
 <li>From the <code>build</code> folder, run <code>cmake .. -DCMAKE_BUILD_TYPE=Release</code>.<ul>
@@ -243,7 +249,7 @@ Linux</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <code>build</code> folder. </li>
 </ol>
-<h3><a class="anchor" id="autotoc_md28"></a>
+<h3><a class="anchor" id="autotoc_md29"></a>
 macOS</h3>
 <ol type="1">
 <li>From the <code>build</code> folder, run <code>cmake .. -DCMAKE_BUILD_TYPE=Release</code>.<ul>
@@ -258,7 +264,7 @@ macOS</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <code>build</code> folder.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Installing</h2>
 <ol type="1">
 <li>To install libnick to the system, from the <code>build</code> folder, run <code>cmake --install .</code>.<ul>

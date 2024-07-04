@@ -122,9 +122,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ab4e773ed06578f94e8681d92ab391ab6" id="r_ab4e773ed06578f94e8681d92ab391ab6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4e773ed06578f94e8681d92ab391ab6">newGuid</a> ()</td></tr>
 <tr class="memdesc:ab4e773ed06578f94e8681d92ab391ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a new guid (uuid v4) value.  <br /></td></tr>
 <tr class="separator:ab4e773ed06578f94e8681d92ab391ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a875c80187b20111e113a3c5b5107c4" id="r_a9a875c80187b20111e113a3c5b5107c4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a875c80187b20111e113a3c5b5107c4">normalizeForFilename</a> (const std::string &amp;s, bool windowsOnly=false)</td></tr>
+<tr class="memdesc:a9a875c80187b20111e113a3c5b5107c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a string for use in a filename.  <br /></td></tr>
+<tr class="separator:a9a875c80187b20111e113a3c5b5107c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f3a4f3297882aa3154d6515ec94ad4" id="r_af0f3a4f3297882aa3154d6515ec94ad4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0f3a4f3297882aa3154d6515ec94ad4">replace</a> (std::string s, const std::string &amp;toReplace, const std::string &amp;replace)</td></tr>
 <tr class="memdesc:af0f3a4f3297882aa3154d6515ec94ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces a substring within a string with a new string.  <br /></td></tr>
 <tr class="separator:af0f3a4f3297882aa3154d6515ec94ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d00be6ea69315fd44eefe2f784276d6" id="r_a6d00be6ea69315fd44eefe2f784276d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d00be6ea69315fd44eefe2f784276d6">replace</a> (std::string s, char toReplace, char replace)</td></tr>
+<tr class="memdesc:a6d00be6ea69315fd44eefe2f784276d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces a character within a string with a new character.  <br /></td></tr>
+<tr class="separator:a6d00be6ea69315fd44eefe2f784276d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac190bdeb28cfa3cc79e03e84f401263a" id="r_ac190bdeb28cfa3cc79e03e84f401263a"><td class="memTemplParams" colspan="2">template&lt;StringImplicitlyConstructible T = std::string&gt; </td></tr>
 <tr class="memitem:ac190bdeb28cfa3cc79e03e84f401263a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac190bdeb28cfa3cc79e03e84f401263a">split</a> (std::string s, const std::string &amp;delimiter)</td></tr>
 <tr class="memdesc:ac190bdeb28cfa3cc79e03e84f401263a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string based on a delimiter.  <br /></td></tr>
@@ -313,8 +319,76 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a875c80187b20111e113a3c5b5107c4" name="a9a875c80187b20111e113a3c5b5107c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a875c80187b20111e113a3c5b5107c4">&#9670;&#160;</a></span>normalizeForFilename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Nickvision::Helpers::StringHelpers::normalizeForFilename </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>windowsOnly</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normalizes a string for use in a filename. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The string to normalize </td></tr>
+    <tr><td class="paramname">windowsOnly</td><td>Whether or not to normalize strictly for Windows </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new normalized string </dd></dl>
+
+</div>
+</div>
+<a id="a6d00be6ea69315fd44eefe2f784276d6" name="a6d00be6ea69315fd44eefe2f784276d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d00be6ea69315fd44eefe2f784276d6">&#9670;&#160;</a></span>replace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Nickvision::Helpers::StringHelpers::replace </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>toReplace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>replace</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces a character within a string with a new character. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The string to work on </td></tr>
+    <tr><td class="paramname">toReplace</td><td>The character to be replaced </td></tr>
+    <tr><td class="paramname">replace</td><td>The new character to replace with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new replaced string </dd></dl>
+
+</div>
+</div>
 <a id="af0f3a4f3297882aa3154d6515ec94ad4" name="af0f3a4f3297882aa3154d6515ec94ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0f3a4f3297882aa3154d6515ec94ad4">&#9670;&#160;</a></span>replace()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f3a4f3297882aa3154d6515ec94ad4">&#9670;&#160;</a></span>replace() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
