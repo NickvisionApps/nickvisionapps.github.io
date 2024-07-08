@@ -13,7 +13,7 @@ var searchData=
   ['performing_20inter_20process_20communication_10',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]],
   ['pgettext_11',['pgettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html#a4da199b492a5aa2a5baa16c615e8ed74',1,'Nickvision::Localization::Gettext']]],
   ['pictures_12',['Pictures',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaab11ddc7e1671c0bd22dc89dd757508d4',1,'Nickvision::Filesystem']]],
-  ['platforms_13',['All Platforms',['../index.html#autotoc_md15',1,'']]],
+  ['platforms_13',['All Platforms',['../index.html#autotoc_md13',1,'']]],
   ['pngettext_14',['pngettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html#a59483217fce70e844938df422882f419',1,'Nickvision::Localization::Gettext']]],
   ['preview_15',['Preview',['../namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5ea31fde7b05ac8952dacf4af8a704074ec',1,'Nickvision::Update']]],
   ['process_16',['Process',['../class_nickvision_1_1_system_1_1_process.html',1,'Nickvision::System::Process'],['../class_nickvision_1_1_system_1_1_process.html#a1e375638c836c881558444b4f9721961',1,'Nickvision::System::Process::Process()']]],

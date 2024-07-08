@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['join_0',['join',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#aee4d1db22614b18367df4fef47f3bc00',1,'Nickvision::Helpers::StringHelpers']]]
+  ['join_0',['join',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#ab7dfa1729b5862f7e707d0c3c4b5112d',1,'Nickvision::Helpers::StringHelpers']]]
 ];
