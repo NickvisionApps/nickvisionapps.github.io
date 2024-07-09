@@ -93,23 +93,23 @@ $(function(){ initResizable(false); });
 <p><b>A cross-platform base for native <a class="el" href="namespace_nickvision.html">Nickvision</a> applications.</b></p>
 <p>libnick provides <a class="el" href="namespace_nickvision.html">Nickvision</a> apps with a common set of cross-platform APIs for managing system and desktop app functionality such as network management, taskbar icons, translations, app updates, and more.</p>
 <h1><a class="anchor" id="autotoc_md6"></a>
-2024.7.1</h1>
+2024.7.2</h1>
 <h2><a class="anchor" id="autotoc_md7"></a>
 Breaking Changes</h2>
-<h3><a class="anchor" id="autotoc_md8"></a>
-Helpers</h3>
-<ul>
-<li>The default value of <code>StringHelpers::join</code>'s <code>separateLast</code> parameter is now <code>false</code> </li>
-</ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
-New APIs</h2>
 <p>None </p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+New APIs</h2>
+<h3><a class="anchor" id="autotoc_md9"></a>
+System</h3>
+<ul>
+<li>Added <code><a class="el" href="namespace_nickvision_1_1_system_1_1_environment.html#ac9f22f9441379a269bbccd3d66d637c2" title="Tests an environment variable value to see if it is true.">Nickvision::System::Environment::testVariable()</a></code> </li>
+</ul>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Fixes</h2>
 <h3><a class="anchor" id="autotoc_md11"></a>
-System</h3>
+Network</h3>
 <ul>
-<li>Fixed an issue where <code>SuspendInhibitor</code> did not work correctly on Linux systems</li>
+<li>Fixed a deadlock that can occur when reading <code><a class="el" href="class_nickvision_1_1_network_1_1_network_monitor.html" title="A monitor of the system&#39;s network connection.">Nickvision::Network::NetworkMonitor</a></code>'s connectionState</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md12"></a>
 Dependencies</h1>
