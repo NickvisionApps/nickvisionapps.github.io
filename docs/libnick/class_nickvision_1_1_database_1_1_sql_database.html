@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.2</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.3</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -134,9 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a439e4d98a36c6c1847df76fe7e4718a1" id="r_a439e4d98a36c6c1847df76fe7e4718a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_database_1_1_sql_statement.html">SqlStatement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439e4d98a36c6c1847df76fe7e4718a1">createStatement</a> (const std::string &amp;command)</td></tr>
 <tr class="memdesc:a439e4d98a36c6c1847df76fe7e4718a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an new <a class="el" href="class_nickvision_1_1_database_1_1_sql_statement.html" title="A sqlite statement.">SqlStatement</a> for the database.  <br /></td></tr>
 <tr class="separator:a439e4d98a36c6c1847df76fe7e4718a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4a37cf719b75ee11415750c1114d255" id="r_ad4a37cf719b75ee11415750c1114d255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4a37cf719b75ee11415750c1114d255">registerFunction</a> (const std::string &amp;name, const <a class="el" href="namespace_nickvision_1_1_database.html#af465251c85a3656dfd01ef65434e261f">SqliteCustomFunction</a> &amp;func, int expectedArgs=-1)</td></tr>
-<tr class="memdesc:ad4a37cf719b75ee11415750c1114d255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a custom sql function to the database.  <br /></td></tr>
-<tr class="separator:ad4a37cf719b75ee11415750c1114d255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48fa22d47920c01a6b46fe7bf0a1924" id="r_aa48fa22d47920c01a6b46fe7bf0a1924"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa48fa22d47920c01a6b46fe7bf0a1924">registerFunction</a> (const std::string &amp;name, const <a class="el" href="namespace_nickvision_1_1_database.html#af465251c85a3656dfd01ef65434e261f">SqliteCustomFunction</a> &amp;func, int expectedArgs=-1)</td></tr>
+<tr class="memdesc:aa48fa22d47920c01a6b46fe7bf0a1924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a custom sql function to the database.  <br /></td></tr>
+<tr class="separator:aa48fa22d47920c01a6b46fe7bf0a1924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af897206dab66bbc71427c598dcfc6c" id="r_a2af897206dab66bbc71427c598dcfc6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_database_1_1_sql_database.html">SqlDatabase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af897206dab66bbc71427c598dcfc6c">operator=</a> (const <a class="el" href="class_nickvision_1_1_database_1_1_sql_database.html">SqlDatabase</a> &amp;database)</td></tr>
 <tr class="memdesc:a2af897206dab66bbc71427c598dcfc6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a <a class="el" href="class_nickvision_1_1_database_1_1_sql_database.html" title="A sqlite (sqlcipher) database.">SqlDatabase</a> object.  <br /></td></tr>
 <tr class="separator:a2af897206dab66bbc71427c598dcfc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,14 +476,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4a37cf719b75ee11415750c1114d255" name="ad4a37cf719b75ee11415750c1114d255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4a37cf719b75ee11415750c1114d255">&#9670;&#160;</a></span>registerFunction()</h2>
+<a id="aa48fa22d47920c01a6b46fe7bf0a1924" name="aa48fa22d47920c01a6b46fe7bf0a1924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48fa22d47920c01a6b46fe7bf0a1924">&#9670;&#160;</a></span>registerFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Nickvision::Database::SqlDatabase::registerFunction </td>
+          <td class="memname">bool Nickvision::Database::SqlDatabase::registerFunction </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -509,12 +509,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::runtime_error</td><td>Thrown if error in executing sql statement </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if function registered, else false </dd></dl>
 
 </div>
 </div>
@@ -541,12 +536,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if unlocked, else false </dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::runtime_error</td><td>Thrown if error in executing sql statement </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.2</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.3</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ba1025d26b25bb0ca1a476411caa7bd" id="r_a1ba1025d26b25bb0ca1a476411caa7bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ba1025d26b25bb0ca1a476411caa7bd">Event</a> (<a class="el" href="class_nickvision_1_1_events_1_1_event.html">Event</a> &amp;&amp;e) noexcept</td></tr>
 <tr class="memdesc:a1ba1025d26b25bb0ca1a476411caa7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="class_nickvision_1_1_events_1_1_event.html" title="An event that can have handlers subscribe to it, which in turn will be called when the event is invok...">Event</a> via move.  <br /></td></tr>
 <tr class="separator:a1ba1025d26b25bb0ca1a476411caa7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c45bed9aa5e55137076fe6f851afad9" id="r_a5c45bed9aa5e55137076fe6f851afad9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c45bed9aa5e55137076fe6f851afad9">count</a> () const</td></tr>
+<tr class="memdesc:a5c45bed9aa5e55137076fe6f851afad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of handlers subscribed to the event.  <br /></td></tr>
+<tr class="separator:a5c45bed9aa5e55137076fe6f851afad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e63dcbce0e3eb1836a5798142e6f9d6" id="r_a5e63dcbce0e3eb1836a5798142e6f9d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329">HandlerId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e63dcbce0e3eb1836a5798142e6f9d6">subscribe</a> (const std::function&lt; void(const T &amp;)&gt; &amp;handler)</td></tr>
 <tr class="memdesc:a5e63dcbce0e3eb1836a5798142e6f9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribes a handler to the event.  <br /></td></tr>
 <tr class="separator:a5e63dcbce0e3eb1836a5798142e6f9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a77c5cd17987c47690dbbc888f9080d14" id="r_a77c5cd17987c47690dbbc888f9080d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_events_1_1_event.html">Event</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77c5cd17987c47690dbbc888f9080d14">operator=</a> (<a class="el" href="class_nickvision_1_1_events_1_1_event.html">Event</a> &amp;&amp;e) noexcept</td></tr>
 <tr class="memdesc:a77c5cd17987c47690dbbc888f9080d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves an <a class="el" href="class_nickvision_1_1_events_1_1_event.html" title="An event that can have handlers subscribe to it, which in turn will be called when the event is invok...">Event</a>.  <br /></td></tr>
 <tr class="separator:a77c5cd17987c47690dbbc888f9080d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8e64137de6cf1eb00385e454629ab7" id="r_a8b8e64137de6cf1eb00385e454629ab7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8e64137de6cf1eb00385e454629ab7">operator bool</a> () const</td></tr>
+<tr class="memdesc:a8b8e64137de6cf1eb00385e454629ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the object is valid or not.  <br /></td></tr>
+<tr class="separator:a8b8e64137de6cf1eb00385e454629ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;DerivedEventArgs T&gt;<br />
@@ -248,6 +254,36 @@ template&lt;DerivedEventArgs T&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5c45bed9aa5e55137076fe6f851afad9" name="a5c45bed9aa5e55137076fe6f851afad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c45bed9aa5e55137076fe6f851afad9">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;DerivedEventArgs T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="class_nickvision_1_1_events_1_1_event.html">Nickvision::Events::Event</a>&lt; T &gt;::count </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of handlers subscribed to the event. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of handlers </dd></dl>
+
+</div>
+</div>
 <a id="a7c3f91d0c9d9feade99aa89134a72ea5" name="a7c3f91d0c9d9feade99aa89134a72ea5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c3f91d0c9d9feade99aa89134a72ea5">&#9670;&#160;</a></span>invoke()</h2>
 
@@ -280,6 +316,36 @@ template&lt;DerivedEventArgs T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8b8e64137de6cf1eb00385e454629ab7" name="a8b8e64137de6cf1eb00385e454629ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8e64137de6cf1eb00385e454629ab7">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;DerivedEventArgs T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_nickvision_1_1_events_1_1_event.html">Nickvision::Events::Event</a>&lt; T &gt;::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether or not the object is valid or not. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if valid (if <a class="el" href="#a5c45bed9aa5e55137076fe6f851afad9" title="Gets the number of handlers subscribed to the event.">count()</a> &gt; 0), else false </dd></dl>
 
 </div>
 </div>

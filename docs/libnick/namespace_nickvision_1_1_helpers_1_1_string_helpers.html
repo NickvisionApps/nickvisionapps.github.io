@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.2</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.7.3</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -119,8 +119,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a7d435349b1fc5726a5bcc2a7c6b8fca4" id="r_a7d435349b1fc5726a5bcc2a7c6b8fca4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d435349b1fc5726a5bcc2a7c6b8fca4">lower</a> (std::string s)</td></tr>
 <tr class="memdesc:a7d435349b1fc5726a5bcc2a7c6b8fca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a fully lowercase string from the provided string.  <br /></td></tr>
 <tr class="separator:a7d435349b1fc5726a5bcc2a7c6b8fca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fadfaf6f95c972c91e8cfa9a65b6ca2" id="r_a1fadfaf6f95c972c91e8cfa9a65b6ca2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fadfaf6f95c972c91e8cfa9a65b6ca2">newUuid</a> ()</td></tr>
+<tr class="memdesc:a1fadfaf6f95c972c91e8cfa9a65b6ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a new uuid value.  <br /></td></tr>
+<tr class="separator:a1fadfaf6f95c972c91e8cfa9a65b6ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4e773ed06578f94e8681d92ab391ab6" id="r_ab4e773ed06578f94e8681d92ab391ab6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4e773ed06578f94e8681d92ab391ab6">newGuid</a> ()</td></tr>
-<tr class="memdesc:ab4e773ed06578f94e8681d92ab391ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a new guid (uuid v4) value.  <br /></td></tr>
+<tr class="memdesc:ab4e773ed06578f94e8681d92ab391ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a new guid value.  <br /></td></tr>
 <tr class="separator:ab4e773ed06578f94e8681d92ab391ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a875c80187b20111e113a3c5b5107c4" id="r_a9a875c80187b20111e113a3c5b5107c4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a875c80187b20111e113a3c5b5107c4">normalizeForFilename</a> (const std::string &amp;s, bool windowsOnly=false)</td></tr>
 <tr class="memdesc:a9a875c80187b20111e113a3c5b5107c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a string for use in a filename.  <br /></td></tr>
@@ -314,8 +317,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generates a new guid (uuid v4) value. </p>
-<dl class="section return"><dt>Returns</dt><dd>The guid value </dd></dl>
+<p>Generates a new guid value. </p>
+<p>This function simple calls <a class="el" href="#a1fadfaf6f95c972c91e8cfa9a65b6ca2" title="Generates a new uuid value.">newUuid()</a> and returns the result. </p><dl class="section return"><dt>Returns</dt><dd>The guid value </dd></dl>
+
+</div>
+</div>
+<a id="a1fadfaf6f95c972c91e8cfa9a65b6ca2" name="a1fadfaf6f95c972c91e8cfa9a65b6ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fadfaf6f95c972c91e8cfa9a65b6ca2">&#9670;&#160;</a></span>newUuid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Nickvision::Helpers::StringHelpers::newUuid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a new uuid value. </p>
+<dl class="section return"><dt>Returns</dt><dd>The uuid value </dd></dl>
 
 </div>
 </div>

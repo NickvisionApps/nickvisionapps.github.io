@@ -1,19 +1,17 @@
 var searchData=
 [
-  ['m_5faction_0',['m_action',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#ab5f696f82f2d23f3dad4c3740882dfd7',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
-  ['m_5factionparam_1',['m_actionParam',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a89ad1320d070998f60a474b9319a3760',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
-  ['m_5fjson_2',['m_json',['../class_nickvision_1_1_app_1_1_data_file_base.html#a93e907dc2382c6488ace6853bbc9194d',1,'Nickvision::App::DataFileBase']]],
-  ['m_5fmessage_3',['m_message',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a0726ea899a9f7b0f1ef1b2f0658f3461',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
-  ['m_5fseverity_4',['m_severity',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a58376eb83c1fc41ebac767e7ffae2ba1',1,'Nickvision::Notifications::NotificationSentEventArgs']]],
-  ['m_5ftitle_5',['m_title',['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html#a1c590ef4f3dc055985444b83378c3e63',1,'Nickvision::Notifications::ShellNotificationSentEventArgs']]],
-  ['macos_6',['MacOS',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3a0a5b7edb55b772c60bfa8af868b679cf',1,'Nickvision::System']]],
-  ['macos_7',['macOS',['../index.html#autotoc_md16',1,'macOS'],['../index.html#autotoc_md27',1,'macOS']]],
-  ['macos_20apple_20silicon_8',['macOS (Apple Silicon)',['../index.html#autotoc_md23',1,'']]],
-  ['macos_20intel_9',['macOS (Intel)',['../index.html#autotoc_md22',1,'']]],
-  ['manually_10',['Building and Installing Manually',['../index.html#autotoc_md18',1,'']]],
-  ['medium_11',['Medium',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca87f8a6ab85c9ced3702b4ea641ad4bb5',1,'Nickvision::Keyring']]],
-  ['menu_12',['Creating a Context Menu',['../md_manual_2notifyicon.html',1,'']]],
-  ['modified_13',['Modified',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a35e0c8c0b180c95d4e122e55ed62cc64',1,'Nickvision::Filesystem']]],
-  ['monitoring_20network_20connectivity_14',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
-  ['music_15',['Music',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa47dcbd834e669233d7eb8a51456ed217',1,'Nickvision::Filesystem']]]
+  ['lastaccess_0',['LastAccess',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a616d59238f8e2b7ab9fe59f7019b6a08',1,'Nickvision::Filesystem']]],
+  ['lastwrite_1',['LastWrite',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a146c9062dd896406e0a992e1a04258d1',1,'Nickvision::Filesystem']]],
+  ['libnick_2',['libnick',['../index.html',1,'']]],
+  ['libnick_20via_20vcpkg_3',['Consuming libnick via vcpkg',['../index.html#autotoc_md21',1,'']]],
+  ['linux_4',['Linux',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3aedc9f0a5a5d57797bf68e37364743831',1,'Nickvision::System::Linux'],['../index.html#autotoc_md19',1,'Linux'],['../index.html#autotoc_md25',1,'Linux'],['../index.html#autotoc_md30',1,'Linux']]],
+  ['local_5',['Local',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3a509820290d57f333403f490dde7316f4',1,'Nickvision::System']]],
+  ['localdata_6',['LocalData',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238aaa5aee52700d7fad9f598b2b3d5d0a81',1,'Nickvision::Filesystem::LocalData'],['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaaaa5aee52700d7fad9f598b2b3d5d0a81',1,'Nickvision::Filesystem::LocalData']]],
+  ['log_7',['log',['../class_nickvision_1_1_logging_1_1_logger.html#a52f085d22348dcf7a828289265ef095f',1,'Nickvision::Logging::Logger']]],
+  ['logger_8',['Logger',['../class_nickvision_1_1_logging_1_1_logger.html',1,'Nickvision::Logging::Logger'],['../class_nickvision_1_1_logging_1_1_logger.html#a32895f024c0367beec6c3f90843a0161',1,'Nickvision::Logging::Logger::Logger(LogLevel minimum=LogLevel::Debug)'],['../class_nickvision_1_1_logging_1_1_logger.html#a0dcca45f5148b786eeb7c5171d56bf82',1,'Nickvision::Logging::Logger::Logger(const std::filesystem::path &amp;path, LogLevel minimum=LogLevel::Debug, bool append=true)']]],
+  ['logger_2eh_9',['logger.h',['../logger_8h.html',1,'']]],
+  ['loglevel_10',['LogLevel',['../namespace_nickvision_1_1_logging.html#a5a9cd2a8425c99f0331b60e0600036d5',1,'Nickvision::Logging']]],
+  ['loglevel_2eh_11',['loglevel.h',['../loglevel_8h.html',1,'']]],
+  ['lower_12',['lower',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a7d435349b1fc5726a5bcc2a7c6b8fca4',1,'Nickvision::Helpers::StringHelpers']]],
+  ['lowercase_13',['Lowercase',['../namespace_nickvision_1_1_keyring.html#a2f686ca292f526beb67f50929496e3c6adc1ff975a46c75335d6d640abdc0c3a6',1,'Nickvision::Keyring']]]
 ];

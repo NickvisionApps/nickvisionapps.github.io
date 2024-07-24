@@ -1,28 +1,7 @@
 var searchData=
 [
-  ['in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['indeterminate_1',['Indeterminate',['../namespace_nickvision_1_1_taskbar.html#a93de85f76e52f245dcbd9e6f374b10efaa2d00c353d1f9a5f07852650030dbd53',1,'Nickvision::Taskbar']]],
-  ['info_2',['Info',['../namespace_nickvision_1_1_logging.html#a5a9cd2a8425c99f0331b60e0600036d5a4059b0251f66a18cb56f544728796875',1,'Nickvision::Logging']]],
-  ['informational_3',['Informational',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026a5391f9a882a54c787b206138ed6d28b0',1,'Nickvision::Notifications']]],
-  ['inhibit_4',['inhibit',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a37d4ef8da28ec153bdfc6f6abce3bce6',1,'Nickvision::System::SuspendInhibitor']]],
-  ['init_5',['init',['../namespace_nickvision_1_1_localization_1_1_gettext.html#acf42e9f0312600c14b6911f4158cb60f',1,'Nickvision::Localization::Gettext']]],
-  ['installing_6',['Installing',['../index.html#autotoc_md28',1,'']]],
-  ['installing_20manually_7',['Building and Installing Manually',['../index.html#autotoc_md18',1,'']]],
-  ['intel_8',['macOS (Intel)',['../index.html#autotoc_md22',1,'']]],
-  ['inter_20process_20communication_9',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]],
-  ['interprocesscommunicator_10',['InterProcessCommunicator',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html',1,'Nickvision::App::InterProcessCommunicator'],['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a8f10fae5001f997d29ea6410588bf737',1,'Nickvision::App::InterProcessCommunicator::InterProcessCommunicator()']]],
-  ['interprocesscommunicator_2eh_11',['interprocesscommunicator.h',['../interprocesscommunicator_8h.html',1,'']]],
-  ['invaliduri_12',['InvalidUri',['../namespace_nickvision_1_1_keyring.html#ae5598b61227dc7f68423e9095206f31daa43dd7985443642daea41198ac090c93',1,'Nickvision::Keyring']]],
-  ['invoke_13',['invoke',['../class_nickvision_1_1_events_1_1_event.html#a7c3f91d0c9d9feade99aa89134a72ea5',1,'Nickvision::Events::Event']]],
-  ['ipc_2emd_14',['ipc.md',['../ipc_8md.html',1,'']]],
-  ['isclient_15',['isClient',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#acae4f1fb4c03c1daf728d778b4d473a9',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isenabled_16',['isEnabled',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#ae475d01fd8b622cdd8da2df36979d399',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['isencrypted_17',['isEncrypted',['../class_nickvision_1_1_database_1_1_sql_database.html#ab7ca7bd43149ad2b9d9d1b7f70a79a99',1,'Nickvision::Database::SqlDatabase']]],
-  ['isextensionwatched_18',['isExtensionWatched',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#afb69e43029a4b149a2863bcce0409259',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['isinhibiting_19',['isInhibiting',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a40a1451e1816d23d2947c646407c4bff',1,'Nickvision::System::SuspendInhibitor']]],
-  ['ismaximized_20',['isMaximized',['../class_nickvision_1_1_app_1_1_window_geometry.html#aaf556b01db6c4bffa633d9a93c498736',1,'Nickvision::App::WindowGeometry']]],
-  ['isrunning_21',['isRunning',['../class_nickvision_1_1_system_1_1_process.html#a01bc3fe82a226d48687208289c3e8d6c',1,'Nickvision::System::Process']]],
-  ['isserver_22',['isServer',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a9d2782014587dfd44505a3e0876cd820',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isvalid_23',['isValid',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#a80e3890de1c88f0050062381acecb4b6',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['isvalidurl_24',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
+  ['handlerid_0',['HandlerId',['../namespace_nickvision_1_1_events.html#af66a61cebcc9953b3d177eed072bf329',1,'Nickvision::Events']]],
+  ['hascompleted_1',['hasCompleted',['../class_nickvision_1_1_system_1_1_process.html#af7b0926a5aa14dad193f87a55e33b545',1,'Nickvision::System::Process']]],
+  ['helpers_2',['Helpers',['../index.html#autotoc_md12',1,'Helpers'],['../index.html#autotoc_md15',1,'Helpers']]],
+  ['home_3',['Home',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa8cf04a9734132302f96da8e113e80ce5',1,'Nickvision::Filesystem']]]
 ];

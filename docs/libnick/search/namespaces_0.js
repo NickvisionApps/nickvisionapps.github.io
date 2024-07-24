@@ -16,10 +16,12 @@ var searchData=
   ['nickvision_3a_3alocalization_3a_3agettext_13',['Gettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html',1,'Nickvision::Localization']]],
   ['nickvision_3a_3alogging_14',['Logging',['../namespace_nickvision_1_1_logging.html',1,'Nickvision']]],
   ['nickvision_3a_3anetwork_15',['Network',['../namespace_nickvision_1_1_network.html',1,'Nickvision']]],
-  ['nickvision_3a_3anotifications_16',['Notifications',['../namespace_nickvision_1_1_notifications.html',1,'Nickvision']]],
-  ['nickvision_3a_3anotifications_3a_3ashellnotification_17',['ShellNotification',['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html',1,'Nickvision::Notifications']]],
-  ['nickvision_3a_3asystem_18',['System',['../namespace_nickvision_1_1_system.html',1,'Nickvision']]],
-  ['nickvision_3a_3asystem_3a_3aenvironment_19',['Environment',['../namespace_nickvision_1_1_system_1_1_environment.html',1,'Nickvision::System']]],
-  ['nickvision_3a_3ataskbar_20',['Taskbar',['../namespace_nickvision_1_1_taskbar.html',1,'Nickvision']]],
-  ['nickvision_3a_3aupdate_21',['Update',['../namespace_nickvision_1_1_update.html',1,'Nickvision']]]
+  ['nickvision_3a_3anetwork_3a_3adns_16',['DNS',['../namespace_nickvision_1_1_network_1_1_d_n_s.html',1,'Nickvision::Network']]],
+  ['nickvision_3a_3anetwork_3a_3aweb_17',['Web',['../namespace_nickvision_1_1_network_1_1_web.html',1,'Nickvision::Network']]],
+  ['nickvision_3a_3anotifications_18',['Notifications',['../namespace_nickvision_1_1_notifications.html',1,'Nickvision']]],
+  ['nickvision_3a_3anotifications_3a_3ashellnotification_19',['ShellNotification',['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html',1,'Nickvision::Notifications']]],
+  ['nickvision_3a_3asystem_20',['System',['../namespace_nickvision_1_1_system.html',1,'Nickvision']]],
+  ['nickvision_3a_3asystem_3a_3aenvironment_21',['Environment',['../namespace_nickvision_1_1_system_1_1_environment.html',1,'Nickvision::System']]],
+  ['nickvision_3a_3ataskbar_22',['Taskbar',['../namespace_nickvision_1_1_taskbar.html',1,'Nickvision']]],
+  ['nickvision_3a_3aupdate_23',['Update',['../namespace_nickvision_1_1_update.html',1,'Nickvision']]]
 ];

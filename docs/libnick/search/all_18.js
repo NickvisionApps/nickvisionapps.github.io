@@ -1,15 +1,14 @@
 var searchData=
 [
-  ['waitforexit_0',['waitForExit',['../class_nickvision_1_1_system_1_1_process.html#adc02f27b1c93af3f43893b1114403b8a',1,'Nickvision::System::Process']]],
-  ['warning_1',['Warning',['../namespace_nickvision_1_1_logging.html#a5a9cd2a8425c99f0331b60e0600036d5a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'Nickvision::Logging::Warning'],['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'Nickvision::Notifications::Warning']]],
-  ['watcherflags_2',['WatcherFlags',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4',1,'Nickvision::Filesystem']]],
-  ['watcherflags_2eh_3',['watcherflags.h',['../watcherflags_8h.html',1,'']]],
-  ['weak_4',['Weak',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca7324e3727807d95037eb19d304fd91ec',1,'Nickvision::Keyring']]],
-  ['webclient_5',['WebClient',['../class_nickvision_1_1_network_1_1_web_client.html',1,'Nickvision::Network::WebClient'],['../class_nickvision_1_1_network_1_1_web_client.html#a470cf23524b6aeabbe1fdf3425aa012f',1,'Nickvision::Network::WebClient::WebClient()']]],
-  ['webclient_2eh_6',['webclient.h',['../webclient_8h.html',1,'']]],
-  ['windowgeometry_7',['WindowGeometry',['../class_nickvision_1_1_app_1_1_window_geometry.html',1,'Nickvision::App::WindowGeometry'],['../class_nickvision_1_1_app_1_1_window_geometry.html#a3c58a60687356ba7ee436e895ee66b90',1,'Nickvision::App::WindowGeometry::WindowGeometry()'],['../class_nickvision_1_1_app_1_1_window_geometry.html#a42d15edd610b1017703e0bc87f0965c4',1,'Nickvision::App::WindowGeometry::WindowGeometry(long width, long height, bool isMaximized)']]],
-  ['windowgeometry_2eh_8',['windowgeometry.h',['../windowgeometry_8h.html',1,'']]],
-  ['windows_9',['Windows',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3aaea23489ce3aa9b6406ebb28e0cda430',1,'Nickvision::System::Windows'],['../index.html#autotoc_md14',1,'Windows'],['../index.html#autotoc_md20',1,'Windows'],['../index.html#autotoc_md25',1,'Windows']]],
-  ['writefilebytes_10',['writeFileBytes',['../namespace_nickvision_1_1_helpers_1_1_code_helpers.html#a611be9cb712ee17498b3655d2a6e90fa',1,'Nickvision::Helpers::CodeHelpers']]],
-  ['wstr_11',['wstr',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a69cca87ef7e3d47b452c0779d102869d',1,'Nickvision::Helpers::StringHelpers']]]
+  ['valid_0',['Valid',['../namespace_nickvision_1_1_keyring.html#ae5598b61227dc7f68423e9095206f31da3ac705f2acd51a4613f9188c05c91d0d',1,'Nickvision::Keyring']]],
+  ['validatecredential_1',['validateCredential',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#ae7b2c5a8d423e42c8820769e141c9dfd',1,'Nickvision::Keyring::KeyringDialogController']]],
+  ['vcpkg_2',['vcpkg',['../index.html#autotoc_md23',1,'Configuring vcpkg'],['../index.html#autotoc_md21',1,'Consuming libnick via vcpkg']]],
+  ['version_3',['Version',['../class_nickvision_1_1_update_1_1_version.html',1,'Nickvision::Update::Version'],['../class_nickvision_1_1_update_1_1_version.html#a33eb04bbda56b77c2f79bbef93df80a5',1,'Nickvision::Update::Version::Version()'],['../class_nickvision_1_1_update_1_1_version.html#a6df3f0bb28937118e129acc6c0f56b9d',1,'Nickvision::Update::Version::Version(int major, int minor, int build)'],['../class_nickvision_1_1_update_1_1_version.html#a7dce1d83b70690e5b79d8982a25a072f',1,'Nickvision::Update::Version::Version(int major, int minor, int build, const std::string &amp;dev)'],['../class_nickvision_1_1_update_1_1_version.html#a1314923eb2b6d7f68af9a904c8118c49',1,'Nickvision::Update::Version::Version(const std::string &amp;version)']]],
+  ['version_2eh_4',['version.h',['../version_8h.html',1,'']]],
+  ['versiontype_5',['VersionType',['../namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5e',1,'Nickvision::Update']]],
+  ['versiontype_2eh_6',['versiontype.h',['../versiontype_8h.html',1,'']]],
+  ['verystrong_7',['VeryStrong',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca1388ffbc21c8b316e5a272a1b09aa9eb',1,'Nickvision::Keyring']]],
+  ['veryweak_8',['VeryWeak',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca5c66d174e1527d6b658043fb65d80f4e',1,'Nickvision::Keyring']]],
+  ['via_20vcpkg_9',['Consuming libnick via vcpkg',['../index.html#autotoc_md21',1,'']]],
+  ['videos_10',['Videos',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa554cfab3938e21d9270bd6b75931f96f',1,'Nickvision::Filesystem']]]
 ];
