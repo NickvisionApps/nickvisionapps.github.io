@@ -17,10 +17,9 @@ var searchData=
   ['event_3c_20nickvision_3a_3asystem_3a_3aprocessexitedeventargs_20_3e_14',['Event&lt; Nickvision::System::ProcessExitedEventArgs &gt;',['../class_nickvision_1_1_events_1_1_event.html',1,'Nickvision::Events']]],
   ['eventargs_15',['EventArgs',['../class_nickvision_1_1_events_1_1_event_args.html',1,'Nickvision::Events::EventArgs'],['../class_nickvision_1_1_events_1_1_event_args.html#ae6e6585ce65a57325524c9bab10f9526',1,'Nickvision::Events::EventArgs::EventArgs()']]],
   ['eventargs_2eh_16',['eventargs.h',['../eventargs_8h.html',1,'']]],
-  ['events_17',['Events',['../index.html#autotoc_md11',1,'']]],
-  ['events_20in_20your_20classes_18',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['events_2emd_19',['events.md',['../events_8md.html',1,'']]],
-  ['exec_20',['exec',['../class_nickvision_1_1_database_1_1_sql_database.html#a39c0d5b28e50ae7aa600970d7ebc225d',1,'Nickvision::Database::SqlDatabase::exec()'],['../namespace_nickvision_1_1_system_1_1_environment.html#a410d10a79f0ae637c2a39e7107f17cc5',1,'Nickvision::System::Environment::exec()']]],
-  ['exists_21',['exists',['../class_nickvision_1_1_keyring_1_1_keyring.html#a20aee04c60790761eb73acd8c5080352',1,'Nickvision::Keyring::Keyring::exists()'],['../class_nickvision_1_1_keyring_1_1_store.html#a130eb4047631e39524ae317befe12cb7',1,'Nickvision::Keyring::Store::exists()']]],
-  ['exited_22',['exited',['../class_nickvision_1_1_system_1_1_process.html#ad2c3f68f61c8f2bc37bab2e747a297d2',1,'Nickvision::System::Process']]]
+  ['events_20in_20your_20classes_17',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
+  ['events_2emd_18',['events.md',['../events_8md.html',1,'']]],
+  ['exec_19',['exec',['../class_nickvision_1_1_database_1_1_sql_database.html#a39c0d5b28e50ae7aa600970d7ebc225d',1,'Nickvision::Database::SqlDatabase::exec()'],['../namespace_nickvision_1_1_system_1_1_environment.html#a410d10a79f0ae637c2a39e7107f17cc5',1,'Nickvision::System::Environment::exec()']]],
+  ['exists_20',['exists',['../class_nickvision_1_1_keyring_1_1_keyring.html#a20aee04c60790761eb73acd8c5080352',1,'Nickvision::Keyring::Keyring::exists()'],['../class_nickvision_1_1_keyring_1_1_store.html#a130eb4047631e39524ae317befe12cb7',1,'Nickvision::Keyring::Store::exists()']]],
+  ['exited_21',['exited',['../class_nickvision_1_1_system_1_1_process.html#ad2c3f68f61c8f2bc37bab2e747a297d2',1,'Nickvision::System::Process']]]
 ];
