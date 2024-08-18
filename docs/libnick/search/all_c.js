@@ -18,13 +18,12 @@ var searchData=
   ['ipv4address_15',['IPv4Address',['../class_nickvision_1_1_network_1_1_i_pv4_address.html',1,'Nickvision::Network::IPv4Address'],['../class_nickvision_1_1_network_1_1_i_pv4_address.html#a77b6fe31f683afb2e37b8447c85bbb78',1,'Nickvision::Network::IPv4Address::IPv4Address(unsigned char first, unsigned char second, unsigned char third, unsigned char fourth)'],['../class_nickvision_1_1_network_1_1_i_pv4_address.html#a7ea8313f8521cbc7ffd5d5f3b652886f',1,'Nickvision::Network::IPv4Address::IPv4Address(unsigned long address)']]],
   ['ipv4address_2eh_16',['ipv4address.h',['../ipv4address_8h.html',1,'']]],
   ['isclient_17',['isClient',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#acae4f1fb4c03c1daf728d778b4d473a9',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isenabled_18',['isEnabled',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#ae475d01fd8b622cdd8da2df36979d399',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['isencrypted_19',['isEncrypted',['../class_nickvision_1_1_database_1_1_sql_database.html#ab7ca7bd43149ad2b9d9d1b7f70a79a99',1,'Nickvision::Database::SqlDatabase']]],
-  ['isextensionwatched_20',['isExtensionWatched',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#afb69e43029a4b149a2863bcce0409259',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['isinhibiting_21',['isInhibiting',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a40a1451e1816d23d2947c646407c4bff',1,'Nickvision::System::SuspendInhibitor']]],
-  ['ismaximized_22',['isMaximized',['../class_nickvision_1_1_app_1_1_window_geometry.html#aaf556b01db6c4bffa633d9a93c498736',1,'Nickvision::App::WindowGeometry']]],
-  ['isrunning_23',['isRunning',['../class_nickvision_1_1_system_1_1_process.html#a01bc3fe82a226d48687208289c3e8d6c',1,'Nickvision::System::Process']]],
+  ['isencrypted_18',['isEncrypted',['../class_nickvision_1_1_database_1_1_sql_database.html#ab7ca7bd43149ad2b9d9d1b7f70a79a99',1,'Nickvision::Database::SqlDatabase']]],
+  ['isextensionwatched_19',['isExtensionWatched',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#afb69e43029a4b149a2863bcce0409259',1,'Nickvision::Filesystem::FileSystemWatcher']]],
+  ['isinhibiting_20',['isInhibiting',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a40a1451e1816d23d2947c646407c4bff',1,'Nickvision::System::SuspendInhibitor']]],
+  ['ismaximized_21',['isMaximized',['../class_nickvision_1_1_app_1_1_window_geometry.html#aaf556b01db6c4bffa633d9a93c498736',1,'Nickvision::App::WindowGeometry']]],
+  ['isrunning_22',['isRunning',['../class_nickvision_1_1_system_1_1_process.html#a01bc3fe82a226d48687208289c3e8d6c',1,'Nickvision::System::Process']]],
+  ['issavingtodisk_23',['isSavingToDisk',['../class_nickvision_1_1_keyring_1_1_keyring.html#ac65040a2d632b59813529ed1c35c01cd',1,'Nickvision::Keyring::Keyring']]],
   ['isserver_24',['isServer',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a9d2782014587dfd44505a3e0876cd820',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isvalid_25',['isValid',['../class_nickvision_1_1_keyring_1_1_keyring_dialog_controller.html#a80e3890de1c88f0050062381acecb4b6',1,'Nickvision::Keyring::KeyringDialogController']]],
-  ['isvalidurl_26',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
+  ['isvalidurl_25',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
 ];

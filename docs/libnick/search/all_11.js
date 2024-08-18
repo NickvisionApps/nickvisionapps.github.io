@@ -8,7 +8,7 @@ var searchData=
   ['networkstate_2eh_5',['networkstate.h',['../networkstate_8h.html',1,'']]],
   ['networkstatechangedeventargs_6',['NetworkStateChangedEventArgs',['../class_nickvision_1_1_network_1_1_network_state_changed_event_args.html',1,'Nickvision::Network::NetworkStateChangedEventArgs'],['../class_nickvision_1_1_network_1_1_network_state_changed_event_args.html#a64de39a974e6ca00e4cb8206506243a8',1,'Nickvision::Network::NetworkStateChangedEventArgs::NetworkStateChangedEventArgs()']]],
   ['networkstatechangedeventargs_2eh_7',['networkstatechangedeventargs.h',['../networkstatechangedeventargs_8h.html',1,'']]],
-  ['new_20apis_8',['New APIs',['../index.html#autotoc_md8',1,'']]],
+  ['new_20apis_8',['New APIs',['../index.html#autotoc_md9',1,'']]],
   ['newguid_9',['newGuid',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#ab4e773ed06578f94e8681d92ab391ab6',1,'Nickvision::Helpers::StringHelpers']]],
   ['newuuid_10',['newUuid',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a1fadfaf6f95c972c91e8cfa9a65b6ca2',1,'Nickvision::Helpers::StringHelpers']]],
   ['next_11',['next',['../class_nickvision_1_1_keyring_1_1_password_generator.html#a93d9b8ca750e60a431e7ad4db6664be8',1,'Nickvision::Keyring::PasswordGenerator']]],

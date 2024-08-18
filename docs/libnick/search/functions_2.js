@@ -10,6 +10,6 @@ var searchData=
   ['converturlmaptovector_7',['convertUrlMapToVector',['../class_nickvision_1_1_app_1_1_app_info.html#a74e2675fc54a56592a91b068a9577d59',1,'Nickvision::App::AppInfo']]],
   ['count_8',['count',['../class_nickvision_1_1_events_1_1_event.html#a5c45bed9aa5e55137076fe6f851afad9',1,'Nickvision::Events::Event']]],
   ['createstatement_9',['createStatement',['../class_nickvision_1_1_database_1_1_sql_database.html#a439e4d98a36c6c1847df76fe7e4718a1',1,'Nickvision::Database::SqlDatabase']]],
-  ['credential_10',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html#af1db559f1e96149ce57e37ce93a69ec6',1,'Nickvision::Keyring::Credential::Credential(int id, const std::string &amp;name, const std::string &amp;uri, const std::string &amp;username, const std::string &amp;password)'],['../class_nickvision_1_1_keyring_1_1_credential.html#a6bb26f7c348038009c3fb52e8fef8e09',1,'Nickvision::Keyring::Credential::Credential(const std::string &amp;name, const std::string &amp;uri, const std::string &amp;username, const std::string &amp;password)']]],
+  ['credential_10',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html#a6bb26f7c348038009c3fb52e8fef8e09',1,'Nickvision::Keyring::Credential']]],
   ['curleasy_11',['CurlEasy',['../class_nickvision_1_1_network_1_1_curl_easy.html#a851371ddf26483d517c53f19036522ce',1,'Nickvision::Network::CurlEasy']]]
 ];

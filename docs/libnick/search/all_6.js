@@ -24,7 +24,7 @@ var searchData=
   ['createstatement_21',['createStatement',['../class_nickvision_1_1_database_1_1_sql_database.html#a439e4d98a36c6c1847df76fe7e4718a1',1,'Nickvision::Database::SqlDatabase']]],
   ['creating_20a_20context_20menu_22',['Creating a Context Menu',['../md_manual_2notifyicon.html',1,'']]],
   ['creating_20your_20own_20data_20files_23',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]],
-  ['credential_24',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html',1,'Nickvision::Keyring::Credential'],['../class_nickvision_1_1_keyring_1_1_credential.html#af1db559f1e96149ce57e37ce93a69ec6',1,'Nickvision::Keyring::Credential::Credential(int id, const std::string &amp;name, const std::string &amp;uri, const std::string &amp;username, const std::string &amp;password)'],['../class_nickvision_1_1_keyring_1_1_credential.html#a6bb26f7c348038009c3fb52e8fef8e09',1,'Nickvision::Keyring::Credential::Credential(const std::string &amp;name, const std::string &amp;uri, const std::string &amp;username, const std::string &amp;password)']]],
+  ['credential_24',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html',1,'Nickvision::Keyring::Credential'],['../class_nickvision_1_1_keyring_1_1_credential.html#a6bb26f7c348038009c3fb52e8fef8e09',1,'Nickvision::Keyring::Credential::Credential()']]],
   ['credential_2eh_25',['credential.h',['../credential_8h.html',1,'']]],
   ['credentialcheckstatus_26',['CredentialCheckStatus',['../namespace_nickvision_1_1_keyring.html#ae5598b61227dc7f68423e9095206f31d',1,'Nickvision::Keyring']]],
   ['credentialcheckstatus_2eh_27',['credentialcheckstatus.h',['../credentialcheckstatus_8h.html',1,'']]],
