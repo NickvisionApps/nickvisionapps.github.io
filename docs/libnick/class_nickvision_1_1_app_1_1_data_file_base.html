@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.8.3</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.9.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -122,8 +122,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a93e907dc2382c6488ace6853bbc9194d" id="r_a93e907dc2382c6488ace6853bbc9194d"><td class="memItemLeft" align="right" valign="top">Json::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e907dc2382c6488ace6853bbc9194d">m_json</a></td></tr>
-<tr class="separator:a93e907dc2382c6488ace6853bbc9194d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac232695e7db266cf2d2a11c087606c97" id="r_ac232695e7db266cf2d2a11c087606c97"><td class="memItemLeft" align="right" valign="top">boost::json::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac232695e7db266cf2d2a11c087606c97">m_json</a></td></tr>
+<tr class="separator:ac232695e7db266cf2d2a11c087606c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for json data files. </p>
@@ -252,8 +252,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a93e907dc2382c6488ace6853bbc9194d" name="a93e907dc2382c6488ace6853bbc9194d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93e907dc2382c6488ace6853bbc9194d">&#9670;&#160;</a></span>m_json</h2>
+<a id="ac232695e7db266cf2d2a11c087606c97" name="ac232695e7db266cf2d2a11c087606c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac232695e7db266cf2d2a11c087606c97">&#9670;&#160;</a></span>m_json</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,12 +262,12 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Json::Value Nickvision::App::DataFileBase::m_json</td>
+          <td class="memname">boost::json::object Nickvision::App::DataFileBase::m_json</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
