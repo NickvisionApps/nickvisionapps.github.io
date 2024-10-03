@@ -1,29 +1,4 @@
 var searchData=
 [
-  ['in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['indeterminate_1',['Indeterminate',['../namespace_nickvision_1_1_taskbar.html#a93de85f76e52f245dcbd9e6f374b10efaa2d00c353d1f9a5f07852650030dbd53',1,'Nickvision::Taskbar']]],
-  ['info_2',['Info',['../namespace_nickvision_1_1_logging.html#a5a9cd2a8425c99f0331b60e0600036d5a4059b0251f66a18cb56f544728796875',1,'Nickvision::Logging']]],
-  ['informational_3',['Informational',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026a5391f9a882a54c787b206138ed6d28b0',1,'Nickvision::Notifications']]],
-  ['inhibit_4',['inhibit',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a37d4ef8da28ec153bdfc6f6abce3bce6',1,'Nickvision::System::SuspendInhibitor']]],
-  ['init_5',['init',['../namespace_nickvision_1_1_localization_1_1_gettext.html#acf42e9f0312600c14b6911f4158cb60f',1,'Nickvision::Localization::Gettext']]],
-  ['installing_6',['Installing',['../index.html#autotoc_md26',1,'']]],
-  ['installing_20manually_7',['Building and Installing Manually',['../index.html#autotoc_md16',1,'']]],
-  ['intel_8',['macOS (Intel)',['../index.html#autotoc_md20',1,'']]],
-  ['inter_20process_20communication_9',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]],
-  ['interprocesscommunicator_10',['InterProcessCommunicator',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html',1,'Nickvision::App::InterProcessCommunicator'],['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a8f10fae5001f997d29ea6410588bf737',1,'Nickvision::App::InterProcessCommunicator::InterProcessCommunicator()']]],
-  ['interprocesscommunicator_2eh_11',['interprocesscommunicator.h',['../interprocesscommunicator_8h.html',1,'']]],
-  ['invaliduri_12',['InvalidUri',['../namespace_nickvision_1_1_keyring.html#ae5598b61227dc7f68423e9095206f31daa43dd7985443642daea41198ac090c93',1,'Nickvision::Keyring']]],
-  ['invoke_13',['invoke',['../class_nickvision_1_1_events_1_1_event.html#a7c3f91d0c9d9feade99aa89134a72ea5',1,'Nickvision::Events::Event']]],
-  ['ipc_2emd_14',['ipc.md',['../ipc_8md.html',1,'']]],
-  ['ipv4address_15',['IPv4Address',['../class_nickvision_1_1_network_1_1_i_pv4_address.html',1,'Nickvision::Network::IPv4Address'],['../class_nickvision_1_1_network_1_1_i_pv4_address.html#a77b6fe31f683afb2e37b8447c85bbb78',1,'Nickvision::Network::IPv4Address::IPv4Address(unsigned char first, unsigned char second, unsigned char third, unsigned char fourth)'],['../class_nickvision_1_1_network_1_1_i_pv4_address.html#a7ea8313f8521cbc7ffd5d5f3b652886f',1,'Nickvision::Network::IPv4Address::IPv4Address(unsigned long address)']]],
-  ['ipv4address_2eh_16',['ipv4address.h',['../ipv4address_8h.html',1,'']]],
-  ['isclient_17',['isClient',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#acae4f1fb4c03c1daf728d778b4d473a9',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isencrypted_18',['isEncrypted',['../class_nickvision_1_1_database_1_1_sql_database.html#ab7ca7bd43149ad2b9d9d1b7f70a79a99',1,'Nickvision::Database::SqlDatabase']]],
-  ['isextensionwatched_19',['isExtensionWatched',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#afb69e43029a4b149a2863bcce0409259',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['isinhibiting_20',['isInhibiting',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a40a1451e1816d23d2947c646407c4bff',1,'Nickvision::System::SuspendInhibitor']]],
-  ['ismaximized_21',['isMaximized',['../class_nickvision_1_1_app_1_1_window_geometry.html#aaf556b01db6c4bffa633d9a93c498736',1,'Nickvision::App::WindowGeometry']]],
-  ['isrunning_22',['isRunning',['../class_nickvision_1_1_system_1_1_process.html#a01bc3fe82a226d48687208289c3e8d6c',1,'Nickvision::System::Process']]],
-  ['issavingtodisk_23',['isSavingToDisk',['../class_nickvision_1_1_keyring_1_1_keyring.html#ac65040a2d632b59813529ed1c35c01cd',1,'Nickvision::Keyring::Keyring']]],
-  ['isserver_24',['isServer',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a9d2782014587dfd44505a3e0876cd820',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isvalidurl_25',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
+  ['join_0',['join',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#ab7dfa1729b5862f7e707d0c3c4b5112d',1,'Nickvision::Helpers::StringHelpers']]]
 ];

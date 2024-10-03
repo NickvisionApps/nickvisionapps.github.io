@@ -1,9 +1,15 @@
 var searchData=
 [
-  ['taskbaritem_0',['TaskbarItem',['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html',1,'Nickvision::Taskbar::TaskbarItem'],['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html#a1779a4810c8772dc14c9b278297c0395',1,'Nickvision::Taskbar::TaskbarItem::TaskbarItem()']]],
-  ['taskbaritem_2eh_1',['taskbaritem.h',['../taskbaritem_8h.html',1,'']]],
-  ['templates_2',['Templates',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa7df96b18c230f90ada0a9e2307226338',1,'Nickvision::Filesystem']]],
-  ['testvariable_3',['testVariable',['../namespace_nickvision_1_1_system_1_1_environment.html#ac9f22f9441379a269bbccd3d66d637c2',1,'Nickvision::System::Environment']]],
-  ['trim_4',['trim',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#aa8c01477f778b9ee01d6428f77f06894',1,'Nickvision::Helpers::StringHelpers::trim(const std::string &amp;s)'],['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#aba6f15d091f02ecaa513e260bd0b603f',1,'Nickvision::Helpers::StringHelpers::trim(const std::string &amp;s, char delimiter)']]],
-  ['txt_5',['txt',['../namespace_nickvision_1_1_network_1_1_d_n_s.html#a968bfa78a6b33989afea564dc0ed2350',1,'Nickvision::Network::DNS']]]
+  ['uninhibit_0',['uninhibit',['../classNickvision_1_1System_1_1SuspendInhibitor.html#a58ec8c05127bd947e18357b3edfc60a2',1,'Nickvision::System::SuspendInhibitor']]],
+  ['unlock_1',['unlock',['../classNickvision_1_1Database_1_1SqlDatabase.html#a97d715f07e3790bf35c872b7d3709ffd',1,'Nickvision::Database::SqlDatabase']]],
+  ['unmove_2',['unmove',['../namespaceNickvision_1_1Helpers_1_1CodeHelpers.html#a39be48c6ae3d12226df51735cc18b75a',1,'Nickvision::Helpers::CodeHelpers']]],
+  ['unsubscribe_3',['unsubscribe',['../classNickvision_1_1Events_1_1Event.html#a7e037b47658c4b43abdc8a53a2c719ba',1,'Nickvision::Events::Event']]],
+  ['updatecredential_4',['updateCredential',['../classNickvision_1_1Keyring_1_1Keyring.html#ac72b0fee9e7c9b7e6e8ec96acb065448',1,'Nickvision::Keyring::Keyring::updateCredential()'],['../namespaceNickvision_1_1Keyring_1_1SystemCredentials.html#aa4bc0cd3627117c5a43716846200bde3',1,'Nickvision::Keyring::SystemCredentials::updateCredential()']]],
+  ['updater_5',['Updater',['../classNickvision_1_1Update_1_1Updater.html',1,'Nickvision::Update::Updater'],['../classNickvision_1_1Update_1_1Updater.html#a009c2750078bffea24694fb500fd8b7b',1,'Nickvision::Update::Updater::Updater(std::string githubRepoUrl)'],['../classNickvision_1_1Update_1_1Updater.html#a6355912ef3438cd185932ead1821926c',1,'Nickvision::Update::Updater::Updater(const Updater &amp;u)'],['../classNickvision_1_1Update_1_1Updater.html#a89514febd7ee0e5d10a284abe9e5353e',1,'Nickvision::Update::Updater::Updater(Updater &amp;&amp;u) noexcept']]],
+  ['updater_2eh_6',['updater.h',['../updater_8h.html',1,'']]],
+  ['upper_7',['upper',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#aab30b376853a003cd472c7c1237ff555',1,'Nickvision::Helpers::StringHelpers']]],
+  ['uppercase_8',['Uppercase',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6a621e7b8ece62fecc55e883252ff2fbe7',1,'Nickvision::Keyring']]],
+  ['userdirectories_2eh_9',['userdirectories.h',['../userdirectories_8h.html',1,'']]],
+  ['userdirectory_10',['UserDirectory',['../namespaceNickvision_1_1Filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cda',1,'Nickvision::Filesystem']]],
+  ['userdirectory_2eh_11',['userdirectory.h',['../userdirectory_8h.html',1,'']]]
 ];

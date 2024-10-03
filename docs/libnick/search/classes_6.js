@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyring_0',['Keyring',['../class_nickvision_1_1_keyring_1_1_keyring.html',1,'Nickvision::Keyring']]]
+  ['keyring_0',['Keyring',['../classNickvision_1_1Keyring_1_1Keyring.html',1,'Nickvision::Keyring']]]
 ];

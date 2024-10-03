@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['appinfo_0',['AppInfo',['../class_nickvision_1_1_app_1_1_app_info.html',1,'Nickvision::App']]]
+  ['appinfo_0',['AppInfo',['../classNickvision_1_1App_1_1AppInfo.html',1,'Nickvision::App']]]
 ];
