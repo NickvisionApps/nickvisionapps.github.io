@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['networkmonitor_0',['NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html',1,'Nickvision::Network']]],
-  ['networkstatechangedeventargs_1',['NetworkStateChangedEventArgs',['../classNickvision_1_1Network_1_1NetworkStateChangedEventArgs.html',1,'Nickvision::Network']]],
-  ['notificationsenteventargs_2',['NotificationSentEventArgs',['../classNickvision_1_1Notifications_1_1NotificationSentEventArgs.html',1,'Nickvision::Notifications']]]
+  ['networkmonitor_0',['NetworkMonitor',['../class_nickvision_1_1_network_1_1_network_monitor.html',1,'Nickvision::Network']]],
+  ['networkstatechangedeventargs_1',['NetworkStateChangedEventArgs',['../class_nickvision_1_1_network_1_1_network_state_changed_event_args.html',1,'Nickvision::Network']]],
+  ['notificationsenteventargs_2',['NotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html',1,'Nickvision::Notifications']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['logger_0',['Logger',['../classNickvision_1_1Logging_1_1Logger.html',1,'Nickvision::Logging']]]
+  ['logger_0',['Logger',['../class_nickvision_1_1_logging_1_1_logger.html',1,'Nickvision::Logging']]]
 ];
