@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.10.0</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -91,22 +91,22 @@ $(function(){ initResizable(false); });
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md1"></a></p>
 <p>libnick events are designed to easily integrate within your classes to easily notify consumers of changes in state of an object.</p>
-<p>Let's take a look at <code><a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> and how it defines and uses events.</p>
-<div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_app.html">Nickvision::App</a></div>
+<p>Let's take a look at <code><a class="el" href="classNickvision_1_1App_1_1DataFileBase.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> and how it defines and uses events.</p>
+<div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceNickvision_1_1App.html">Nickvision::App</a></div>
 <div class="line">{</div>
 <div class="line">  <span class="keyword">class </span>DataFileBase</div>
 <div class="line">  {</div>
 <div class="line">  <span class="keyword">public</span>:</div>
 <div class="line">      ...</div>
-<div class="line">      Events::Event&lt;Events::EventArgs&gt;&amp; <a class="code hl_function" href="class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>()</div>
+<div class="line">      Events::Event&lt;Events::EventArgs&gt;&amp; <a class="code hl_function" href="classNickvision_1_1App_1_1DataFileBase.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>()</div>
 <div class="line">      {</div>
 <div class="line">          <span class="keywordflow">return</span> m_saved;</div>
 <div class="line">      }</div>
 <div class="line"> </div>
-<div class="line">      <span class="keywordtype">bool</span> <a class="code hl_function" href="class_nickvision_1_1_app_1_1_data_file_base.html#af8d085274d69fa4763157bfdd297800c">save</a>()</div>
+<div class="line">      <span class="keywordtype">bool</span> <a class="code hl_function" href="classNickvision_1_1App_1_1DataFileBase.html#af8d085274d69fa4763157bfdd297800c">save</a>()</div>
 <div class="line">      {</div>
 <div class="line">          ...</div>
-<div class="line">          <a class="code hl_function" href="class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>({}); <span class="comment">//Same as saved.invoke({});</span></div>
+<div class="line">          <a class="code hl_function" href="classNickvision_1_1App_1_1DataFileBase.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>({}); <span class="comment">//Same as saved.invoke({});</span></div>
 <div class="line">          ...</div>
 <div class="line">      }</div>
 <div class="line"> </div>
@@ -115,27 +115,27 @@ $(function(){ initResizable(false); });
 <div class="line">      Events::Event&lt;Events::EventArgs&gt; m_saved;</div>
 <div class="line">  };</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_data_file_base_html_a6ba1cbf9592182e06eccbbc89881e0cc"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc">Nickvision::App::DataFileBase::saved</a></div><div class="ttdeci">Events::Event&lt; Events::EventArgs &gt; &amp; saved()</div><div class="ttdoc">Gets the Saved event.</div></div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_data_file_base_html_af8d085274d69fa4763157bfdd297800c"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_data_file_base.html#af8d085274d69fa4763157bfdd297800c">Nickvision::App::DataFileBase::save</a></div><div class="ttdeci">bool save()</div><div class="ttdoc">Saves the config file to disk.</div></div>
-<div class="ttc" id="anamespace_nickvision_1_1_app_html"><div class="ttname"><a href="namespace_nickvision_1_1_app.html">Nickvision::App</a></div><div class="ttdef"><b>Definition</b> appinfo.h:32</div></div>
-</div><!-- fragment --><p>Here we can see how <code><a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> defines a <code>saved</code> event, exposes it to the consumer, and triggers/invokes the event within its <code>save</code> method.</p>
-<p>A consumer of <code><a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> can easily subscribe to the event and have its handler called when the configuration object is saved: </p><div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_app.html">Nickvision::App</a>;</div>
-<div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_events.html">Nickvision::Events</a>;</div>
+<div class="ttc" id="aclassNickvision_1_1App_1_1DataFileBase_html_a6ba1cbf9592182e06eccbbc89881e0cc"><div class="ttname"><a href="classNickvision_1_1App_1_1DataFileBase.html#a6ba1cbf9592182e06eccbbc89881e0cc">Nickvision::App::DataFileBase::saved</a></div><div class="ttdeci">Events::Event&lt; Events::EventArgs &gt; &amp; saved()</div><div class="ttdoc">Gets the Saved event.</div></div>
+<div class="ttc" id="aclassNickvision_1_1App_1_1DataFileBase_html_af8d085274d69fa4763157bfdd297800c"><div class="ttname"><a href="classNickvision_1_1App_1_1DataFileBase.html#af8d085274d69fa4763157bfdd297800c">Nickvision::App::DataFileBase::save</a></div><div class="ttdeci">bool save()</div><div class="ttdoc">Saves the config file to disk.</div></div>
+<div class="ttc" id="anamespaceNickvision_1_1App_html"><div class="ttname"><a href="namespaceNickvision_1_1App.html">Nickvision::App</a></div><div class="ttdef"><b>Definition</b> appinfo.h:32</div></div>
+</div><!-- fragment --><p>Here we can see how <code><a class="el" href="classNickvision_1_1App_1_1DataFileBase.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> defines a <code>saved</code> event, exposes it to the consumer, and triggers/invokes the event within its <code>save</code> method.</p>
+<p>A consumer of <code><a class="el" href="classNickvision_1_1App_1_1DataFileBase.html" title="A base class for json data files.">Nickvision::App::DataFileBase</a></code> can easily subscribe to the event and have its handler called when the configuration object is saved: </p><div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespaceNickvision_1_1App.html">Nickvision::App</a>;</div>
+<div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespaceNickvision_1_1Events.html">Nickvision::Events</a>;</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> handler(<span class="keyword">const</span> <a class="code hl_class" href="class_nickvision_1_1_events_1_1_event_args.html">EventArgs</a>&amp; e)</div>
+<div class="line"><span class="keywordtype">void</span> handler(<span class="keyword">const</span> <a class="code hl_class" href="classNickvision_1_1Events_1_1EventArgs.html">EventArgs</a>&amp; e)</div>
 <div class="line">{</div>
 <div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Config saved.&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">    <a class="code hl_class" href="class_nickvision_1_1_app_1_1_data_file_base.html">DataFileBase</a> base{ ... };</div>
-<div class="line">    base.<a class="code hl_function" href="class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>() += handler;</div>
+<div class="line">    <a class="code hl_class" href="classNickvision_1_1App_1_1DataFileBase.html">DataFileBase</a> base{ ... };</div>
+<div class="line">    base.<a class="code hl_function" href="classNickvision_1_1App_1_1DataFileBase.html#a6ba1cbf9592182e06eccbbc89881e0cc">saved</a>() += handler;</div>
 <div class="line">    base.save();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_data_file_base_html"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_data_file_base.html">Nickvision::App::DataFileBase</a></div><div class="ttdoc">A base class for json data files.</div><div class="ttdef"><b>Definition</b> datafilebase.h:37</div></div>
-<div class="ttc" id="aclass_nickvision_1_1_events_1_1_event_args_html"><div class="ttname"><a href="class_nickvision_1_1_events_1_1_event_args.html">Nickvision::Events::EventArgs</a></div><div class="ttdoc">A base class for event arguments.</div><div class="ttdef"><b>Definition</b> eventargs.h:32</div></div>
-<div class="ttc" id="anamespace_nickvision_1_1_events_html"><div class="ttname"><a href="namespace_nickvision_1_1_events.html">Nickvision::Events</a></div><div class="ttdef"><b>Definition</b> event.h:34</div></div>
+<div class="ttc" id="aclassNickvision_1_1App_1_1DataFileBase_html"><div class="ttname"><a href="classNickvision_1_1App_1_1DataFileBase.html">Nickvision::App::DataFileBase</a></div><div class="ttdoc">A base class for json data files.</div><div class="ttdef"><b>Definition</b> datafilebase.h:37</div></div>
+<div class="ttc" id="aclassNickvision_1_1Events_1_1EventArgs_html"><div class="ttname"><a href="classNickvision_1_1Events_1_1EventArgs.html">Nickvision::Events::EventArgs</a></div><div class="ttdoc">A base class for event arguments.</div><div class="ttdef"><b>Definition</b> eventargs.h:32</div></div>
+<div class="ttc" id="anamespaceNickvision_1_1Events_html"><div class="ttname"><a href="namespaceNickvision_1_1Events.html">Nickvision::Events</a></div><div class="ttdef"><b>Definition</b> event.h:34</div></div>
 </div><!-- fragment --><p>This program will print <code>Config saved.</code> as a result of the event being invoke once the save method was called. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
