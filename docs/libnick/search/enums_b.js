@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['watcherflags_0',['WatcherFlags',['../namespaceNickvision_1_1Filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4',1,'Nickvision::Filesystem']]]
+  ['versiontype_0',['VersionType',['../namespaceNickvision_1_1Update.html#a69dce6cf29b036c94933303281e37a5e',1,'Nickvision::Update']]]
 ];

@@ -6,6 +6,7 @@ var searchData=
   ['_7einterprocesscommunicator_3',['~InterProcessCommunicator',['../classNickvision_1_1App_1_1InterProcessCommunicator.html#abbef836c35cbdb4f9f484e8278ff218c',1,'Nickvision::App::InterProcessCommunicator']]],
   ['_7enetworkmonitor_4',['~NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a64903548a6f6696c9aab5c66e74a09f6',1,'Nickvision::Network::NetworkMonitor']]],
   ['_7eprocess_5',['~Process',['../classNickvision_1_1System_1_1Process.html#a1fd490c2fac5e9450eea55b4727e74bf',1,'Nickvision::System::Process']]],
-  ['_7esuspendinhibitor_6',['~SuspendInhibitor',['../classNickvision_1_1System_1_1SuspendInhibitor.html#a0f7b0c502f6fd4a25d2b6c95daaee9f1',1,'Nickvision::System::SuspendInhibitor']]],
-  ['_7etaskbaritem_7',['~TaskbarItem',['../classNickvision_1_1Taskbar_1_1TaskbarItem.html#a617906079dfb1876eecbda928e8d803c',1,'Nickvision::Taskbar::TaskbarItem']]]
+  ['_7esocket_6',['~Socket',['../classNickvision_1_1Network_1_1Socket.html#a84237298aefb8fec17dd61f017ffdc59',1,'Nickvision::Network::Socket']]],
+  ['_7esuspendinhibitor_7',['~SuspendInhibitor',['../classNickvision_1_1System_1_1SuspendInhibitor.html#a0f7b0c502f6fd4a25d2b6c95daaee9f1',1,'Nickvision::System::SuspendInhibitor']]],
+  ['_7etaskbaritem_8',['~TaskbarItem',['../classNickvision_1_1Taskbar_1_1TaskbarItem.html#a617906079dfb1876eecbda928e8d803c',1,'Nickvision::Taskbar::TaskbarItem']]]
 ];

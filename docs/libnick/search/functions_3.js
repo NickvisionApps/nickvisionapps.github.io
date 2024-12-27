@@ -5,5 +5,6 @@ var searchData=
   ['decode_2',['decode',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a8b75147364e050fa9eb1809db9a47549',1,'Nickvision::Helpers::StringHelpers']]],
   ['deletecredential_3',['deleteCredential',['../classNickvision_1_1Keyring_1_1Keyring.html#ad07046236f69f4415a034370657874d6',1,'Nickvision::Keyring::Keyring::deleteCredential()'],['../namespaceNickvision_1_1Keyring_1_1SystemCredentials.html#a4b5737bb65328417e3b921283e80f639',1,'Nickvision::Keyring::SystemCredentials::deleteCredential()']]],
   ['destroy_4',['destroy',['../classNickvision_1_1Keyring_1_1Keyring.html#af9906a2833af35016d57e8af0c1b8887',1,'Nickvision::Keyring::Keyring']]],
-  ['downloadfile_5',['downloadFile',['../namespaceNickvision_1_1Network_1_1Web.html#a27df61943a08e694077cc615431bf1db',1,'Nickvision::Network::Web']]]
+  ['disconnect_5',['disconnect',['../classNickvision_1_1Network_1_1Socket.html#abf1dec42fed464200649abe492672dd4',1,'Nickvision::Network::Socket']]],
+  ['downloadfile_6',['downloadFile',['../namespaceNickvision_1_1Network_1_1Web.html#a27df61943a08e694077cc615431bf1db',1,'Nickvision::Network::Web']]]
 ];

@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.0</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -112,19 +112,20 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#adbe4a303da8d8d97993f3f440533743c">   59</a></span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#adbe4a303da8d8d97993f3f440533743c">getSecond</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a793852ddba3e9f589e35acc16199282a">   64</a></span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a793852ddba3e9f589e35acc16199282a">getThird</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a8e9e9c9e3dfefb091fff253bcafc80fb">   69</a></span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a8e9e9c9e3dfefb091fff253bcafc80fb">getFourth</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a7cb5e27e1ab333f5cbf13c45e0f83155">   74</a></span>        std::string <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a7cb5e27e1ab333f5cbf13c45e0f83155">str</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a43e61463bb75cb1ffd561f5ee5a2d879">   80</a></span>        <span class="keyword">static</span> std::optional&lt;IPv4Address&gt; <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a43e61463bb75cb1ffd561f5ee5a2d879">parse</a>(<span class="keyword">const</span> std::string&amp; address);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_first;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_second;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_third;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_fourth;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    };</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#ad708a10f46d5522116185f27cb199b90">   74</a></span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#ad708a10f46d5522116185f27cb199b90">getNetworkByteOrder</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a7cb5e27e1ab333f5cbf13c45e0f83155">   79</a></span>        std::string <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a7cb5e27e1ab333f5cbf13c45e0f83155">str</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classNickvision_1_1Network_1_1IPv4Address.html#a43e61463bb75cb1ffd561f5ee5a2d879">   85</a></span>        <span class="keyword">static</span> std::optional&lt;IPv4Address&gt; <a class="code hl_function" href="classNickvision_1_1Network_1_1IPv4Address.html#a43e61463bb75cb1ffd561f5ee5a2d879">parse</a>(<span class="keyword">const</span> std::string&amp; address);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_first;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_second;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_third;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_fourth;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    };</div>
 </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>}</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif </span><span class="comment">//IPV4ADDRESS_H</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">#endif </span><span class="comment">//IPV4ADDRESS_H</span></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html">Nickvision::Network::IPv4Address</a></div><div class="ttdoc">A model of an IPv4 address.</div><div class="ttdef"><b>Definition</b> ipv4address.h:35</div></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_a058ce35e20d956862a1b36730593cc0f"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#a058ce35e20d956862a1b36730593cc0f">Nickvision::Network::IPv4Address::getFirst</a></div><div class="ttdeci">unsigned char getFirst() const</div><div class="ttdoc">Gets the first byte of the address.</div></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_a43e61463bb75cb1ffd561f5ee5a2d879"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#a43e61463bb75cb1ffd561f5ee5a2d879">Nickvision::Network::IPv4Address::parse</a></div><div class="ttdeci">static std::optional&lt; IPv4Address &gt; parse(const std::string &amp;address)</div><div class="ttdoc">Parses an IPv4Address from a string.</div></div>
@@ -133,8 +134,9 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_a7cb5e27e1ab333f5cbf13c45e0f83155"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#a7cb5e27e1ab333f5cbf13c45e0f83155">Nickvision::Network::IPv4Address::str</a></div><div class="ttdeci">std::string str() const</div><div class="ttdoc">Gets the string representation of the address.</div></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_a7ea8313f8521cbc7ffd5d5f3b652886f"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#a7ea8313f8521cbc7ffd5d5f3b652886f">Nickvision::Network::IPv4Address::IPv4Address</a></div><div class="ttdeci">IPv4Address(unsigned long address)</div><div class="ttdoc">Constructs an IPv4Address.</div></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_a8e9e9c9e3dfefb091fff253bcafc80fb"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#a8e9e9c9e3dfefb091fff253bcafc80fb">Nickvision::Network::IPv4Address::getFourth</a></div><div class="ttdeci">unsigned char getFourth() const</div><div class="ttdoc">Gets the fourth byte of the address.</div></div>
+<div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_ad708a10f46d5522116185f27cb199b90"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#ad708a10f46d5522116185f27cb199b90">Nickvision::Network::IPv4Address::getNetworkByteOrder</a></div><div class="ttdeci">unsigned long getNetworkByteOrder() const</div><div class="ttdoc">Gets the address in network byte order.</div></div>
 <div class="ttc" id="aclassNickvision_1_1Network_1_1IPv4Address_html_adbe4a303da8d8d97993f3f440533743c"><div class="ttname"><a href="classNickvision_1_1Network_1_1IPv4Address.html#adbe4a303da8d8d97993f3f440533743c">Nickvision::Network::IPv4Address::getSecond</a></div><div class="ttdeci">unsigned char getSecond() const</div><div class="ttdoc">Gets the second byte of the address.</div></div>
-<div class="ttc" id="anamespaceNickvision_1_1Network_html"><div class="ttname"><a href="namespaceNickvision_1_1Network.html">Nickvision::Network</a></div><div class="ttdef"><b>Definition</b> curleasy.h:33</div></div>
+<div class="ttc" id="anamespaceNickvision_1_1Network_html"><div class="ttname"><a href="namespaceNickvision_1_1Network.html">Nickvision::Network</a></div><div class="ttdef"><b>Definition</b> addressfamily.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
