@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -90,9 +90,118 @@ $(function(){ initResizable(false); });
 </div><!-- top -->
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Nickvision::Notifications::ShellNotification Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a027f5e50b4421625090d97e0f9ad0c5b" id="r_a027f5e50b4421625090d97e0f9ad0c5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027f5e50b4421625090d97e0f9ad0c5b">send</a> (const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;e, HWND hwnd)</td></tr>
+<tr class="memdesc:a027f5e50b4421625090d97e0f9ad0c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a notification to the desktop.  <br /></td></tr>
+<tr class="separator:a027f5e50b4421625090d97e0f9ad0c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5832a66d75b4bb06b624acc7a72918" id="r_ade5832a66d75b4bb06b624acc7a72918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5832a66d75b4bb06b624acc7a72918">send</a> (const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;e, const std::string &amp;appId, const std::string &amp;openText)</td></tr>
+<tr class="memdesc:ade5832a66d75b4bb06b624acc7a72918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a notification to the shell.  <br /></td></tr>
+<tr class="separator:ade5832a66d75b4bb06b624acc7a72918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1511353b4f072ff55dbdf2f00d94ff7" id="r_ae1511353b4f072ff55dbdf2f00d94ff7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1511353b4f072ff55dbdf2f00d94ff7">send</a> (const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;e)</td></tr>
+<tr class="memdesc:ae1511353b4f072ff55dbdf2f00d94ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a notification to the shell.  <br /></td></tr>
+<tr class="separator:ae1511353b4f072ff55dbdf2f00d94ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ae1511353b4f072ff55dbdf2f00d94ff7" name="ae1511353b4f072ff55dbdf2f00d94ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1511353b4f072ff55dbdf2f00d94ff7">&#9670;&#160;</a></span>send() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nickvision::Notifications::ShellNotification::send </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a notification to the shell. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td><a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html" title="An event argument for when a shell notification is sent.">ShellNotificationSentEventArgs</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade5832a66d75b4bb06b624acc7a72918" name="ade5832a66d75b4bb06b624acc7a72918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5832a66d75b4bb06b624acc7a72918">&#9670;&#160;</a></span>send() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nickvision::Notifications::ShellNotification::send </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>appId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>openText</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a notification to the shell. </p>
+<p>Uses Gio.Notification on GTK applications.</p>
+<p>Uses FreeDesktop <a class="el" href="namespaceNickvision_1_1Notifications.html">Notifications</a> on non-GTK applications.</p>
+<p>Supports the action "open" with action param being a path of a file or folder to open. The app must define an "app.open" action to handle this event. (GTK applications only) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td><a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html" title="An event argument for when a shell notification is sent.">ShellNotificationSentEventArgs</a> </td></tr>
+    <tr><td class="paramname">appId</td><td>The application's id </td></tr>
+    <tr><td class="paramname">openText</td><td>Localized text of "Open" </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a027f5e50b4421625090d97e0f9ad0c5b" name="a027f5e50b4421625090d97e0f9ad0c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027f5e50b4421625090d97e0f9ad0c5b">&#9670;&#160;</a></span>send() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nickvision::Notifications::ShellNotification::send </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html">ShellNotificationSentEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends a notification to the desktop. </p>
+<p>Supports the action "open" with action param being a path of a file or folder to open. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td><a class="el" href="classNickvision_1_1Notifications_1_1ShellNotificationSentEventArgs.html" title="An event argument for when a shell notification is sent.">ShellNotificationSentEventArgs</a> </td></tr>
+    <tr><td class="paramname">hwnd</td><td>The handle to the main application window </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

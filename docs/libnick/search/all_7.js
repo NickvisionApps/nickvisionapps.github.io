@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['empty_0',['empty',['../classNickvision_1_1Update_1_1Version.html#a49a4ca926e3465242f0b048dfa666beb',1,'Nickvision::Update::Version']]],
+  ['empty_0',['empty',['../classNickvision_1_1Notifications_1_1NotifyIconMenu.html#a32d778dc1bb0af9d65b7d23b0055a2ef',1,'Nickvision::Notifications::NotifyIconMenu::empty()'],['../classNickvision_1_1Update_1_1Version.html#a49a4ca926e3465242f0b048dfa666beb',1,'Nickvision::Update::Version::empty()']]],
   ['emptyname_1',['EmptyName',['../namespaceNickvision_1_1Keyring.html#ae5598b61227dc7f68423e9095206f31da337ec89a752b21bebb85d6775deb3326',1,'Nickvision::Keyring']]],
   ['emptyusernamepassword_2',['EmptyUsernamePassword',['../namespaceNickvision_1_1Keyring.html#ae5598b61227dc7f68423e9095206f31dae6b64eefc2609548373afe59972c1eb7',1,'Nickvision::Keyring']]],
   ['encode_3',['encode',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a1cb4a98b2018a2aa2570db6ccb4aa520',1,'Nickvision::Helpers::StringHelpers']]],

@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -90,7 +90,7 @@ $(function(){ initResizable(false); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md4"></a></p>
-<p>The <code>Nickvision::Notifications::NotifyMenuItem</code> class provides an easy API for creating context menus for a <code>Nickvision::Notifications::NotifyIcon</code> to use within your Windows app.</p>
+<p>The <code>Nickvision::Notifications::NotifyMenuItem</code> class provides an easy API for creating context menus for a <code><a class="el" href="classNickvision_1_1Notifications_1_1NotifyIcon.html" title="An icon for the Windows system tray.">Nickvision::Notifications::NotifyIcon</a></code> to use within your Windows app.</p>
 <p>Assume we want to create the following context menu for a <code>NotifyIcon</code>: </p><div class="fragment"><div class="line">---------------</div>
 <div class="line">| Show Window |</div>
 <div class="line">| ----------- |</div>
@@ -100,21 +100,25 @@ $(function(){ initResizable(false); });
 <div class="line"> </div>
 <div class="line">...</div>
 <div class="line">bool m_running{ <span class="keyword">true</span> };</div>
-<div class="line">NotifyIconMenu contextMenu;</div>
-<div class="line">contextMenu.addAction(<span class="stringliteral">&quot;Show Window&quot;</span>, [&amp;]()</div>
+<div class="line"><a class="code hl_class" href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html">NotifyIconMenu</a> contextMenu;</div>
+<div class="line">contextMenu.<a class="code hl_function" href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html#ab2100edd1a76951f9cf6f19c9f6dfea2">addAction</a>(<span class="stringliteral">&quot;Show Window&quot;</span>, [&amp;]()</div>
 <div class="line">{</div>
 <div class="line">  showWindow();</div>
 <div class="line">});</div>
-<div class="line">contextMenu.addSeparator();</div>
-<div class="line">contextMenu.addAction(<span class="stringliteral">&quot;Exit&quot;</span>, [&amp;m_running]()</div>
+<div class="line">contextMenu.<a class="code hl_function" href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html#a67401d5c9c74a97c34b8309574c48419">addSeparator</a>();</div>
+<div class="line">contextMenu.<a class="code hl_function" href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html#ab2100edd1a76951f9cf6f19c9f6dfea2">addAction</a>(<span class="stringliteral">&quot;Exit&quot;</span>, [&amp;m_running]()</div>
 <div class="line">{</div>
 <div class="line">  m_running = <span class="keyword">false</span>;</div>
 <div class="line">});</div>
-<div class="line">NotifyIcon icon{ GetConsoleWindow(), <span class="stringliteral">&quot;&quot;</span>, contextMenu };</div>
+<div class="line"><a class="code hl_class" href="classNickvision_1_1Notifications_1_1NotifyIcon.html">NotifyIcon</a> icon{ GetConsoleWindow(), <span class="stringliteral">&quot;&quot;</span>, contextMenu };</div>
 <div class="line"><span class="comment">// The following also works:</span></div>
 <div class="line"><span class="comment">// NotifyIcon icon{ GetConsoleWindow(), &quot;&quot; };</span></div>
 <div class="line"><span class="comment">// icon.setContextMenu(contextMenu);</span></div>
 <div class="line">...</div>
+<div class="ttc" id="aclassNickvision_1_1Notifications_1_1NotifyIconMenu_html"><div class="ttname"><a href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html">Nickvision::Notifications::NotifyIconMenu</a></div><div class="ttdoc">A menu for a NotifyIcon.</div><div class="ttdef"><b>Definition</b> notifyiconmenu.h:115</div></div>
+<div class="ttc" id="aclassNickvision_1_1Notifications_1_1NotifyIconMenu_html_a67401d5c9c74a97c34b8309574c48419"><div class="ttname"><a href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html#a67401d5c9c74a97c34b8309574c48419">Nickvision::Notifications::NotifyIconMenu::addSeparator</a></div><div class="ttdeci">size_t addSeparator()</div><div class="ttdoc">Adds a separator to the bottom of the menu.</div></div>
+<div class="ttc" id="aclassNickvision_1_1Notifications_1_1NotifyIconMenu_html_ab2100edd1a76951f9cf6f19c9f6dfea2"><div class="ttname"><a href="classNickvision_1_1Notifications_1_1NotifyIconMenu.html#ab2100edd1a76951f9cf6f19c9f6dfea2">Nickvision::Notifications::NotifyIconMenu::addAction</a></div><div class="ttdeci">size_t addAction(const std::string &amp;label, const std::function&lt; void()&gt; &amp;action)</div><div class="ttdoc">Adds an action item to the bottom of the menu.</div></div>
+<div class="ttc" id="aclassNickvision_1_1Notifications_1_1NotifyIcon_html"><div class="ttname"><a href="classNickvision_1_1Notifications_1_1NotifyIcon.html">Nickvision::Notifications::NotifyIcon</a></div><div class="ttdoc">An icon for the Windows system tray.</div><div class="ttdef"><b>Definition</b> notifyicon.h:45</div></div>
 <div class="ttc" id="anamespaceNickvision_1_1Notifications_html"><div class="ttname"><a href="namespaceNickvision_1_1Notifications.html">Nickvision::Notifications</a></div><div class="ttdef"><b>Definition</b> notificationsenteventargs.h:31</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->

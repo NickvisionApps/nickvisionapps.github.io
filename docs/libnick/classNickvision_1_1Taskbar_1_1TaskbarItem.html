@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -140,6 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a410bded1f3d174b095f22925b0fccf35" id="r_a410bded1f3d174b095f22925b0fccf35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a410bded1f3d174b095f22925b0fccf35">setCount</a> (long count)</td></tr>
 <tr class="memdesc:a410bded1f3d174b095f22925b0fccf35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the count shown on the taskbar item.  <br /></td></tr>
 <tr class="separator:a410bded1f3d174b095f22925b0fccf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0249b596960af2cf9124860896860fc7" id="r_a0249b596960af2cf9124860896860fc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0249b596960af2cf9124860896860fc7">connect</a> (HWND hwnd)</td></tr>
+<tr class="memdesc:a0249b596960af2cf9124860896860fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects a taskbar item to the application.  <br /></td></tr>
+<tr class="separator:a0249b596960af2cf9124860896860fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924323daf9df146aa52d5196240b14b5" id="r_a924323daf9df146aa52d5196240b14b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a924323daf9df146aa52d5196240b14b5">connect</a> (const std::string &amp;desktopFile)</td></tr>
+<tr class="memdesc:a924323daf9df146aa52d5196240b14b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects a taskbar item to the application.  <br /></td></tr>
+<tr class="separator:a924323daf9df146aa52d5196240b14b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An item on the taskbar. </p>
@@ -183,6 +189,58 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a924323daf9df146aa52d5196240b14b5" name="a924323daf9df146aa52d5196240b14b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924323daf9df146aa52d5196240b14b5">&#9670;&#160;</a></span>connect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nickvision::Taskbar::TaskbarItem::connect </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>desktopFile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects a taskbar item to the application. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">desktopFile</td><td>The desktop file name with the file extension of the running application </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if connection successful, else false </dd></dl>
+
+</div>
+</div>
+<a id="a0249b596960af2cf9124860896860fc7" name="a0249b596960af2cf9124860896860fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0249b596960af2cf9124860896860fc7">&#9670;&#160;</a></span>connect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nickvision::Taskbar::TaskbarItem::connect </td>
+          <td>(</td>
+          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects a taskbar item to the application. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hwnd</td><td>The HWND of the main application window </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if connection successful, else false </dd></dl>
+
+</div>
+</div>
 <a id="a374c087d79fecf70a667e85ede8618d6" name="a374c087d79fecf70a667e85ede8618d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a374c087d79fecf70a667e85ede8618d6">&#9670;&#160;</a></span>getCount()</h2>
 

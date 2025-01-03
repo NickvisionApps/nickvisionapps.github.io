@@ -1,13 +1,4 @@
 var searchData=
 [
-  ['readfilebytes_0',['readFileBytes',['../namespaceNickvision_1_1Helpers_1_1CodeHelpers.html#af42b499ff3b568b428f86301988c023a',1,'Nickvision::Helpers::CodeHelpers']]],
-  ['readme_2emd_1',['README.md',['../README_8md.html',1,'']]],
-  ['receivemessage_2',['receiveMessage',['../classNickvision_1_1Network_1_1Socket.html#a90c23cd747ff4187cffc196d172ed895',1,'Nickvision::Network::Socket']]],
-  ['registerfunction_3',['registerFunction',['../classNickvision_1_1Database_1_1SqlDatabase.html#aa48fa22d47920c01a6b46fe7bf0a1924',1,'Nickvision::Database::SqlDatabase']]],
-  ['removed_4',['Removed',['../namespaceNickvision_1_1Filesystem.html#a2ab0a9147887a01966de0ea9ec663178a93f07b720ebf7d1246512569761a5804',1,'Nickvision::Filesystem']]],
-  ['removeextensionfilter_5',['removeExtensionFilter',['../classNickvision_1_1Filesystem_1_1FileSystemWatcher.html#aaf524f11f1b3a68d81f81e9aa8e4a615',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['renamed_6',['Renamed',['../namespaceNickvision_1_1Filesystem.html#a2ab0a9147887a01966de0ea9ec663178ab28f2757ce8f7bb1a72486d7a3500a4e',1,'Nickvision::Filesystem']]],
-  ['replace_7',['replace',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#af0f3a4f3297882aa3154d6515ec94ad4',1,'Nickvision::Helpers::StringHelpers::replace(std::string s, const std::string &amp;toReplace, const std::string &amp;replace)'],['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a6d00be6ea69315fd44eefe2f784276d6',1,'Nickvision::Helpers::StringHelpers::replace(std::string s, char toReplace, char replace)']]],
-  ['reset_8',['reset',['../classNickvision_1_1Network_1_1CurlEasy.html#acbccbb8c17aa52863418dcaeb650cf44',1,'Nickvision::Network::CurlEasy']]],
-  ['result_9',['result',['../classNickvision_1_1Database_1_1SqlContext.html#afc2a4bbeae49a36e956d433dd04ed76b',1,'Nickvision::Database::SqlContext::result()'],['../classNickvision_1_1Database_1_1SqlContext.html#a68a3a54deb4d94ed366996952620d365',1,'Nickvision::Database::SqlContext::result(int value)'],['../classNickvision_1_1Database_1_1SqlContext.html#af31d6e18cd6f4b160f536faac9f2eb76',1,'Nickvision::Database::SqlContext::result(sqlite3_int64 value)'],['../classNickvision_1_1Database_1_1SqlContext.html#a7184645b50751e626f7e63bdbc2b2779',1,'Nickvision::Database::SqlContext::result(double value)'],['../classNickvision_1_1Database_1_1SqlContext.html#ac9f75d94222d9d95735970e6b3b7bc45',1,'Nickvision::Database::SqlContext::result(bool value)'],['../classNickvision_1_1Database_1_1SqlContext.html#aa12bc2f11e9e328c323d397af6cbc3f7',1,'Nickvision::Database::SqlContext::result(const std::string &amp;value)'],['../classNickvision_1_1Database_1_1SqlContext.html#aa2226df3c104ca8a12f55280c5575661',1,'Nickvision::Database::SqlContext::result(void *value, int n)']]]
+  ['queryinterface_0',['QueryInterface',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a302a5768e82abdd7e6de52be1ae9058b',1,'Nickvision::Network::NetworkMonitor']]]
 ];

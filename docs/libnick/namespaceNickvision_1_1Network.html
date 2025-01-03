@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -134,7 +134,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:adb113c10efcff2761ebd0c8598f0f3de" id="r_adb113c10efcff2761ebd0c8598f0f3de"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb113c10efcff2761ebd0c8598f0f3de">AddressFamily</a> { <a class="el" href="#adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd">Unix</a> = AF_UNIX
+<tr class="memitem:adb113c10efcff2761ebd0c8598f0f3de" id="r_adb113c10efcff2761ebd0c8598f0f3de"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb113c10efcff2761ebd0c8598f0f3de">AddressFamily</a> { <a class="el" href="#adb113c10efcff2761ebd0c8598f0f3dea2ab1f3f893823298751fdf60b4e0365a">Pipe</a>
+, <a class="el" href="#adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd">Unix</a> = AF_UNIX
 , <a class="el" href="#adb113c10efcff2761ebd0c8598f0f3dea42a9137a05a60eb752dcdf982e717626">IPv4</a> = AF_INET
  }</td></tr>
 <tr class="memdesc:adb113c10efcff2761ebd0c8598f0f3de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of address that can be used by a socket.  <a href="#adb113c10efcff2761ebd0c8598f0f3de">More...</a><br /></td></tr>
@@ -152,6 +153,7 @@ Enumerations</h2></td></tr>
 <tr class="separator:ad00a9e2f164a4fbceb0b578b85d57e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7799d351f31fb23ddc677edc9a575dc" id="r_ac7799d351f31fb23ddc677edc9a575dc"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7799d351f31fb23ddc677edc9a575dc">SocketType</a> { <a class="el" href="#ac7799d351f31fb23ddc677edc9a575dcaeae835e83c0494a376229f254f7d3392">Stream</a> = SOCK_STREAM
 , <a class="el" href="#ac7799d351f31fb23ddc677edc9a575dca640931067618ca3bc723805cb196e22f">Datagram</a> = SOCK_DGRAM
+, <a class="el" href="#ac7799d351f31fb23ddc677edc9a575dca8dbeb65e492967eedeae6e1071df5876">SequencedPacket</a>
  }</td></tr>
 <tr class="memdesc:ac7799d351f31fb23ddc677edc9a575dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of sockets.  <a href="#ac7799d351f31fb23ddc677edc9a575dc">More...</a><br /></td></tr>
 <tr class="separator:ac7799d351f31fb23ddc677edc9a575dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +196,8 @@ Enumerations</h2></td></tr>
 
 <p>Type of address that can be used by a socket. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd" name="adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd"></a>Unix&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adb113c10efcff2761ebd0c8598f0f3dea2ab1f3f893823298751fdf60b4e0365a" name="adb113c10efcff2761ebd0c8598f0f3dea2ab1f3f893823298751fdf60b4e0365a"></a>Pipe&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd" name="adb113c10efcff2761ebd0c8598f0f3dea6ec1bd1ea6a5d67a63b20c8f6172bddd"></a>Unix&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="adb113c10efcff2761ebd0c8598f0f3dea42a9137a05a60eb752dcdf982e717626" name="adb113c10efcff2761ebd0c8598f0f3dea42a9137a05a60eb752dcdf982e717626"></a>IPv4&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -284,6 +287,7 @@ Enumerations</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac7799d351f31fb23ddc677edc9a575dcaeae835e83c0494a376229f254f7d3392" name="ac7799d351f31fb23ddc677edc9a575dcaeae835e83c0494a376229f254f7d3392"></a>Stream&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac7799d351f31fb23ddc677edc9a575dca640931067618ca3bc723805cb196e22f" name="ac7799d351f31fb23ddc677edc9a575dca640931067618ca3bc723805cb196e22f"></a>Datagram&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7799d351f31fb23ddc677edc9a575dca8dbeb65e492967eedeae6e1071df5876" name="ac7799d351f31fb23ddc677edc9a575dca8dbeb65e492967eedeae6e1071df5876"></a>SequencedPacket&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

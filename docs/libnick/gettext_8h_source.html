@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -100,11 +100,11 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;libintl.h&gt;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="gettext_8h.html#a21effad598b4e9b5cf5556328212d013">   29</a></span><span class="preprocessor">#define GETTEXT_CONTEXT_SEPARATOR &quot;\004&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="gettext_8h.html#a32a3cf3d9dd914f5aeeca5423c157934">   30</a></span><span class="preprocessor">#define _(String) dgettext(::Nickvision::Localization::Gettext::getDomainName().c_str(), String)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="gettext_8h.html#aad2dc050f7fe210ddcc985c720346a73">   31</a></span><span class="preprocessor">#define _n(String, StringPlural, N) dngettext(::Nickvision::Localization::Gettext::getDomainName().c_str(), String, StringPlural, static_cast&lt;unsigned long&gt;(N))</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="gettext_8h.html#a08a96e8c0fd1a8069b54f6daa0bbe248">   32</a></span><span class="preprocessor">#define _p(Context, String) ::Nickvision::Localization::Gettext::pgettext(Context GETTEXT_CONTEXT_SEPARATOR String, String)</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="gettext_8h.html#a80f89ae37fc879b0894fe2d83cf950f6">   33</a></span><span class="preprocessor">#define _pn(Context, String, StringPlural, N) ::Nickvision::Localization::Gettext::pngettext(Context GETTEXT_CONTEXT_SEPARATOR String, String, StringPlural, static_cast&lt;unsigned long&gt;(N))</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define GETTEXT_CONTEXT_SEPARATOR &quot;\004&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define _(String) dgettext(::Nickvision::Localization::Gettext::getDomainName().c_str(), String)</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define _n(String, StringPlural, N) dngettext(::Nickvision::Localization::Gettext::getDomainName().c_str(), String, StringPlural, static_cast&lt;unsigned long&gt;(N))</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define _p(Context, String) ::Nickvision::Localization::Gettext::pgettext(Context GETTEXT_CONTEXT_SEPARATOR String, String)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define _pn(Context, String, StringPlural, N) ::Nickvision::Localization::Gettext::pngettext(Context GETTEXT_CONTEXT_SEPARATOR String, String, StringPlural, static_cast&lt;unsigned long&gt;(N))</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespaceNickvision_1_1Localization_1_1Gettext.html">   35</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceNickvision_1_1Localization_1_1Gettext.html">Nickvision::Localization::Gettext</a></div>

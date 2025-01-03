@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['_7ecurleasy_0',['~CurlEasy',['../classNickvision_1_1Network_1_1CurlEasy.html#af717037a4774850e8d4f667e779de737',1,'Nickvision::Network::CurlEasy']]],
-  ['_7edatafilebase_1',['~DataFileBase',['../classNickvision_1_1App_1_1DataFileBase.html#ae0dc0c55d30a2c04ae9df2498a5c8642',1,'Nickvision::App::DataFileBase']]],
-  ['_7efilesystemwatcher_2',['~FileSystemWatcher',['../classNickvision_1_1Filesystem_1_1FileSystemWatcher.html#a9fae14fdc5ba6aa344624a710f582150',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['_7einterprocesscommunicator_3',['~InterProcessCommunicator',['../classNickvision_1_1App_1_1InterProcessCommunicator.html#abbef836c35cbdb4f9f484e8278ff218c',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['_7enetworkmonitor_4',['~NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a64903548a6f6696c9aab5c66e74a09f6',1,'Nickvision::Network::NetworkMonitor']]],
-  ['_7eprocess_5',['~Process',['../classNickvision_1_1System_1_1Process.html#a1fd490c2fac5e9450eea55b4727e74bf',1,'Nickvision::System::Process']]],
-  ['_7esocket_6',['~Socket',['../classNickvision_1_1Network_1_1Socket.html#a84237298aefb8fec17dd61f017ffdc59',1,'Nickvision::Network::Socket']]],
-  ['_7esuspendinhibitor_7',['~SuspendInhibitor',['../classNickvision_1_1System_1_1SuspendInhibitor.html#a0f7b0c502f6fd4a25d2b6c95daaee9f1',1,'Nickvision::System::SuspendInhibitor']]],
-  ['_7etaskbaritem_8',['~TaskbarItem',['../classNickvision_1_1Taskbar_1_1TaskbarItem.html#a617906079dfb1876eecbda928e8d803c',1,'Nickvision::Taskbar::TaskbarItem']]]
+  ['waitforexit_0',['waitForExit',['../classNickvision_1_1System_1_1Process.html#adc02f27b1c93af3f43893b1114403b8a',1,'Nickvision::System::Process']]],
+  ['windowgeometry_1',['WindowGeometry',['../classNickvision_1_1App_1_1WindowGeometry.html#a3c58a60687356ba7ee436e895ee66b90',1,'Nickvision::App::WindowGeometry::WindowGeometry()'],['../classNickvision_1_1App_1_1WindowGeometry.html#a42d15edd610b1017703e0bc87f0965c4',1,'Nickvision::App::WindowGeometry::WindowGeometry(long width, long height, bool isMaximized)'],['../classNickvision_1_1App_1_1WindowGeometry.html#a4f374a421c9ea3b57852d5c76f6c3792',1,'Nickvision::App::WindowGeometry::WindowGeometry(HWND hwnd)']]],
+  ['windowsupdate_2',['windowsUpdate',['../classNickvision_1_1Update_1_1Updater.html#a5179aee0e9ce5a2127f5faca1a8a6fcd',1,'Nickvision::Update::Updater']]],
+  ['writefilebytes_3',['writeFileBytes',['../namespaceNickvision_1_1Helpers_1_1CodeHelpers.html#a611be9cb712ee17498b3655d2a6e90fa',1,'Nickvision::Helpers::CodeHelpers']]],
+  ['wstr_4',['wstr',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a69cca87ef7e3d47b452c0779d102869d',1,'Nickvision::Helpers::StringHelpers']]]
 ];

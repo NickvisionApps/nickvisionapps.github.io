@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['empty_0',['empty',['../classNickvision_1_1Update_1_1Version.html#a49a4ca926e3465242f0b048dfa666beb',1,'Nickvision::Update::Version']]],
+  ['empty_0',['empty',['../classNickvision_1_1Notifications_1_1NotifyIconMenu.html#a32d778dc1bb0af9d65b7d23b0055a2ef',1,'Nickvision::Notifications::NotifyIconMenu::empty()'],['../classNickvision_1_1Update_1_1Version.html#a49a4ca926e3465242f0b048dfa666beb',1,'Nickvision::Update::Version::empty()']]],
   ['encode_1',['encode',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a1cb4a98b2018a2aa2570db6ccb4aa520',1,'Nickvision::Helpers::StringHelpers']]],
   ['error_2',['error',['../classNickvision_1_1Database_1_1SqlContext.html#a7e687d6e79b20a8341540401765c2a7e',1,'Nickvision::Database::SqlContext::error(const std::string &amp;err)'],['../classNickvision_1_1Database_1_1SqlContext.html#a0c3ac4c263111dfde13e15ac26025a3e',1,'Nickvision::Database::SqlContext::error(int err)']]],
   ['event_3',['Event',['../classNickvision_1_1Events_1_1Event.html#a14ee8382abea2ba473402391506f24d7',1,'Nickvision::Events::Event::Event()=default'],['../classNickvision_1_1Events_1_1Event.html#a7b5d70dc884586583331afb34661dd3b',1,'Nickvision::Events::Event::Event(const Event &amp;e)'],['../classNickvision_1_1Events_1_1Event.html#a1ba1025d26b25bb0ca1a476411caa7bd',1,'Nickvision::Events::Event::Event(Event &amp;&amp;e) noexcept']]],

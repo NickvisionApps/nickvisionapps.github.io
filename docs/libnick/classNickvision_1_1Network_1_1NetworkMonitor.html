@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -101,6 +101,12 @@ $(function(){ initResizable(false); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="networkmonitor_8h_source.html">networkmonitor.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Nickvision::Network::NetworkMonitor:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classNickvision_1_1Network_1_1NetworkMonitor.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -116,6 +122,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe11b417fb86988c06308b6f331dd937" id="r_abe11b417fb86988c06308b6f331dd937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceNickvision_1_1Network.html#af978e12a27102d8b7e98d9dd38d624d9">NetworkState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe11b417fb86988c06308b6f331dd937">getConnectionState</a> () const</td></tr>
 <tr class="memdesc:abe11b417fb86988c06308b6f331dd937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the network connection.  <br /></td></tr>
 <tr class="separator:abe11b417fb86988c06308b6f331dd937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924b276590b7aa02ba82a3eb8c65bdce" id="r_a924b276590b7aa02ba82a3eb8c65bdce"><td class="memItemLeft" align="right" valign="top">ULONG STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a924b276590b7aa02ba82a3eb8c65bdce">AddRef</a> () override</td></tr>
+<tr class="separator:a924b276590b7aa02ba82a3eb8c65bdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e5ea06a3796737e1ef7f6240b1b8a3" id="r_ac9e5ea06a3796737e1ef7f6240b1b8a3"><td class="memItemLeft" align="right" valign="top">ULONG STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9e5ea06a3796737e1ef7f6240b1b8a3">Release</a> () override</td></tr>
+<tr class="separator:ac9e5ea06a3796737e1ef7f6240b1b8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302a5768e82abdd7e6de52be1ae9058b" id="r_a302a5768e82abdd7e6de52be1ae9058b"><td class="memItemLeft" align="right" valign="top">HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302a5768e82abdd7e6de52be1ae9058b">QueryInterface</a> (REFIID riid, void **ppvObject) override</td></tr>
+<tr class="separator:a302a5768e82abdd7e6de52be1ae9058b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716303dcf0a7b8ac4f5fd4bc0db171ca" id="r_a716303dcf0a7b8ac4f5fd4bc0db171ca"><td class="memItemLeft" align="right" valign="top">HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a716303dcf0a7b8ac4f5fd4bc0db171ca">ConnectivityChanged</a> (NLM_CONNECTIVITY newConnectivity) override</td></tr>
+<tr class="separator:a716303dcf0a7b8ac4f5fd4bc0db171ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03597f6af1664ab62c9aadf1b880b698" id="r_a03597f6af1664ab62c9aadf1b880b698"><td class="memItemLeft" align="right" valign="top">HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03597f6af1664ab62c9aadf1b880b698">NetworkConnectionPropertyChanged</a> (GUID connectionId, NLM_CONNECTION_PROPERTY_CHANGE newProperty)</td></tr>
+<tr class="separator:a03597f6af1664ab62c9aadf1b880b698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A monitor of the system's network connection. </p>
@@ -165,6 +181,56 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a924b276590b7aa02ba82a3eb8c65bdce" name="a924b276590b7aa02ba82a3eb8c65bdce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924b276590b7aa02ba82a3eb8c65bdce">&#9670;&#160;</a></span>AddRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ULONG STDMETHODCALLTYPE Nickvision::Network::NetworkMonitor::AddRef </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a716303dcf0a7b8ac4f5fd4bc0db171ca" name="a716303dcf0a7b8ac4f5fd4bc0db171ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716303dcf0a7b8ac4f5fd4bc0db171ca">&#9670;&#160;</a></span>ConnectivityChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HRESULT STDMETHODCALLTYPE Nickvision::Network::NetworkMonitor::ConnectivityChanged </td>
+          <td>(</td>
+          <td class="paramtype">NLM_CONNECTIVITY</td>          <td class="paramname"><span class="paramname"><em>newConnectivity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abe11b417fb86988c06308b6f331dd937" name="abe11b417fb86988c06308b6f331dd937"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe11b417fb86988c06308b6f331dd937">&#9670;&#160;</a></span>getConnectionState()</h2>
 
@@ -182,6 +248,81 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the state of the network connection. </p>
 <dl class="section return"><dt>Returns</dt><dd>NetworkState </dd></dl>
+
+</div>
+</div>
+<a id="a03597f6af1664ab62c9aadf1b880b698" name="a03597f6af1664ab62c9aadf1b880b698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03597f6af1664ab62c9aadf1b880b698">&#9670;&#160;</a></span>NetworkConnectionPropertyChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HRESULT STDMETHODCALLTYPE Nickvision::Network::NetworkMonitor::NetworkConnectionPropertyChanged </td>
+          <td>(</td>
+          <td class="paramtype">GUID</td>          <td class="paramname"><span class="paramname"><em>connectionId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NLM_CONNECTION_PROPERTY_CHANGE</td>          <td class="paramname"><span class="paramname"><em>newProperty</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a302a5768e82abdd7e6de52be1ae9058b" name="a302a5768e82abdd7e6de52be1ae9058b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302a5768e82abdd7e6de52be1ae9058b">&#9670;&#160;</a></span>QueryInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HRESULT STDMETHODCALLTYPE Nickvision::Network::NetworkMonitor::QueryInterface </td>
+          <td>(</td>
+          <td class="paramtype">REFIID</td>          <td class="paramname"><span class="paramname"><em>riid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void **</td>          <td class="paramname"><span class="paramname"><em>ppvObject</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9e5ea06a3796737e1ef7f6240b1b8a3" name="ac9e5ea06a3796737e1ef7f6240b1b8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e5ea06a3796737e1ef7f6240b1b8a3">&#9670;&#160;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ULONG STDMETHODCALLTYPE Nickvision::Network::NetworkMonitor::Release </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2024.12.1</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.1.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -145,15 +145,16 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        HANDLE m_read;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        HANDLE m_write;</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        PROCESS_INFORMATION m_pi;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keywordtype">int</span> m_pipe[2];</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        pid_t m_pid;</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    };</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        HANDLE m_job;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        <span class="keywordtype">int</span> m_pipe[2];</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        pid_t m_pid;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    };</div>
 </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>}</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="preprocessor">#endif </span><span class="comment">//PROCESS_H</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>}</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif </span><span class="comment">//PROCESS_H</span></div>
 <div class="ttc" id="aclassNickvision_1_1Events_1_1Event_html"><div class="ttname"><a href="classNickvision_1_1Events_1_1Event.html">Nickvision::Events::Event</a></div><div class="ttdoc">An event that can have handlers subscribe to it, which in turn will be called when the event is invok...</div><div class="ttdef"><b>Definition</b> event.h:49</div></div>
 <div class="ttc" id="aclassNickvision_1_1System_1_1Process_html"><div class="ttname"><a href="classNickvision_1_1System_1_1Process.html">Nickvision::System::Process</a></div><div class="ttdoc">A managed process.</div><div class="ttdef"><b>Definition</b> process.h:47</div></div>
 <div class="ttc" id="aclassNickvision_1_1System_1_1Process_html_a01bc3fe82a226d48687208289c3e8d6c"><div class="ttname"><a href="classNickvision_1_1System_1_1Process.html#a01bc3fe82a226d48687208289c3e8d6c">Nickvision::System::Process::isRunning</a></div><div class="ttdeci">bool isRunning() const</div><div class="ttdoc">Gets whether or not the process is running.</div></div>

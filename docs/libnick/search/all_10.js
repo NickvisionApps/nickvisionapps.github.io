@@ -1,8 +1,8 @@
 var searchData=
 [
   ['netmonitor_2emd_0',['netmonitor.md',['../netmonitor_8md.html',1,'']]],
-  ['network_1',['Network',['../index.html#autotoc_md9',1,'']]],
-  ['network_20connectivity_2',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
+  ['network_20connectivity_1',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
+  ['networkconnectionpropertychanged_2',['NetworkConnectionPropertyChanged',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a03597f6af1664ab62c9aadf1b880b698',1,'Nickvision::Network::NetworkMonitor']]],
   ['networkmonitor_3',['NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html',1,'Nickvision::Network::NetworkMonitor'],['../classNickvision_1_1Network_1_1NetworkMonitor.html#aadb6f2f7af73d5b5c3ee332cd581f383',1,'Nickvision::Network::NetworkMonitor::NetworkMonitor()']]],
   ['networkmonitor_2eh_4',['networkmonitor.h',['../networkmonitor_8h.html',1,'']]],
   ['networkstate_5',['NetworkState',['../namespaceNickvision_1_1Network.html#af978e12a27102d8b7e98d9dd38d624d9',1,'Nickvision::Network']]],
@@ -47,8 +47,15 @@ var searchData=
   ['notificationsenteventargs_2eh_44',['notificationsenteventargs.h',['../notificationsenteventargs_8h.html',1,'']]],
   ['notificationseverity_45',['NotificationSeverity',['../namespaceNickvision_1_1Notifications.html#aa17627dd724dc0f4b1c9453dea238026',1,'Nickvision::Notifications']]],
   ['notificationseverity_2eh_46',['notificationseverity.h',['../notificationseverity_8h.html',1,'']]],
-  ['notifyicon_2eh_47',['notifyicon.h',['../notifyicon_8h.html',1,'']]],
-  ['notifyicon_2emd_48',['notifyicon.md',['../notifyicon_8md.html',1,'']]],
-  ['notifyiconmenu_2eh_49',['notifyiconmenu.h',['../notifyiconmenu_8h.html',1,'']]],
-  ['numeric_50',['Numeric',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6a87322391cc6e8948ce9fd5d6cb84fced',1,'Nickvision::Keyring']]]
+  ['notify_47',['notify',['../classNickvision_1_1Notifications_1_1NotifyIcon.html#a442a371bcd9ad797be7688b955ad6705',1,'Nickvision::Notifications::NotifyIcon']]],
+  ['notifyicon_48',['NotifyIcon',['../classNickvision_1_1Notifications_1_1NotifyIcon.html',1,'Nickvision::Notifications::NotifyIcon'],['../classNickvision_1_1Notifications_1_1NotifyIcon.html#aeea12851f62d87d9f88ae54a34c8a356',1,'Nickvision::Notifications::NotifyIcon::NotifyIcon()']]],
+  ['notifyicon_2eh_49',['notifyicon.h',['../notifyicon_8h.html',1,'']]],
+  ['notifyicon_2emd_50',['notifyicon.md',['../notifyicon_8md.html',1,'']]],
+  ['notifyiconactionmenuitem_51',['NotifyIconActionMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconActionMenuItem.html',1,'Nickvision::Notifications::NotifyIconActionMenuItem'],['../classNickvision_1_1Notifications_1_1NotifyIconActionMenuItem.html#a6c388c2e27217cd75b10200cb20275f1',1,'Nickvision::Notifications::NotifyIconActionMenuItem::NotifyIconActionMenuItem()']]],
+  ['notifyiconmenu_52',['NotifyIconMenu',['../classNickvision_1_1Notifications_1_1NotifyIconMenu.html',1,'Nickvision::Notifications::NotifyIconMenu'],['../classNickvision_1_1Notifications_1_1NotifyIconMenu.html#af2b4c509379c2209e90a9bcafbfd1614',1,'Nickvision::Notifications::NotifyIconMenu::NotifyIconMenu()']]],
+  ['notifyiconmenu_2eh_53',['notifyiconmenu.h',['../notifyiconmenu_8h.html',1,'']]],
+  ['notifyiconmenuitem_54',['NotifyIconMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconMenuItem.html',1,'Nickvision::Notifications::NotifyIconMenuItem'],['../classNickvision_1_1Notifications_1_1NotifyIconMenuItem.html#ad66f0ad0959b4d08973596f29944afbb',1,'Nickvision::Notifications::NotifyIconMenuItem::NotifyIconMenuItem()']]],
+  ['notifyiconmenuitemtype_55',['NotifyIconMenuItemType',['../namespaceNickvision_1_1Notifications.html#a20e380e7d927ccf363123c6c8d596b95',1,'Nickvision::Notifications']]],
+  ['notifyiconseparatormenuitem_56',['NotifyIconSeparatorMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconSeparatorMenuItem.html',1,'Nickvision::Notifications::NotifyIconSeparatorMenuItem'],['../classNickvision_1_1Notifications_1_1NotifyIconSeparatorMenuItem.html#a9f47e4b5b707af5faf577ed789e43c82',1,'Nickvision::Notifications::NotifyIconSeparatorMenuItem::NotifyIconSeparatorMenuItem()']]],
+  ['numeric_57',['Numeric',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6a87322391cc6e8948ce9fd5d6cb84fced',1,'Nickvision::Keyring']]]
 ];
