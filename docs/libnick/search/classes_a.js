@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['parameventargs_0',['ParamEventArgs',['../classNickvision_1_1Events_1_1ParamEventArgs.html',1,'Nickvision::Events']]],
-  ['passwordgenerator_1',['PasswordGenerator',['../classNickvision_1_1Keyring_1_1PasswordGenerator.html',1,'Nickvision::Keyring']]],
-  ['process_2',['Process',['../classNickvision_1_1System_1_1Process.html',1,'Nickvision::System']]],
-  ['processexitedeventargs_3',['ProcessExitedEventArgs',['../classNickvision_1_1System_1_1ProcessExitedEventArgs.html',1,'Nickvision::System']]]
+  ['parameventargs_0',['ParamEventArgs',['../class_nickvision_1_1_events_1_1_param_event_args.html',1,'Nickvision::Events']]],
+  ['passwordgenerator_1',['PasswordGenerator',['../class_nickvision_1_1_keyring_1_1_password_generator.html',1,'Nickvision::Keyring']]],
+  ['process_2',['Process',['../class_nickvision_1_1_system_1_1_process.html',1,'Nickvision::System']]],
+  ['processexitedeventargs_3',['ProcessExitedEventArgs',['../class_nickvision_1_1_system_1_1_process_exited_event_args.html',1,'Nickvision::System']]]
 ];

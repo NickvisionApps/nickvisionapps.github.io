@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_0',['Version',['../classNickvision_1_1Update_1_1Version.html',1,'Nickvision::Update']]]
+  ['version_0',['Version',['../class_nickvision_1_1_update_1_1_version.html',1,'Nickvision::Update']]]
 ];

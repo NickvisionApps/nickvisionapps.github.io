@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['networkmonitor_0',['NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html',1,'Nickvision::Network']]],
-  ['networkstatechangedeventargs_1',['NetworkStateChangedEventArgs',['../classNickvision_1_1Network_1_1NetworkStateChangedEventArgs.html',1,'Nickvision::Network']]],
-  ['notificationsenteventargs_2',['NotificationSentEventArgs',['../classNickvision_1_1Notifications_1_1NotificationSentEventArgs.html',1,'Nickvision::Notifications']]],
-  ['notifyicon_3',['NotifyIcon',['../classNickvision_1_1Notifications_1_1NotifyIcon.html',1,'Nickvision::Notifications']]],
-  ['notifyiconactionmenuitem_4',['NotifyIconActionMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconActionMenuItem.html',1,'Nickvision::Notifications']]],
-  ['notifyiconmenu_5',['NotifyIconMenu',['../classNickvision_1_1Notifications_1_1NotifyIconMenu.html',1,'Nickvision::Notifications']]],
-  ['notifyiconmenuitem_6',['NotifyIconMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconMenuItem.html',1,'Nickvision::Notifications']]],
-  ['notifyiconseparatormenuitem_7',['NotifyIconSeparatorMenuItem',['../classNickvision_1_1Notifications_1_1NotifyIconSeparatorMenuItem.html',1,'Nickvision::Notifications']]]
+  ['networkmonitor_0',['NetworkMonitor',['../class_nickvision_1_1_network_1_1_network_monitor.html',1,'Nickvision::Network']]],
+  ['networkstatechangedeventargs_1',['NetworkStateChangedEventArgs',['../class_nickvision_1_1_network_1_1_network_state_changed_event_args.html',1,'Nickvision::Network']]],
+  ['notificationsenteventargs_2',['NotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html',1,'Nickvision::Notifications']]],
+  ['notifyicon_3',['NotifyIcon',['../class_nickvision_1_1_notifications_1_1_notify_icon.html',1,'Nickvision::Notifications']]],
+  ['notifyiconactionmenuitem_4',['NotifyIconActionMenuItem',['../class_nickvision_1_1_notifications_1_1_notify_icon_action_menu_item.html',1,'Nickvision::Notifications']]],
+  ['notifyiconmenu_5',['NotifyIconMenu',['../class_nickvision_1_1_notifications_1_1_notify_icon_menu.html',1,'Nickvision::Notifications']]],
+  ['notifyiconmenuitem_6',['NotifyIconMenuItem',['../class_nickvision_1_1_notifications_1_1_notify_icon_menu_item.html',1,'Nickvision::Notifications']]],
+  ['notifyiconseparatormenuitem_7',['NotifyIconSeparatorMenuItem',['../class_nickvision_1_1_notifications_1_1_notify_icon_separator_menu_item.html',1,'Nickvision::Notifications']]]
 ];

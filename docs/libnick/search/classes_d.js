@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updater_0',['Updater',['../classNickvision_1_1Update_1_1Updater.html',1,'Nickvision::Update']]]
+  ['updater_0',['Updater',['../class_nickvision_1_1_update_1_1_updater.html',1,'Nickvision::Update']]]
 ];
