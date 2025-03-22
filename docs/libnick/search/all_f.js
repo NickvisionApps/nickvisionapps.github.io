@@ -9,14 +9,13 @@ var searchData=
   ['macaddress_6',['MacAddress',['../class_nickvision_1_1_network_1_1_mac_address.html',1,'Nickvision::Network::MacAddress'],['../class_nickvision_1_1_network_1_1_mac_address.html#a2d06eb9441819ca4df1845737b15c77c',1,'Nickvision::Network::MacAddress::MacAddress()']]],
   ['macaddress_2eh_7',['macaddress.h',['../macaddress_8h.html',1,'']]],
   ['macos_8',['MacOS',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3a0a5b7edb55b772c60bfa8af868b679cf',1,'Nickvision::System']]],
-  ['macos_9',['macOS',['../index.html#autotoc_md17',1,'macOS'],['../index.html#autotoc_md28',1,'macOS']]],
-  ['macos_20apple_20silicon_10',['macOS (Apple Silicon)',['../index.html#autotoc_md24',1,'']]],
-  ['macos_20intel_11',['macOS (Intel)',['../index.html#autotoc_md23',1,'']]],
-  ['manually_12',['Building and Installing Manually',['../index.html#autotoc_md19',1,'']]],
+  ['macos_9',['macOS',['../index.html#autotoc_md15',1,'macOS'],['../index.html#autotoc_md26',1,'macOS']]],
+  ['macos_20apple_20silicon_10',['macOS (Apple Silicon)',['../index.html#autotoc_md22',1,'']]],
+  ['macos_20intel_11',['macOS (Intel)',['../index.html#autotoc_md21',1,'']]],
+  ['manually_12',['Building and Installing Manually',['../index.html#autotoc_md17',1,'']]],
   ['medium_13',['Medium',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4ca87f8a6ab85c9ced3702b4ea641ad4bb5',1,'Nickvision::Keyring']]],
   ['megabytestobytes_14',['megabytesToBytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a5345e8249abc4edd5b85f2e66a377a7e',1,'Nickvision::Helpers::SizeHelpers']]],
-  ['menu_15',['Creating a Context Menu',['../md_manual_2notifyicon.html',1,'']]],
-  ['modified_16',['Modified',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a35e0c8c0b180c95d4e122e55ed62cc64',1,'Nickvision::Filesystem']]],
-  ['monitoring_20network_20connectivity_17',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
-  ['music_18',['Music',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa47dcbd834e669233d7eb8a51456ed217',1,'Nickvision::Filesystem']]]
+  ['modified_15',['Modified',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a35e0c8c0b180c95d4e122e55ed62cc64',1,'Nickvision::Filesystem']]],
+  ['monitoring_20network_20connectivity_16',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
+  ['music_17',['Music',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa47dcbd834e669233d7eb8a51456ed217',1,'Nickvision::Filesystem']]]
 ];

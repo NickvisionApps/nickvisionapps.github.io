@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.3.0</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.3.5</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -128,6 +128,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65caeb8468f9339bd9210167fb582002" id="r_a65caeb8468f9339bd9210167fb582002"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65caeb8468f9339bd9210167fb582002">getOutput</a> () const</td></tr>
 <tr class="memdesc:a65caeb8468f9339bd9210167fb582002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the console output of the process.  <br /></td></tr>
 <tr class="separator:a65caeb8468f9339bd9210167fb582002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f291b5ded146b5de5225afb6a133e70" id="r_a2f291b5ded146b5de5225afb6a133e70"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f291b5ded146b5de5225afb6a133e70">getRAMUsage</a> () const</td></tr>
+<tr class="memdesc:a2f291b5ded146b5de5225afb6a133e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the amount of RAM being used by the process in bytes.  <br /></td></tr>
+<tr class="separator:a2f291b5ded146b5de5225afb6a133e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f368119015677b3de390e59b3e3477" id="r_a01f368119015677b3de390e59b3e3477"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01f368119015677b3de390e59b3e3477">getCPUUsage</a> () const</td></tr>
+<tr class="memdesc:a01f368119015677b3de390e59b3e3477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the percent of the CPU being used by the process.  <br /></td></tr>
+<tr class="separator:a01f368119015677b3de390e59b3e3477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a474a5340461a75088c3c834f719ca1" id="r_a2a474a5340461a75088c3c834f719ca1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a474a5340461a75088c3c834f719ca1">start</a> ()</td></tr>
 <tr class="memdesc:a2a474a5340461a75088c3c834f719ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the process.  <br /></td></tr>
 <tr class="separator:a2a474a5340461a75088c3c834f719ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +143,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc02f27b1c93af3f43893b1114403b8a" id="r_adc02f27b1c93af3f43893b1114403b8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc02f27b1c93af3f43893b1114403b8a">waitForExit</a> ()</td></tr>
 <tr class="memdesc:adc02f27b1c93af3f43893b1114403b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the process to exit.  <br /></td></tr>
 <tr class="separator:adc02f27b1c93af3f43893b1114403b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7455d5e6b5dda15ef58607909ee666c1" id="r_a7455d5e6b5dda15ef58607909ee666c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7455d5e6b5dda15ef58607909ee666c1">send</a> (const std::string &amp;s)</td></tr>
+<tr class="memdesc:a7455d5e6b5dda15ef58607909ee666c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send text to the process's console.  <br /></td></tr>
+<tr class="separator:a7455d5e6b5dda15ef58607909ee666c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28250235bb8d68680982df8816ddaf54" id="r_a28250235bb8d68680982df8816ddaf54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28250235bb8d68680982df8816ddaf54">sendCommand</a> (std::string s)</td></tr>
+<tr class="memdesc:a28250235bb8d68680982df8816ddaf54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send text to the process's console and adds the return characters.  <br /></td></tr>
+<tr class="separator:a28250235bb8d68680982df8816ddaf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A managed process. </p>
@@ -224,6 +236,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a01f368119015677b3de390e59b3e3477" name="a01f368119015677b3de390e59b3e3477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f368119015677b3de390e59b3e3477">&#9670;&#160;</a></span>getCPUUsage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Nickvision::System::Process::getCPUUsage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the percent of the CPU being used by the process. </p>
+<dl class="section return"><dt>Returns</dt><dd>The CPU usage of the process </dd></dl>
+
+</div>
+</div>
 <a id="a33274d8848ebf559d56aaa4d78efefd6" name="a33274d8848ebf559d56aaa4d78efefd6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33274d8848ebf559d56aaa4d78efefd6">&#9670;&#160;</a></span>getExitCode()</h2>
 
@@ -240,7 +272,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the exit code of the process. </p>
-<dl class="section return"><dt>Returns</dt><dd>The exit code of the process. -1 if the process has not completed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The exit code of the process. -1 if the process has not completed </dd></dl>
 
 </div>
 </div>
@@ -260,7 +292,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the console output of the process. </p>
-<dl class="section return"><dt>Returns</dt><dd>The console output of the process. Empty if the process has not completed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The console output of the process. Empty if the process has not completed </dd></dl>
 
 </div>
 </div>
@@ -284,6 +316,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2f291b5ded146b5de5225afb6a133e70" name="a2f291b5ded146b5de5225afb6a133e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f291b5ded146b5de5225afb6a133e70">&#9670;&#160;</a></span>getRAMUsage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long Nickvision::System::Process::getRAMUsage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the amount of RAM being used by the process in bytes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The amount of RAM used by the process </dd></dl>
+
+</div>
+</div>
 <a id="af7b0926a5aa14dad193f87a55e33b545" name="af7b0926a5aa14dad193f87a55e33b545"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7b0926a5aa14dad193f87a55e33b545">&#9670;&#160;</a></span>hasCompleted()</h2>
 
@@ -300,7 +352,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets whether or not the process has completed. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if completed, else false. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if completed, else false </dd></dl>
 
 </div>
 </div>
@@ -320,7 +372,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets whether or not the process is running. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if running, else false. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if running, else false </dd></dl>
 
 </div>
 </div>
@@ -340,7 +392,59 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Kills the process. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if the process was killed, else false. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the process was killed, else false </dd></dl>
+
+</div>
+</div>
+<a id="a7455d5e6b5dda15ef58607909ee666c1" name="a7455d5e6b5dda15ef58607909ee666c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7455d5e6b5dda15ef58607909ee666c1">&#9670;&#160;</a></span>send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nickvision::System::Process::send </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send text to the process's console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The text to send </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the text is sent, else false </dd></dl>
+
+</div>
+</div>
+<a id="a28250235bb8d68680982df8816ddaf54" name="a28250235bb8d68680982df8816ddaf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28250235bb8d68680982df8816ddaf54">&#9670;&#160;</a></span>sendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nickvision::System::Process::sendCommand </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send text to the process's console and adds the return characters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The command to send </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the command is sent, else false </dd></dl>
 
 </div>
 </div>
@@ -360,7 +464,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Starts the process. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if the process was started, else false. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the process was started, else false </dd></dl>
 
 </div>
 </div>

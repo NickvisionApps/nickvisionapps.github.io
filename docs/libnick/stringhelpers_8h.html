@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.3.0</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.3.5</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -146,10 +146,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a6d00be6ea69315fd44eefe2f784276d6" id="r_a6d00be6ea69315fd44eefe2f784276d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a6d00be6ea69315fd44eefe2f784276d6">Nickvision::Helpers::StringHelpers::replace</a> (std::string s, char toReplace, char replace)</td></tr>
 <tr class="memdesc:a6d00be6ea69315fd44eefe2f784276d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces a character within a string with a new character.  <br /></td></tr>
 <tr class="separator:a6d00be6ea69315fd44eefe2f784276d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac190bdeb28cfa3cc79e03e84f401263a" id="r_ac190bdeb28cfa3cc79e03e84f401263a"><td class="memTemplParams" colspan="2">template&lt;StringImplicitlyConstructible T = std::string&gt; </td></tr>
-<tr class="memitem:ac190bdeb28cfa3cc79e03e84f401263a"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#ac190bdeb28cfa3cc79e03e84f401263a">Nickvision::Helpers::StringHelpers::split</a> (std::string s, const std::string &amp;delimiter)</td></tr>
-<tr class="memdesc:ac190bdeb28cfa3cc79e03e84f401263a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string based on a delimiter.  <br /></td></tr>
-<tr class="separator:ac190bdeb28cfa3cc79e03e84f401263a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59b3778ae4d3c9d4286c6f70ff79ece4" id="r_a59b3778ae4d3c9d4286c6f70ff79ece4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a59b3778ae4d3c9d4286c6f70ff79ece4">Nickvision::Helpers::StringHelpers::splitArgs</a> (std::string s)</td></tr>
 <tr class="memdesc:a59b3778ae4d3c9d4286c6f70ff79ece4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string based on argument delimiters.  <br /></td></tr>
 <tr class="separator:a59b3778ae4d3c9d4286c6f70ff79ece4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +167,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a69cca87ef7e3d47b452c0779d102869d" id="r_a69cca87ef7e3d47b452c0779d102869d"><td class="memItemLeft" align="right" valign="top">std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a69cca87ef7e3d47b452c0779d102869d">Nickvision::Helpers::StringHelpers::wstr</a> (const std::string &amp;s)</td></tr>
 <tr class="memdesc:a69cca87ef7e3d47b452c0779d102869d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the string to a wstring.  <br /></td></tr>
 <tr class="separator:a69cca87ef7e3d47b452c0779d102869d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a750a3376e26274c8c03b508933f80f33" id="r_a750a3376e26274c8c03b508933f80f33"><td class="memTemplParams" colspan="2">template&lt;StringImplicitlyConstructible T = std::string&gt; </td></tr>
+<tr class="memitem:a750a3376e26274c8c03b508933f80f33"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a750a3376e26274c8c03b508933f80f33">Nickvision::Helpers::StringHelpers::split</a> (const std::string &amp;s, const std::string &amp;delimiter, bool includeEmpty=true)</td></tr>
+<tr class="memdesc:a750a3376e26274c8c03b508933f80f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string based on a delimiter.  <br /></td></tr>
+<tr class="separator:a750a3376e26274c8c03b508933f80f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7841f19ee667248ae8032c74118fb1" id="r_a5b7841f19ee667248ae8032c74118fb1"><td class="memTemplParams" colspan="2">template&lt;StringImplicitlyConstructible T = std::string&gt; </td></tr>
+<tr class="memitem:a5b7841f19ee667248ae8032c74118fb1"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a5b7841f19ee667248ae8032c74118fb1">Nickvision::Helpers::StringHelpers::split</a> (const std::string &amp;s, char delimiter, bool includeEmpty=true)</td></tr>
+<tr class="memdesc:a5b7841f19ee667248ae8032c74118fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string based on a delimiter.  <br /></td></tr>
+<tr class="separator:a5b7841f19ee667248ae8032c74118fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Nicholas Logozzo <a href="#" onclick="location.href='mai'+'lto:'+'nlo'+'go'+'zzo'+'22'+'5@g'+'ma'+'il.'+'co'+'m'; return false;">nlogo<span class="obfuscator">.nosp@m.</span>zzo2<span class="obfuscator">.nosp@m.</span>25@gm<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>com</a></dd></dl>
