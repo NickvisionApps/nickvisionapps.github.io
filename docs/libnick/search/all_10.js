@@ -43,10 +43,9 @@ var searchData=
   ['noprogress_40',['NoProgress',['../namespace_nickvision_1_1_taskbar.html#a93de85f76e52f245dcbd9e6f374b10efab644b4f0de4cf0c46acb4583602e168c',1,'Nickvision::Taskbar']]],
   ['normal_41',['Normal',['../namespace_nickvision_1_1_taskbar.html#a93de85f76e52f245dcbd9e6f374b10efa960b44c579bc2f6818d2daaf9e4c16f0',1,'Nickvision::Taskbar']]],
   ['normalizeforfilename_42',['normalizeForFilename',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a9a875c80187b20111e113a3c5b5107c4',1,'Nickvision::Helpers::StringHelpers']]],
-  ['notifications_43',['Notifications',['../index.html#autotoc_md7',1,'Notifications'],['../index.html#autotoc_md9',1,'Notifications']]],
-  ['notificationsenteventargs_44',['NotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html',1,'Nickvision::Notifications::NotificationSentEventArgs'],['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a80cd09dacb7c9d965bbf3d638612596d',1,'Nickvision::Notifications::NotificationSentEventArgs::NotificationSentEventArgs()']]],
-  ['notificationsenteventargs_2eh_45',['notificationsenteventargs.h',['../notificationsenteventargs_8h.html',1,'']]],
-  ['notificationseverity_46',['NotificationSeverity',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026',1,'Nickvision::Notifications']]],
-  ['notificationseverity_2eh_47',['notificationseverity.h',['../notificationseverity_8h.html',1,'']]],
-  ['numeric_48',['Numeric',['../concept_nickvision_1_1_helpers_1_1_size_helpers_1_1_numeric.html',1,'Nickvision::Helpers::SizeHelpers'],['../namespace_nickvision_1_1_keyring.html#a2f686ca292f526beb67f50929496e3c6a87322391cc6e8948ce9fd5d6cb84fced',1,'Nickvision::Keyring::Numeric']]]
+  ['notificationsenteventargs_43',['NotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html',1,'Nickvision::Notifications::NotificationSentEventArgs'],['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a80cd09dacb7c9d965bbf3d638612596d',1,'Nickvision::Notifications::NotificationSentEventArgs::NotificationSentEventArgs()']]],
+  ['notificationsenteventargs_2eh_44',['notificationsenteventargs.h',['../notificationsenteventargs_8h.html',1,'']]],
+  ['notificationseverity_45',['NotificationSeverity',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026',1,'Nickvision::Notifications']]],
+  ['notificationseverity_2eh_46',['notificationseverity.h',['../notificationseverity_8h.html',1,'']]],
+  ['numeric_47',['Numeric',['../concept_nickvision_1_1_helpers_1_1_size_helpers_1_1_numeric.html',1,'Nickvision::Helpers::SizeHelpers'],['../namespace_nickvision_1_1_keyring.html#a2f686ca292f526beb67f50929496e3c6a87322391cc6e8948ce9fd5d6cb84fced',1,'Nickvision::Keyring::Numeric']]]
 ];

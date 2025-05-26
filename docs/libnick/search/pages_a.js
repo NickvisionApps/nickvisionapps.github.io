@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['your_20own_20data_20files_1',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]]
+  ['libnick_0',['libnick',['../index.html',1,'']]],
+  ['libnick_20via_20vcpkg_1',['Consuming libnick via vcpkg',['../index.html#autotoc_md16',1,'']]],
+  ['linux_2',['Linux',['../index.html#autotoc_md14',1,'Linux'],['../index.html#autotoc_md20',1,'Linux'],['../index.html#autotoc_md25',1,'Linux']]],
+  ['localization_3',['Localization',['../index.html#autotoc_md7',1,'']]]
 ];

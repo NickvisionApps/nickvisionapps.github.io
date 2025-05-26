@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['communication_1',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]],
-  ['connectivity_2',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]],
-  ['creating_20your_20own_20data_20files_3',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]]
+  ['2025_205_203_0',['2025.5.3',['../index.html#autotoc_md5',1,'']]]
 ];

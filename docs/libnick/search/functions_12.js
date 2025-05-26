@@ -2,7 +2,7 @@ var searchData=
 [
   ['save_0',['save',['../class_nickvision_1_1_app_1_1_data_file_base.html#af8d085274d69fa4763157bfdd297800c',1,'Nickvision::App::DataFileBase']]],
   ['saved_1',['saved',['../class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc',1,'Nickvision::App::DataFileBase']]],
-  ['send_2',['send',['../class_nickvision_1_1_system_1_1_process.html#a7455d5e6b5dda15ef58607909ee666c1',1,'Nickvision::System::Process::send()'],['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#a93d1c3be1feaee990fbd405a41814b3b',1,'Nickvision::Notifications::AppNotification::send()'],['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html#aacda1a107fa385aa2b9dc3113d81a161',1,'Nickvision::Notifications::ShellNotification::send()']]],
+  ['send_2',['send',['../class_nickvision_1_1_system_1_1_process.html#a7455d5e6b5dda15ef58607909ee666c1',1,'Nickvision::System::Process::send()'],['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#a93d1c3be1feaee990fbd405a41814b3b',1,'Nickvision::Notifications::AppNotification::send()'],['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html#ae727be72c1cb2e477c81b78cb3fd6f9a',1,'Nickvision::Notifications::ShellNotification::send()']]],
   ['sendcommand_3',['sendCommand',['../class_nickvision_1_1_system_1_1_process.html#a28250235bb8d68680982df8816ddaf54',1,'Nickvision::System::Process']]],
   ['sendmessage_4',['sendMessage',['../class_nickvision_1_1_network_1_1_socket.html#aabd69d41ff61193d8e97f416b0b6ce38',1,'Nickvision::Network::Socket']]],
   ['sent_5',['sent',['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#aacdf3182f96d553633c333a63198e813',1,'Nickvision::Notifications::AppNotification']]],

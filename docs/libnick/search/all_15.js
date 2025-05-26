@@ -2,7 +2,7 @@ var searchData=
 [
   ['save_0',['save',['../class_nickvision_1_1_app_1_1_data_file_base.html#af8d085274d69fa4763157bfdd297800c',1,'Nickvision::App::DataFileBase']]],
   ['saved_1',['saved',['../class_nickvision_1_1_app_1_1_data_file_base.html#a6ba1cbf9592182e06eccbbc89881e0cc',1,'Nickvision::App::DataFileBase']]],
-  ['send_2',['send',['../class_nickvision_1_1_system_1_1_process.html#a7455d5e6b5dda15ef58607909ee666c1',1,'Nickvision::System::Process::send()'],['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#a93d1c3be1feaee990fbd405a41814b3b',1,'Nickvision::Notifications::AppNotification::send()'],['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html#aacda1a107fa385aa2b9dc3113d81a161',1,'Nickvision::Notifications::ShellNotification::send()']]],
+  ['send_2',['send',['../class_nickvision_1_1_system_1_1_process.html#a7455d5e6b5dda15ef58607909ee666c1',1,'Nickvision::System::Process::send()'],['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#a93d1c3be1feaee990fbd405a41814b3b',1,'Nickvision::Notifications::AppNotification::send()'],['../namespace_nickvision_1_1_notifications_1_1_shell_notification.html#ae727be72c1cb2e477c81b78cb3fd6f9a',1,'Nickvision::Notifications::ShellNotification::send()']]],
   ['sendcommand_3',['sendCommand',['../class_nickvision_1_1_system_1_1_process.html#a28250235bb8d68680982df8816ddaf54',1,'Nickvision::System::Process']]],
   ['sendmessage_4',['sendMessage',['../class_nickvision_1_1_network_1_1_socket.html#aabd69d41ff61193d8e97f416b0b6ce38',1,'Nickvision::Network::Socket']]],
   ['sent_5',['sent',['../namespace_nickvision_1_1_notifications_1_1_app_notification.html#aacdf3182f96d553633c333a63198e813',1,'Nickvision::Notifications::AppNotification']]],
@@ -78,5 +78,6 @@ var searchData=
   ['success_75',['Success',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026a505a83f220c02df2f85c3810cd9ceb38',1,'Nickvision::Notifications']]],
   ['suspendinhibitor_76',['SuspendInhibitor',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html',1,'Nickvision::System::SuspendInhibitor'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a5d8db274098d6723b156fa0c2bb29783',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor()'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#ae6fc422e777f769d4a29faaaad6de211',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor(const SuspendInhibitor &amp;inhibitor)'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#ac59dad94858dc29b96956b6b52edfe5d',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor(SuspendInhibitor &amp;&amp;inhibitor) noexcept']]],
   ['suspendinhibitor_2eh_77',['suspendinhibitor.h',['../suspendinhibitor_8h.html',1,'']]],
-  ['systemcredentials_2eh_78',['systemcredentials.h',['../systemcredentials_8h.html',1,'']]]
+  ['system_78',['System',['../index.html#autotoc_md10',1,'']]],
+  ['systemcredentials_2eh_79',['systemcredentials.h',['../systemcredentials_8h.html',1,'']]]
 ];

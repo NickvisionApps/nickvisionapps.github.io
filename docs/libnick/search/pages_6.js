@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['monitoring_20network_20connectivity_0',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]]
+  ['data_20files_0',['Creating Your Own Data Files',['../md_manual_2datafiles.html',1,'']]],
+  ['defining_20events_20in_20your_20classes_1',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
+  ['dependencies_2',['Dependencies',['../index.html#autotoc_md11',1,'']]]
 ];

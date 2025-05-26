@@ -10,8 +10,7 @@ var searchData=
   ['isextensionwatched_7',['isExtensionWatched',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#afb69e43029a4b149a2863bcce0409259',1,'Nickvision::Filesystem::FileSystemWatcher']]],
   ['isinhibiting_8',['isInhibiting',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a40a1451e1816d23d2947c646407c4bff',1,'Nickvision::System::SuspendInhibitor']]],
   ['ismaximized_9',['isMaximized',['../class_nickvision_1_1_app_1_1_window_geometry.html#aaf556b01db6c4bffa633d9a93c498736',1,'Nickvision::App::WindowGeometry']]],
-  ['isrunning_10',['isRunning',['../class_nickvision_1_1_system_1_1_process.html#a01bc3fe82a226d48687208289c3e8d6c',1,'Nickvision::System::Process']]],
-  ['issavingtodisk_11',['isSavingToDisk',['../class_nickvision_1_1_keyring_1_1_keyring.html#ac65040a2d632b59813529ed1c35c01cd',1,'Nickvision::Keyring::Keyring']]],
-  ['isserver_12',['isServer',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a9d2782014587dfd44505a3e0876cd820',1,'Nickvision::App::InterProcessCommunicator']]],
-  ['isvalidurl_13',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
+  ['issavingtodisk_10',['isSavingToDisk',['../class_nickvision_1_1_keyring_1_1_keyring.html#ac65040a2d632b59813529ed1c35c01cd',1,'Nickvision::Keyring::Keyring']]],
+  ['isserver_11',['isServer',['../class_nickvision_1_1_app_1_1_inter_process_communicator.html#a9d2782014587dfd44505a3e0876cd820',1,'Nickvision::App::InterProcessCommunicator']]],
+  ['isvalidurl_12',['isValidUrl',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a4ec483a6f43eacbc1ba01c76ac778205',1,'Nickvision::Helpers::StringHelpers']]]
 ];

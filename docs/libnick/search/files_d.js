@@ -6,5 +6,6 @@ var searchData=
   ['passwordstrength_2eh_3',['passwordstrength.h',['../passwordstrength_8h.html',1,'']]],
   ['process_2eh_4',['process.h',['../process_8h.html',1,'']]],
   ['processexitedeventargs_2eh_5',['processexitedeventargs.h',['../processexitedeventargs_8h.html',1,'']]],
-  ['progressstate_2eh_6',['progressstate.h',['../progressstate_8h.html',1,'']]]
+  ['processstate_2eh_6',['processstate.h',['../processstate_8h.html',1,'']]],
+  ['progressstate_2eh_7',['progressstate.h',['../progressstate_8h.html',1,'']]]
 ];

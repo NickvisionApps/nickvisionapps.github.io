@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['inter_20process_20communication_1',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]]
+  ['breaking_20changes_0',['Breaking Changes',['../index.html#autotoc_md6',1,'']]],
+  ['building_1',['Building',['../index.html#autotoc_md23',1,'']]],
+  ['building_20and_20installing_20manually_2',['Building and Installing Manually',['../index.html#autotoc_md17',1,'']]]
 ];
