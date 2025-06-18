@@ -98,5 +98,7 @@ var searchData=
   ['getwebsiteexists_95',['getWebsiteExists',['../namespace_nickvision_1_1_network_1_1_web.html#a3aa467a7eef4cc7ced9796ded3af5148',1,'Nickvision::Network::Web']]],
   ['getwhy_96',['getWhy',['../class_nickvision_1_1_filesystem_1_1_file_system_changed_event_args.html#a1e01b9ec9c055a60b04ad51d517e164b',1,'Nickvision::Filesystem::FileSystemChangedEventArgs']]],
   ['getwidth_97',['getWidth',['../class_nickvision_1_1_app_1_1_window_geometry.html#aa80b034d5aa29f899f4d72c23a6ca1ad',1,'Nickvision::App::WindowGeometry']]],
-  ['gigabytestobytes_98',['gigabytesToBytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a72bc1fed10bbdf74f4d6fbb205a84c71',1,'Nickvision::Helpers::SizeHelpers']]]
+  ['getx_98',['getX',['../class_nickvision_1_1_app_1_1_window_geometry.html#ac5f2320610e98fbbfc1da49506974ce7',1,'Nickvision::App::WindowGeometry']]],
+  ['gety_99',['getY',['../class_nickvision_1_1_app_1_1_window_geometry.html#a0dd1f3aa238396619c5d764145a68eb4',1,'Nickvision::App::WindowGeometry']]],
+  ['gigabytestobytes_100',['gigabytesToBytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a72bc1fed10bbdf74f4d6fbb205a84c71',1,'Nickvision::Helpers::SizeHelpers']]]
 ];

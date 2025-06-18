@@ -7,15 +7,14 @@ var searchData=
   ['addref_4',['AddRef',['../class_nickvision_1_1_network_1_1_network_monitor.html#a924b276590b7aa02ba82a3eb8c65bdce',1,'Nickvision::Network::NetworkMonitor']]],
   ['addressfamily_5',['AddressFamily',['../namespace_nickvision_1_1_network.html#adb113c10efcff2761ebd0c8598f0f3de',1,'Nickvision::Network']]],
   ['addressfamily_2eh_6',['addressfamily.h',['../addressfamily_8h.html',1,'']]],
-  ['all_20platforms_7',['All Platforms',['../index.html#autotoc_md12',1,'']]],
-  ['and_20installing_20manually_8',['Building and Installing Manually',['../index.html#autotoc_md17',1,'']]],
-  ['apis_9',['New APIs',['../index.html#autotoc_md8',1,'']]],
+  ['all_20platforms_7',['All Platforms',['../index.html#autotoc_md10',1,'']]],
+  ['and_20installing_20manually_8',['Building and Installing Manually',['../index.html#autotoc_md15',1,'']]],
+  ['apis_9',['New APIs',['../index.html#autotoc_md7',1,'']]],
   ['appinfo_10',['AppInfo',['../class_nickvision_1_1_app_1_1_app_info.html',1,'Nickvision::App::AppInfo'],['../class_nickvision_1_1_app_1_1_app_info.html#a832b3ab485ddad1dc8a980068cc8f07f',1,'Nickvision::App::AppInfo::AppInfo()=default'],['../class_nickvision_1_1_app_1_1_app_info.html#a1fedec1c30f594c6de90d9e7d8c53e6f',1,'Nickvision::App::AppInfo::AppInfo(const std::string &amp;id, const std::string &amp;name, const std::string &amp;englishShortName)']]],
   ['appinfo_2eh_11',['appinfo.h',['../appinfo_8h.html',1,'']]],
-  ['apple_20silicon_12',['macOS (Apple Silicon)',['../index.html#autotoc_md22',1,'']]],
+  ['apple_20silicon_12',['macOS (Apple Silicon)',['../index.html#autotoc_md20',1,'']]],
   ['applicationuserdirectory_13',['ApplicationUserDirectory',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238',1,'Nickvision::Filesystem']]],
   ['applicationuserdirectory_2eh_14',['applicationuserdirectory.h',['../applicationuserdirectory_8h.html',1,'']]],
-  ['apply_15',['apply',['../class_nickvision_1_1_app_1_1_window_geometry.html#a80f3d1a02aaf67c2736a25d2c0df719a',1,'Nickvision::App::WindowGeometry']]],
-  ['appnotification_2eh_16',['appnotification.h',['../appnotification_8h.html',1,'']]],
-  ['attributes_17',['Attributes',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a287234a1ff35a314b5b6bc4e5828e745',1,'Nickvision::Filesystem']]]
+  ['appnotification_2eh_15',['appnotification.h',['../appnotification_8h.html',1,'']]],
+  ['attributes_16',['Attributes',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a287234a1ff35a314b5b6bc4e5828e745',1,'Nickvision::Filesystem']]]
 ];

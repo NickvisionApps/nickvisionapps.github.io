@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.5.3</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.3</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -81,28 +81,22 @@ $(function() {
 <p><b>A cross-platform base for native Nickvision applications.</b></p>
 <p>libnick provides Nickvision apps with a common set of cross-platform APIs for managing system and desktop app functionality such as network management, taskbar icons, translations, app updates, and more.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
-2025.5.3</h1>
+2025.6.3</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
 Breaking Changes</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
-Localization</h3>
-<ul>
-<li><span class="tt">_f()</span> and <span class="tt">_fn()</span> macros now return <span class="tt">std::string</span> instead of <span class="tt">const char*</span> </li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+<p>None </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
 New APIs</h2>
 <p>None </p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
 Fixes</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
-System</h3>
 <ul>
-<li>Fixed <span class="tt">Process::pause()</span> and <span class="tt">Process::resume()</span> not working on Windows</li>
+<li>Fixed an issue with the cmake configuration file</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
 Dependencies</h1>
 <p>The following are a list of dependencies used by libnick.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 All Platforms</h2>
 <ul>
 <li>boost-json</li>
@@ -111,12 +105,12 @@ All Platforms</h2>
 <li>libintl</li>
 <li>maddy</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Windows</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for Windows systems:</p><ul>
 <li>sqlcipher</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 Linux</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for Linux systems:</p><ul>
 <li>glib</li>
@@ -126,7 +120,7 @@ Linux</h2>
 </ul>
 </li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
 macOS</h2>
 <p>The above dependencies must be installed, <em>plus</em> the following for macOS systems:</p><ul>
 <li>glib</li>
@@ -136,23 +130,23 @@ macOS</h2>
 </ul>
 </li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 Consuming libnick via vcpkg</h1>
 <p>libnick is available through <span class="tt">vcpkg</span>.</p>
 <p>Simply install and configure vcpkg for your system, and run: </p><div class="fragment"><div class="line">vcpkg install libnick</div>
 </div><!-- fragment --><p> You can then use libnick from cmake with the following: </p><div class="fragment"><div class="line">find_package(libnick CONFIG REQUIRED)</div>
 <div class="line">target_link_libraries(main PRIVATE libnick::libnick)</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
 Building and Installing Manually</h1>
 <p>libnick uses <span class="tt">vcpkg</span> to manage its dependencies and <span class="tt">cmake</span> as its build system.</p>
 <p>Ensure both <span class="tt">vcpkg</span> and <span class="tt">cmake</span> are installed on your system before building and installing libnick.</p>
 <p>A C++20 compiler is also required to build libnick.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 Configuring vcpkg</h2>
 <ol type="1">
 <li>Set the <span class="tt">VCPKG_ROOT</span> environment variable to the path of your vcpkg installation's root directory. </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Windows</h3>
 <ol type="1">
 <li>Set the <span class="tt">VCPKG_DEFAULT_TRIPLET</span> environment variable to <span class="tt">x64-windows</span></li>
@@ -160,7 +154,7 @@ Windows</h3>
 <ol type="1">
 <li>Run <span class="tt">vcpkg install boost-json curl gettext-libintl gtest maddy sqlcipher</span> </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 Linux</h3>
 <ol type="1">
 <li>Set the <span class="tt">VCPKG_DEFAULT_TRIPLET</span> environment variable to <span class="tt">x64-linux</span></li>
@@ -168,7 +162,7 @@ Linux</h3>
 <ol type="1">
 <li>Run <span class="tt">vcpkg install boost-json curl gettext-libintl glib gtest libsecret maddy openssl</span> </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 macOS (Intel)</h3>
 <ol type="1">
 <li>Set the <span class="tt">VCPKG_DEFAULT_TRIPLET</span> environment variable to <span class="tt">x64-osx</span></li>
@@ -176,7 +170,7 @@ macOS (Intel)</h3>
 <ol type="1">
 <li>Run <span class="tt">vcpkg install boost-json curl gettext-libintl glib gtest libsecret maddy openssl</span> </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 macOS (Apple Silicon)</h3>
 <ol type="1">
 <li>Set the <span class="tt">VCPKG_DEFAULT_TRIPLET</span> environment variable to <span class="tt">arm64-osx</span></li>
@@ -184,7 +178,7 @@ macOS (Apple Silicon)</h3>
 <ol type="1">
 <li>Run <span class="tt">vcpkg install boost-json curl gettext-libintl glib gtest libsecret maddy openssl</span></li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Building</h2>
 <ol type="1">
 <li>First, clone/download the repo.</li>
@@ -195,7 +189,7 @@ Building</h2>
 <ol type="1">
 <li>Create a new <span class="tt">build</span> directory and <span class="tt">cd</span> into it. </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 Windows</h3>
 <ol type="1">
 <li>From the <span class="tt">build</span> folder, run <span class="tt">cmake .. -G "Visual Studio 17 2022"</span>.<ul>
@@ -210,7 +204,7 @@ Windows</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <span class="tt">Release</span> folder of the <span class="tt">build</span> folder. </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Linux</h3>
 <ol type="1">
 <li>From the <span class="tt">build</span> folder, run <span class="tt">cmake .. -DCMAKE_BUILD_TYPE=Release</span>.<ul>
@@ -225,7 +219,7 @@ Linux</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <span class="tt">build</span> folder. </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
 macOS</h3>
 <ol type="1">
 <li>From the <span class="tt">build</span> folder, run <span class="tt">cmake .. -DCMAKE_BUILD_TYPE=Release</span>.<ul>
@@ -241,7 +235,7 @@ macOS</h3>
 <ol type="1">
 <li>After these commands complete, libnick will be successfully built and its binaries can be found in the <span class="tt">build</span> folder.</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
 Installing</h2>
 <ol type="1">
 <li>To install libnick to the system, from the <span class="tt">build</span> folder, run <span class="tt">cmake --install .</span>.<ul>
