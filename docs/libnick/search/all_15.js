@@ -44,7 +44,7 @@ var searchData=
   ['shellnotification_2eh_41',['shellnotification.h',['../shellnotification_8h.html',1,'']]],
   ['shellnotificationsenteventargs_42',['ShellNotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html',1,'Nickvision::Notifications::ShellNotificationSentEventArgs'],['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html#a435a56c3e48f4326a6de41bcf552bc40',1,'Nickvision::Notifications::ShellNotificationSentEventArgs::ShellNotificationSentEventArgs()']]],
   ['shellnotificationsenteventargs_2eh_43',['shellnotificationsenteventargs.h',['../shellnotificationsenteventargs_8h.html',1,'']]],
-  ['silicon_44',['macOS (Apple Silicon)',['../index.html#autotoc_md20',1,'']]],
+  ['silicon_44',['macOS (Apple Silicon)',['../index.html#autotoc_md17',1,'']]],
   ['size_45',['Size',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a6f6cb72d544962fa333e2e34ce64f719',1,'Nickvision::Filesystem']]],
   ['sizehelpers_2eh_46',['sizehelpers.h',['../sizehelpers_8h.html',1,'']]],
   ['snap_47',['Snap',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3a9ad09a90c3dbf80bdf18cf666f9d323e',1,'Nickvision::System']]],

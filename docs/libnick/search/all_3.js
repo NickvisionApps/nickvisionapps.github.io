@@ -8,13 +8,14 @@ var searchData=
   ['addressfamily_5',['AddressFamily',['../namespace_nickvision_1_1_network.html#adb113c10efcff2761ebd0c8598f0f3de',1,'Nickvision::Network']]],
   ['addressfamily_2eh_6',['addressfamily.h',['../addressfamily_8h.html',1,'']]],
   ['all_20platforms_7',['All Platforms',['../index.html#autotoc_md10',1,'']]],
-  ['and_20installing_20manually_8',['Building and Installing Manually',['../index.html#autotoc_md15',1,'']]],
-  ['apis_9',['New APIs',['../index.html#autotoc_md7',1,'']]],
-  ['appinfo_10',['AppInfo',['../class_nickvision_1_1_app_1_1_app_info.html',1,'Nickvision::App::AppInfo'],['../class_nickvision_1_1_app_1_1_app_info.html#a832b3ab485ddad1dc8a980068cc8f07f',1,'Nickvision::App::AppInfo::AppInfo()=default'],['../class_nickvision_1_1_app_1_1_app_info.html#a1fedec1c30f594c6de90d9e7d8c53e6f',1,'Nickvision::App::AppInfo::AppInfo(const std::string &amp;id, const std::string &amp;name, const std::string &amp;englishShortName)']]],
-  ['appinfo_2eh_11',['appinfo.h',['../appinfo_8h.html',1,'']]],
-  ['apple_20silicon_12',['macOS (Apple Silicon)',['../index.html#autotoc_md20',1,'']]],
-  ['applicationuserdirectory_13',['ApplicationUserDirectory',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238',1,'Nickvision::Filesystem']]],
-  ['applicationuserdirectory_2eh_14',['applicationuserdirectory.h',['../applicationuserdirectory_8h.html',1,'']]],
-  ['appnotification_2eh_15',['appnotification.h',['../appnotification_8h.html',1,'']]],
-  ['attributes_16',['Attributes',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a287234a1ff35a314b5b6bc4e5828e745',1,'Nickvision::Filesystem']]]
+  ['and_20installing_20manually_8',['Building and Installing Manually',['../index.html#autotoc_md13',1,'']]],
+  ['and_20macos_9',['Linux and macOS',['../index.html#autotoc_md11',1,'']]],
+  ['apis_10',['New APIs',['../index.html#autotoc_md7',1,'']]],
+  ['appinfo_11',['AppInfo',['../class_nickvision_1_1_app_1_1_app_info.html',1,'Nickvision::App::AppInfo'],['../class_nickvision_1_1_app_1_1_app_info.html#a832b3ab485ddad1dc8a980068cc8f07f',1,'Nickvision::App::AppInfo::AppInfo()=default'],['../class_nickvision_1_1_app_1_1_app_info.html#a1fedec1c30f594c6de90d9e7d8c53e6f',1,'Nickvision::App::AppInfo::AppInfo(const std::string &amp;id, const std::string &amp;name, const std::string &amp;englishShortName)']]],
+  ['appinfo_2eh_12',['appinfo.h',['../appinfo_8h.html',1,'']]],
+  ['apple_20silicon_13',['macOS (Apple Silicon)',['../index.html#autotoc_md17',1,'']]],
+  ['applicationuserdirectory_14',['ApplicationUserDirectory',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238',1,'Nickvision::Filesystem']]],
+  ['applicationuserdirectory_2eh_15',['applicationuserdirectory.h',['../applicationuserdirectory_8h.html',1,'']]],
+  ['appnotification_2eh_16',['appnotification.h',['../appnotification_8h.html',1,'']]],
+  ['attributes_17',['Attributes',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a287234a1ff35a314b5b6bc4e5828e745',1,'Nickvision::Filesystem']]]
 ];
