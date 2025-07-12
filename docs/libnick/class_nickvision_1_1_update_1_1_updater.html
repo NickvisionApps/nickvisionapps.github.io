@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -99,8 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a89514febd7ee0e5d10a284abe9e5353e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="class_nickvision_1_1_update_1_1_updater.html" title="An object to check for application updates through GitHub.">Updater</a> via move.  <br /></td></tr>
 <tr class="memitem:ae38dbd1456ce594fba7ddd277610fb5d" id="r_ae38dbd1456ce594fba7ddd277610fb5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_update_1_1_version.html">Version</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38dbd1456ce594fba7ddd277610fb5d">fetchCurrentVersion</a> (<a class="el" href="namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5e">VersionType</a> versionType)</td></tr>
 <tr class="memdesc:ae38dbd1456ce594fba7ddd277610fb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the latest version of the provided type from the GitHub repo.  <br /></td></tr>
-<tr class="memitem:a2299937e50b5247268b7e8a0c501a464" id="r_a2299937e50b5247268b7e8a0c501a464"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2299937e50b5247268b7e8a0c501a464">windowsUpdate</a> (<a class="el" href="namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5e">VersionType</a> versionType, const <a class="el" href="namespace_nickvision_1_1_network.html#a08f0e83f85641e0d2db7648351dcfff4">Network::CurlProgressFunction</a> &amp;progress={})</td></tr>
-<tr class="memdesc:a2299937e50b5247268b7e8a0c501a464"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads and installs an application update for Windows.  <br /></td></tr>
+<tr class="memitem:a0efede37080f6fc40cc387e22128ecb3" id="r_a0efede37080f6fc40cc387e22128ecb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0efede37080f6fc40cc387e22128ecb3">windowsUpdate</a> (<a class="el" href="namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5e">VersionType</a> versionType, const cpr::ProgressCallback &amp;progress={})</td></tr>
+<tr class="memdesc:a0efede37080f6fc40cc387e22128ecb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads and installs an application update for Windows.  <br /></td></tr>
 <tr class="memitem:a8c596526c6b8d627a31264e9107134e3" id="r_a8c596526c6b8d627a31264e9107134e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_update_1_1_updater.html">Updater</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c596526c6b8d627a31264e9107134e3">operator=</a> (const <a class="el" href="class_nickvision_1_1_update_1_1_updater.html">Updater</a> &amp;u)</td></tr>
 <tr class="memdesc:a8c596526c6b8d627a31264e9107134e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies an <a class="el" href="class_nickvision_1_1_update_1_1_updater.html" title="An object to check for application updates through GitHub.">Updater</a>.  <br /></td></tr>
 <tr class="memitem:a988357c558238cd565e4a8dcb89a0972" id="r_a988357c558238cd565e4a8dcb89a0972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nickvision_1_1_update_1_1_updater.html">Updater</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988357c558238cd565e4a8dcb89a0972">operator=</a> (<a class="el" href="class_nickvision_1_1_update_1_1_updater.html">Updater</a> &amp;&amp;u) noexcept</td></tr>
@@ -285,8 +285,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2299937e50b5247268b7e8a0c501a464" name="a2299937e50b5247268b7e8a0c501a464"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2299937e50b5247268b7e8a0c501a464">&#9670;&#160;</a></span>windowsUpdate()</h2>
+<a id="a0efede37080f6fc40cc387e22128ecb3" name="a0efede37080f6fc40cc387e22128ecb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0efede37080f6fc40cc387e22128ecb3">&#9670;&#160;</a></span>windowsUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,7 +299,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_nickvision_1_1_network.html#a08f0e83f85641e0d2db7648351dcfff4">Network::CurlProgressFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const cpr::ProgressCallback &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,7 +308,7 @@ Public Member Functions</h2></td></tr>
 <p>fetchCurrentVersion should be called first before running this method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">versionType</td><td>The type of version update to install </td></tr>
-    <tr><td class="paramname">progress</td><td>An optional CurlProgressFunction to track the downloading update </td></tr>
+    <tr><td class="paramname">progress</td><td>An optional cpr::ProgressCallback to track the downloading update </td></tr>
   </table>
   </dd>
 </dl>

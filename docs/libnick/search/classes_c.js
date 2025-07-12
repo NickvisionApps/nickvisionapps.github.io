@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['taskbaritem_0',['TaskbarItem',['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html',1,'Nickvision::Taskbar']]]
+  ['updater_0',['Updater',['../class_nickvision_1_1_update_1_1_updater.html',1,'Nickvision::Update']]]
 ];

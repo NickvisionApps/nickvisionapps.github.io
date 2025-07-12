@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['curlprogressfunction_0',['CurlProgressFunction',['../namespace_nickvision_1_1_network.html#a08f0e83f85641e0d2db7648351dcfff4',1,'Nickvision::Network']]]
+  ['sqlitecustomfunction_0',['SqliteCustomFunction',['../namespace_nickvision_1_1_database.html#af465251c85a3656dfd01ef65434e261f',1,'Nickvision::Database']]]
 ];

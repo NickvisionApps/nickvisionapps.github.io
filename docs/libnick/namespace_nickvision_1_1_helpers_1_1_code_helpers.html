@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -94,8 +94,41 @@ Functions</h2></td></tr>
 <tr class="memdesc:a39be48c6ae3d12226df51735cc18b75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unmoves a value.  <br /></td></tr>
 <tr class="memitem:a611be9cb712ee17498b3655d2a6e90fa" id="r_a611be9cb712ee17498b3655d2a6e90fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611be9cb712ee17498b3655d2a6e90fa">writeFileBytes</a> (const std::filesystem::path &amp;path, const std::vector&lt; std::byte &gt; &amp;bytes, bool overwrite=true)</td></tr>
 <tr class="memdesc:a611be9cb712ee17498b3655d2a6e90fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a vector of bytes to a file.  <br /></td></tr>
+<tr class="memitem:aeaeccd648ec6577579f64ac9e8cb66d3" id="r_aeaeccd648ec6577579f64ac9e8cb66d3"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaeccd648ec6577579f64ac9e8cb66d3">combineHash</a> (size_t a, size_t b)</td></tr>
+<tr class="memdesc:aeaeccd648ec6577579f64ac9e8cb66d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combines two hash values together.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="aeaeccd648ec6577579f64ac9e8cb66d3" name="aeaeccd648ec6577579f64ac9e8cb66d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaeccd648ec6577579f64ac9e8cb66d3">&#9670;&#160;</a></span>combineHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Nickvision::Helpers::CodeHelpers::combineHash </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Combines two hash values together. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>The first hash value </td></tr>
+    <tr><td class="paramname">b</td><td>The second hash value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The combined hash value </dd></dl>
+
+</div>
+</div>
 <a id="a53f1d66052c68aff28bc8e52e29b61a1" name="a53f1d66052c68aff28bc8e52e29b61a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53f1d66052c68aff28bc8e52e29b61a1">&#9670;&#160;</a></span>getLastSystemError()</h2>
 

@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -92,8 +92,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a212c327905599a0fe3b592838fcdd633" id="r_a212c327905599a0fe3b592838fcdd633"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a212c327905599a0fe3b592838fcdd633">DataFileBase</a> (const std::string &amp;key, const std::string &amp;appName)</td></tr>
-<tr class="memdesc:a212c327905599a0fe3b592838fcdd633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">DataFileBase</a>, loading the file from disk.  <br /></td></tr>
+<tr class="memitem:a9f13eb45c0c888a41b0fd493cff583e1" id="r_a9f13eb45c0c888a41b0fd493cff583e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f13eb45c0c888a41b0fd493cff583e1">DataFileBase</a> (const std::string &amp;key, const std::string &amp;appName, bool isPortable)</td></tr>
+<tr class="memdesc:a9f13eb45c0c888a41b0fd493cff583e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">DataFileBase</a>, loading the file from disk.  <br /></td></tr>
 <tr class="memitem:ae0dc0c55d30a2c04ae9df2498a5c8642" id="r_ae0dc0c55d30a2c04ae9df2498a5c8642"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0dc0c55d30a2c04ae9df2498a5c8642">~DataFileBase</a> ()=default</td></tr>
 <tr class="memdesc:ae0dc0c55d30a2c04ae9df2498a5c8642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs a <a class="el" href="class_nickvision_1_1_app_1_1_data_file_base.html" title="A base class for json data files.">DataFileBase</a>.  <br /></td></tr>
 <tr class="memitem:a367af548ab75c485e074e8e15bb9c2b1" id="r_a367af548ab75c485e074e8e15bb9c2b1"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a367af548ab75c485e074e8e15bb9c2b1">getKey</a> () const</td></tr>
@@ -109,8 +109,8 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for json data files. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a212c327905599a0fe3b592838fcdd633" name="a212c327905599a0fe3b592838fcdd633"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a212c327905599a0fe3b592838fcdd633">&#9670;&#160;</a></span>DataFileBase()</h2>
+<a id="a9f13eb45c0c888a41b0fd493cff583e1" name="a9f13eb45c0c888a41b0fd493cff583e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f13eb45c0c888a41b0fd493cff583e1">&#9670;&#160;</a></span>DataFileBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -123,7 +123,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>appName</em></span>&#160;)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>appName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isPortable</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -133,6 +138,7 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">key</td><td>The key of the config file </td></tr>
     <tr><td class="paramname">appName</td><td>The name of the application the data file belongs to </td></tr>
+    <tr><td class="paramname">isPortable</td><td>Whether or not the config file is portable </td></tr>
   </table>
   </dd>
 </dl>

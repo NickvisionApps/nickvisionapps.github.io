@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['home_0',['Home',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa8cf04a9734132302f96da8e113e80ce5',1,'Nickvision::Filesystem']]]
+  ['global_0',['Global',['../namespace_nickvision_1_1_system.html#a4309371e2ed3e575aa4a26b5cac2a8efa4cc6684df7b4a92b1dec6fce3264fac8',1,'Nickvision::System']]]
 ];

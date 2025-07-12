@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -80,7 +80,6 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">Nickvision::Network Namespace Reference</div></div>
 </div><!--header-->
@@ -93,8 +92,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:CurlEasy" id="r_CurlEasy"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nickvision_1_1_network_1_1_curl_easy.html">CurlEasy</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object for making easy curl requests.  <a href="class_nickvision_1_1_network_1_1_curl_easy.html#details">More...</a><br /></td></tr>
 <tr class="memitem:IPv4Address" id="r_IPv4Address"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nickvision_1_1_network_1_1_i_pv4_address.html">IPv4Address</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A model of an IPv4 address.  <a href="class_nickvision_1_1_network_1_1_i_pv4_address.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MacAddress" id="r_MacAddress"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nickvision_1_1_network_1_1_mac_address.html">MacAddress</a></td></tr>
@@ -105,10 +102,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An event argument for when the network state is changed.  <a href="class_nickvision_1_1_network_1_1_network_state_changed_event_args.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Socket" id="r_Socket"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nickvision_1_1_network_1_1_socket.html">Socket</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A network socket (an endpoint for communication).  <a href="class_nickvision_1_1_network_1_1_socket.html#details">More...</a><br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a08f0e83f85641e0d2db7648351dcfff4" id="r_a08f0e83f85641e0d2db7648351dcfff4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08f0e83f85641e0d2db7648351dcfff4">CurlProgressFunction</a> = std::function&lt;int(curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, curl_off_t ulnow)&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -132,21 +125,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ac7799d351f31fb23ddc677edc9a575dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of sockets.  <a href="#ac7799d351f31fb23ddc677edc9a575dc">More...</a><br /></td></tr>
 </table>
-<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a08f0e83f85641e0d2db7648351dcfff4" name="a08f0e83f85641e0d2db7648351dcfff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08f0e83f85641e0d2db7648351dcfff4">&#9670;&#160;</a></span>CurlProgressFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a08f0e83f85641e0d2db7648351dcfff4">Nickvision::Network::CurlProgressFunction</a> = std::function&lt;int(curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, curl_off_t ulnow)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
 <a id="adb113c10efcff2761ebd0c8598f0f3de" name="adb113c10efcff2761ebd0c8598f0f3de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb113c10efcff2761ebd0c8598f0f3de">&#9670;&#160;</a></span>AddressFamily</h2>

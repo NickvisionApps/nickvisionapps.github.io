@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['libnick_0',['libnick',['../index.html',1,'']]],
-  ['libnick_20via_20vcpkg_1',['Consuming libnick via vcpkg',['../index.html#autotoc_md12',1,'']]],
-  ['linux_2',['Linux',['../index.html#autotoc_md16',1,'Linux'],['../index.html#autotoc_md20',1,'Linux']]],
-  ['linux_20and_20macos_3',['Linux and macOS',['../index.html#autotoc_md11',1,'']]]
+  ['in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
+  ['installing_1',['Installing',['../index.html#autotoc_md29',1,'']]],
+  ['installing_20manually_2',['Building and Installing Manually',['../index.html#autotoc_md20',1,'']]],
+  ['inter_20process_20communication_3',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_0',['Version',['../class_nickvision_1_1_update_1_1_version.html',1,'Nickvision::Update']]]
+  ['windowgeometry_0',['WindowGeometry',['../class_nickvision_1_1_app_1_1_window_geometry.html',1,'Nickvision::App']]]
 ];

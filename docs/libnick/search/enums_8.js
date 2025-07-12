@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['passwordcontent_0',['PasswordContent',['../namespace_nickvision_1_1_keyring.html#a2f686ca292f526beb67f50929496e3c6',1,'Nickvision::Keyring']]],
-  ['passwordstrength_1',['PasswordStrength',['../namespace_nickvision_1_1_keyring.html#a9cd56409a5e4905bf52205bf8ee23f4c',1,'Nickvision::Keyring']]],
-  ['processstate_2',['ProcessState',['../namespace_nickvision_1_1_system.html#ad9747654191568ae53bcfeda785381d8',1,'Nickvision::System']]],
-  ['progressstate_3',['ProgressState',['../namespace_nickvision_1_1_taskbar.html#a93de85f76e52f245dcbd9e6f374b10ef',1,'Nickvision::Taskbar']]]
+  ['socketpurpose_0',['SocketPurpose',['../namespace_nickvision_1_1_network.html#ad00a9e2f164a4fbceb0b578b85d57e04',1,'Nickvision::Network']]],
+  ['sockettype_1',['SocketType',['../namespace_nickvision_1_1_network.html#ac7799d351f31fb23ddc677edc9a575dc',1,'Nickvision::Network']]]
 ];

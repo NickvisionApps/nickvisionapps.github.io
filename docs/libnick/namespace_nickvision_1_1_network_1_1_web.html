@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -87,14 +87,14 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a3aa467a7eef4cc7ced9796ded3af5148" id="r_a3aa467a7eef4cc7ced9796ded3af5148"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aa467a7eef4cc7ced9796ded3af5148">getWebsiteExists</a> (const std::string &amp;url)</td></tr>
 <tr class="memdesc:a3aa467a7eef4cc7ced9796ded3af5148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not a url points to a valid website.  <br /></td></tr>
-<tr class="memitem:af7f97126364c68815fcc2070246096c1" id="r_af7f97126364c68815fcc2070246096c1"><td class="memItemLeft" align="right" valign="top">boost::json::value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7f97126364c68815fcc2070246096c1">fetchJson</a> (const std::string &amp;url)</td></tr>
-<tr class="memdesc:af7f97126364c68815fcc2070246096c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches a json string from a url.  <br /></td></tr>
-<tr class="memitem:a27df61943a08e694077cc615431bf1db" id="r_a27df61943a08e694077cc615431bf1db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27df61943a08e694077cc615431bf1db">downloadFile</a> (const std::string &amp;url, const std::filesystem::path &amp;path, const <a class="el" href="namespace_nickvision_1_1_network.html#a08f0e83f85641e0d2db7648351dcfff4">CurlProgressFunction</a> &amp;progress={}, bool overwrite=true)</td></tr>
-<tr class="memdesc:a27df61943a08e694077cc615431bf1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads a file to disk.  <br /></td></tr>
+<tr class="memitem:ae5d4a724f090cc7d53c7b02478652a12" id="r_ae5d4a724f090cc7d53c7b02478652a12"><td class="memItemLeft" align="right" valign="top">boost::json::value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d4a724f090cc7d53c7b02478652a12">getJson</a> (const std::string &amp;url)</td></tr>
+<tr class="memdesc:ae5d4a724f090cc7d53c7b02478652a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a GET request for json from a url.  <br /></td></tr>
+<tr class="memitem:a775512a0ccb70e3b44c0c7117761603e" id="r_a775512a0ccb70e3b44c0c7117761603e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775512a0ccb70e3b44c0c7117761603e">downloadFile</a> (const std::string &amp;url, const std::filesystem::path &amp;path, const cpr::ProgressCallback &amp;progress={}, bool overwrite=true)</td></tr>
+<tr class="memdesc:a775512a0ccb70e3b44c0c7117761603e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads a file to disk.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a27df61943a08e694077cc615431bf1db" name="a27df61943a08e694077cc615431bf1db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27df61943a08e694077cc615431bf1db">&#9670;&#160;</a></span>downloadFile()</h2>
+<a id="a775512a0ccb70e3b44c0c7117761603e" name="a775512a0ccb70e3b44c0c7117761603e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775512a0ccb70e3b44c0c7117761603e">&#9670;&#160;</a></span>downloadFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112,7 +112,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_nickvision_1_1_network.html#a08f0e83f85641e0d2db7648351dcfff4">CurlProgressFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">const cpr::ProgressCallback &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -127,13 +127,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">url</td><td>The url of the file to download </td></tr>
     <tr><td class="paramname">path</td><td>The path on disk to save the file </td></tr>
-    <tr><td class="paramname">progress</td><td>An optional function to receive progress on the download <br  />
-std::function&lt;int(curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, curl_off_t ulnow)&gt; <br  />
- dltotal - The total number of bytes to be downloaded <br  />
- dlnow - The total number of bytes currently downloaded <br  />
- ultotal - The total number of bytes to be uploaded (will always be 0) <br  />
- ulnow - The total number of bytes currently uploaded (will always be 0) <br  />
- </td></tr>
+    <tr><td class="paramname">progress</td><td>An optional function to receive progress on the download </td></tr>
     <tr><td class="paramname">overwrite</td><td>Whether or not to overwrite existing files on disk </td></tr>
   </table>
   </dd>
@@ -141,14 +135,14 @@ std::function&lt;int(curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, c
 
 </div>
 </div>
-<a id="af7f97126364c68815fcc2070246096c1" name="af7f97126364c68815fcc2070246096c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7f97126364c68815fcc2070246096c1">&#9670;&#160;</a></span>fetchJson()</h2>
+<a id="ae5d4a724f090cc7d53c7b02478652a12" name="ae5d4a724f090cc7d53c7b02478652a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d4a724f090cc7d53c7b02478652a12">&#9670;&#160;</a></span>getJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boost::json::value Nickvision::Network::Web::fetchJson </td>
+          <td class="memname">boost::json::value Nickvision::Network::Web::getJson </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
           <td></td>
@@ -156,14 +150,16 @@ std::function&lt;int(curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, c
       </table>
 </div><div class="memdoc">
 
-<p>Fetches a json string from a url. </p>
+<p>Makes a GET request for json from a url. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">url</td><td>The url of the json string </td></tr>
+    <tr><td class="paramname">url</td><td>The url of the json resource </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The fetched json value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The parsed json value </dd>
+<dd>
+An empty json value if error </dd></dl>
 
 </div>
 </div>

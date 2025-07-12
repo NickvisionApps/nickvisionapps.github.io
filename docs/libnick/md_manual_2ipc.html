@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.6.5</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -77,10 +77,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md2"></a></p>
-<p>libnick uses named-pipes on Windows and Unix Domain Sockets on Linux and macOS to establish inter process server and client communicators, while abstracting all of that away from the consumer in the easy to use <span class="tt"><a class="el" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html" title="An inter process communicator (server/client).">Nickvision::App::InterProcessCommunicator</a></span> API.</p>
-<p>Upon creating an <span class="tt"><a class="el" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html" title="An inter process communicator (server/client).">Nickvision::App::InterProcessCommunicator</a></span> object, either <span class="tt">isServer()</span> or <span class="tt">isClient()</span> will return true depending on whether or not this instance is a server or client respectively. Server instances should register a callback to the <span class="tt">CommandReceived</span> event to be invoked when clients send commands to the server.</p>
-<p>NOTE: Server instance of <span class="tt"><a class="el" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html" title="An inter process communicator (server/client).">Nickvision::App::InterProcessCommunicator</a></span> should be kept alive for the entire need for the communicator. This includes when the need to receive client messages is present.</p>
-<p>Let's consider an example scenario for using the <span class="tt"><a class="el" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html" title="An inter process communicator (server/client).">Nickvision::App::InterProcessCommunicator</a></span>. Assume we have an application where we want the first instance to be considered the main, running instance. Assume that if other instances of said application are started, we want its arguments to be passed to the main instance and then have said other instances be closed. This will allow, for example, a GUI main instance to be manipulated via secondary CLI instances.</p>
+<p>libnick uses named-pipes on Windows and Unix Domain Sockets on Linux and macOS to establish inter process server and client communicators, while abstracting all of that away from the consumer in the easy to use <span class="tt">Nickvision::App::InterProcessCommunicator</span> API.</p>
+<p>Upon creating an <span class="tt">Nickvision::App::InterProcessCommunicator</span> object, either <span class="tt">isServer()</span> or <span class="tt">isClient()</span> will return true depending on whether or not this instance is a server or client respectively. Server instances should register a callback to the <span class="tt">CommandReceived</span> event to be invoked when clients send commands to the server.</p>
+<p>NOTE: Server instance of <span class="tt">Nickvision::App::InterProcessCommunicator</span> should be kept alive for the entire need for the communicator. This includes when the need to receive client messages is present.</p>
+<p>Let's consider an example scenario for using the <span class="tt">Nickvision::App::InterProcessCommunicator</span>. Assume we have an application where we want the first instance to be considered the main, running instance. Assume that if other instances of said application are started, we want its arguments to be passed to the main instance and then have said other instances be closed. This will allow, for example, a GUI main instance to be manipulated via secondary CLI instances.</p>
 <p>Here's the code for this: </p><div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_app.html">Nickvision::App</a>;</div>
 <div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_nickvision_1_1_events.html">Nickvision::Events</a>;</div>
 <div class="line"> </div>
@@ -94,18 +94,15 @@ $(function() {
 <div class="line">            modernArgs.push_back({ argv[i] });</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_class" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html">InterProcessCommunicator</a>&amp; ipc{ <span class="stringliteral">&quot;appid&quot;</span> };</div>
-<div class="line">    ipc.<a class="code hl_function" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html#a8a46d1c5270ca1b22c5685a352d58469">commandReceived</a>() += handleArguments;</div>
-<div class="line">    ipc.<a class="code hl_function" href="class_nickvision_1_1_app_1_1_inter_process_communicator.html#a0587bd9ac274f481754d175c0cd63259">communicate</a>(modernArgs, <span class="keyword">true</span>);</div>
+<div class="line">    InterProcessCommunicator&amp; ipc{ <span class="stringliteral">&quot;appid&quot;</span> };</div>
+<div class="line">    ipc.commandReceived() += handleArguments;</div>
+<div class="line">    ipc.communicate(modernArgs, <span class="keyword">true</span>);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> handleArguments(<span class="keyword">const</span> <a class="code hl_class" href="class_nickvision_1_1_events_1_1_param_event_args.html">ParamEventArgs</a>&lt;std::vector&lt;std::string&gt;&gt;&amp; args)</div>
 <div class="line">{</div>
 <div class="line">  ...</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_inter_process_communicator_html"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_inter_process_communicator.html">Nickvision::App::InterProcessCommunicator</a></div><div class="ttdoc">An inter process communicator (server/client).</div><div class="ttdef"><b>Definition</b> interprocesscommunicator.h:39</div></div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_inter_process_communicator_html_a0587bd9ac274f481754d175c0cd63259"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_inter_process_communicator.html#a0587bd9ac274f481754d175c0cd63259">Nickvision::App::InterProcessCommunicator::communicate</a></div><div class="ttdeci">bool communicate(const std::vector&lt; std::string &gt; &amp;args, bool exitIfClient=false)</div><div class="ttdoc">Communicates to the IPC server instance.</div></div>
-<div class="ttc" id="aclass_nickvision_1_1_app_1_1_inter_process_communicator_html_a8a46d1c5270ca1b22c5685a352d58469"><div class="ttname"><a href="class_nickvision_1_1_app_1_1_inter_process_communicator.html#a8a46d1c5270ca1b22c5685a352d58469">Nickvision::App::InterProcessCommunicator::commandReceived</a></div><div class="ttdeci">Events::Event&lt; Events::ParamEventArgs&lt; std::vector&lt; std::string &gt; &gt; &gt; &amp; commandReceived()</div><div class="ttdoc">Gets the event for when a command is received.</div></div>
 <div class="ttc" id="aclass_nickvision_1_1_events_1_1_param_event_args_html"><div class="ttname"><a href="class_nickvision_1_1_events_1_1_param_event_args.html">Nickvision::Events::ParamEventArgs</a></div><div class="ttdoc">An event argument that contains a single parameter.</div><div class="ttdef"><b>Definition</b> parameventargs.h:37</div></div>
 <div class="ttc" id="anamespace_nickvision_1_1_app_html"><div class="ttname"><a href="namespace_nickvision_1_1_app.html">Nickvision::App</a></div><div class="ttdef"><b>Definition</b> appinfo.h:32</div></div>
 <div class="ttc" id="anamespace_nickvision_1_1_events_html"><div class="ttname"><a href="namespace_nickvision_1_1_events.html">Nickvision::Events</a></div><div class="ttdef"><b>Definition</b> event.h:34</div></div>
