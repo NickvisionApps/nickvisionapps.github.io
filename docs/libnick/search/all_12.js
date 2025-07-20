@@ -17,7 +17,7 @@ var searchData=
   ['pgettext_14',['pgettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html#a4da199b492a5aa2a5baa16c615e8ed74',1,'Nickvision::Localization::Gettext']]],
   ['pictures_15',['Pictures',['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaab11ddc7e1671c0bd22dc89dd757508d4',1,'Nickvision::Filesystem']]],
   ['pipe_16',['Pipe',['../namespace_nickvision_1_1_network.html#adb113c10efcff2761ebd0c8598f0f3dea2ab1f3f893823298751fdf60b4e0365a',1,'Nickvision::Network']]],
-  ['platforms_17',['All Platforms',['../index.html#autotoc_md17',1,'']]],
+  ['platforms_17',['All Platforms',['../index.html#autotoc_md12',1,'']]],
   ['pngettext_18',['pngettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html#a59483217fce70e844938df422882f419',1,'Nickvision::Localization::Gettext']]],
   ['preview_19',['Preview',['../namespace_nickvision_1_1_update.html#a69dce6cf29b036c94933303281e37a5ea31fde7b05ac8952dacf4af8a704074ec',1,'Nickvision::Update']]],
   ['process_20',['Process',['../class_nickvision_1_1_system_1_1_process.html',1,'Nickvision::System::Process'],['../class_nickvision_1_1_system_1_1_process.html#a419f71ed7e35936a20a3cce38b7e2085',1,'Nickvision::System::Process::Process()']]],

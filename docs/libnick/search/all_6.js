@@ -10,7 +10,7 @@ var searchData=
   ['decode_7',['decode',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a8b75147364e050fa9eb1809db9a47549',1,'Nickvision::Helpers::StringHelpers']]],
   ['defining_20events_20in_20your_20classes_8',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
   ['deletecredential_9',['deleteCredential',['../class_nickvision_1_1_keyring_1_1_keyring.html#ad07046236f69f4415a034370657874d6',1,'Nickvision::Keyring::Keyring::deleteCredential()'],['../namespace_nickvision_1_1_keyring_1_1_system_credentials.html#a4b5737bb65328417e3b921283e80f639',1,'Nickvision::Keyring::SystemCredentials::deleteCredential()']]],
-  ['dependencies_10',['Dependencies',['../index.html#autotoc_md16',1,'']]],
+  ['dependencies_10',['Dependencies',['../index.html#autotoc_md11',1,'']]],
   ['dependencysearchoption_11',['DependencySearchOption',['../namespace_nickvision_1_1_system.html#a4309371e2ed3e575aa4a26b5cac2a8ef',1,'Nickvision::System']]],
   ['dependencysearchoption_2eh_12',['dependencysearchoption.h',['../dependencysearchoption_8h.html',1,'']]],
   ['deploymentmode_13',['DeploymentMode',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3',1,'Nickvision::System']]],

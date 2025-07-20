@@ -24,7 +24,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.0</span>
+   <div id="projectname">libnick<span id="projectnumber">&#160;2025.7.3</span>
    </div>
    <div id="projectbrief">A cross-platform base for native Nickvision applications.</div>
   </td>
@@ -91,6 +91,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1e8915eef021bcce744bca0e48d4ff11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the domain name used for gettext translations.  <br /></td></tr>
 <tr class="memitem:a38d1a1c8b1387cd3689051f63270b3a2" id="r_a38d1a1c8b1387cd3689051f63270b3a2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38d1a1c8b1387cd3689051f63270b3a2">getAvailableLanguages</a> ()</td></tr>
 <tr class="memdesc:a38d1a1c8b1387cd3689051f63270b3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available translated languages.  <br /></td></tr>
+<tr class="memitem:a09659e34572a5c4543d2f5802dba5c89" id="r_a09659e34572a5c4543d2f5802dba5c89"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09659e34572a5c4543d2f5802dba5c89">changeLanguage</a> (const std::string &amp;language)</td></tr>
+<tr class="memdesc:a09659e34572a5c4543d2f5802dba5c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current language for gettext translations.  <br /></td></tr>
 <tr class="memitem:a1c342e112a1833a2387bde2abeb0ad88" id="r_a1c342e112a1833a2387bde2abeb0ad88"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a1c342e112a1833a2387bde2abeb0ad88 template"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c342e112a1833a2387bde2abeb0ad88">fgettext</a> (const char *msg, Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:a1c342e112a1833a2387bde2abeb0ad88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message and formats it with the given arguments.  <br /></td></tr>
@@ -103,6 +105,32 @@ Functions</h2></td></tr>
 <tr class="memdesc:a59483217fce70e844938df422882f419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message for a given context.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a09659e34572a5c4543d2f5802dba5c89" name="a09659e34572a5c4543d2f5802dba5c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09659e34572a5c4543d2f5802dba5c89">&#9670;&#160;</a></span>changeLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nickvision::Localization::Gettext::changeLanguage </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the current language for gettext translations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">language</td><td>The language code to change translations to (use "C" to turn off translations and use the default language) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the language was changed successfully, else false </dd></dl>
+
+</div>
+</div>
 <a id="a1c342e112a1833a2387bde2abeb0ad88" name="a1c342e112a1833a2387bde2abeb0ad88"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c342e112a1833a2387bde2abeb0ad88">&#9670;&#160;</a></span>fgettext()</h2>
 
@@ -195,7 +223,7 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Gets the list of available translated languages. </p>
-<dl class="section return"><dt>Returns</dt><dd>The list of available translated languages. </dd></dl>
+<p>Does not include the "C" language (the default language). </p><dl class="section return"><dt>Returns</dt><dd>The list of available translated languages. </dd></dl>
 
 </div>
 </div>

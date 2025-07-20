@@ -38,7 +38,7 @@ var searchData=
   ['shellnotification_2eh_35',['shellnotification.h',['../shellnotification_8h.html',1,'']]],
   ['shellnotificationsenteventargs_36',['ShellNotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html',1,'Nickvision::Notifications::ShellNotificationSentEventArgs'],['../class_nickvision_1_1_notifications_1_1_shell_notification_sent_event_args.html#a435a56c3e48f4326a6de41bcf552bc40',1,'Nickvision::Notifications::ShellNotificationSentEventArgs::ShellNotificationSentEventArgs()']]],
   ['shellnotificationsenteventargs_2eh_37',['shellnotificationsenteventargs.h',['../shellnotificationsenteventargs_8h.html',1,'']]],
-  ['silicon_38',['macOS (Apple Silicon)',['../index.html#autotoc_md24',1,'']]],
+  ['silicon_38',['macOS (Apple Silicon)',['../index.html#autotoc_md19',1,'']]],
   ['size_39',['Size',['../namespace_nickvision_1_1_filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a6f6cb72d544962fa333e2e34ce64f719',1,'Nickvision::Filesystem']]],
   ['sizehelpers_2eh_40',['sizehelpers.h',['../sizehelpers_8h.html',1,'']]],
   ['snap_41',['Snap',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3a9ad09a90c3dbf80bdf18cf666f9d323e',1,'Nickvision::System']]],
@@ -74,6 +74,6 @@ var searchData=
   ['success_71',['Success',['../namespace_nickvision_1_1_notifications.html#aa17627dd724dc0f4b1c9453dea238026a505a83f220c02df2f85c3810cd9ceb38',1,'Nickvision::Notifications']]],
   ['suspendinhibitor_72',['SuspendInhibitor',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html',1,'Nickvision::System::SuspendInhibitor'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a5d8db274098d6723b156fa0c2bb29783',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor()'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#ae6fc422e777f769d4a29faaaad6de211',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor(const SuspendInhibitor &amp;inhibitor)'],['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#ac59dad94858dc29b96956b6b52edfe5d',1,'Nickvision::System::SuspendInhibitor::SuspendInhibitor(SuspendInhibitor &amp;&amp;inhibitor) noexcept']]],
   ['suspendinhibitor_2eh_73',['suspendinhibitor.h',['../suspendinhibitor_8h.html',1,'']]],
-  ['system_74',['System',['../namespace_nickvision_1_1_system.html#a4309371e2ed3e575aa4a26b5cac2a8efaa45da96d0bf6575970f2d27af22be28a',1,'Nickvision::System::System'],['../index.html#autotoc_md13',1,'System'],['../index.html#autotoc_md15',1,'System']]],
+  ['system_74',['System',['../namespace_nickvision_1_1_system.html#a4309371e2ed3e575aa4a26b5cac2a8efaa45da96d0bf6575970f2d27af22be28a',1,'Nickvision::System']]],
   ['systemcredentials_2eh_75',['systemcredentials.h',['../systemcredentials_8h.html',1,'']]]
 ];

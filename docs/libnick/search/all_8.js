@@ -11,7 +11,7 @@ var searchData=
   ['filesystemwatcher_8',['FileSystemWatcher',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html',1,'Nickvision::Filesystem::FileSystemWatcher'],['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#ade02d21a7e8bffb375fcf0dfef46c999',1,'Nickvision::Filesystem::FileSystemWatcher::FileSystemWatcher()']]],
   ['filesystemwatcher_2eh_9',['filesystemwatcher.h',['../filesystemwatcher_8h.html',1,'']]],
   ['finddependency_10',['findDependency',['../namespace_nickvision_1_1_system_1_1_environment.html#a5d4d9bc7ccfe13641984dc98ea791c97',1,'Nickvision::System::Environment']]],
-  ['fixes_11',['Fixes',['../index.html#autotoc_md14',1,'']]],
+  ['fixes_11',['Fixes',['../index.html#autotoc_md9',1,'']]],
   ['flatpak_12',['Flatpak',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3ab05338c0c80bf71c5a484f32ce4ded52',1,'Nickvision::System']]],
   ['fngettext_13',['fngettext',['../namespace_nickvision_1_1_localization_1_1_gettext.html#aed24e89cee5e6b7cf565155d63d2f76c',1,'Nickvision::Localization::Gettext']]]
 ];
