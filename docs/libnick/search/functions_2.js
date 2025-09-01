@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['c_5fobj_0',['c_obj',['../class_nickvision_1_1_database_1_1_sql_database.html#ae9cc49eb27d6b69cacdc4bd1035ad450',1,'Nickvision::Database::SqlDatabase']]],
-  ['changed_1',['changed',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#a629bdd9d9658f07bac913bd51565a436',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['changelanguage_2',['changeLanguage',['../namespace_nickvision_1_1_localization_1_1_gettext.html#a09659e34572a5c4543d2f5802dba5c89',1,'Nickvision::Localization::Gettext']]],
-  ['changepassword_3',['changePassword',['../class_nickvision_1_1_database_1_1_sql_database.html#aa9eb0996e6092630fbe4e279966f7166',1,'Nickvision::Database::SqlDatabase']]],
-  ['clearextensionfilters_4',['clearExtensionFilters',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#a64525d379136fbd985ef59e3c6348ca0',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['clearvariable_5',['clearVariable',['../namespace_nickvision_1_1_system_1_1_environment.html#ae5d7713fa9cb007583ce41997c06b42d',1,'Nickvision::System::Environment']]],
-  ['combinehash_6',['combineHash',['../namespace_nickvision_1_1_helpers_1_1_code_helpers.html#aeaeccd648ec6577579f64ac9e8cb66d3',1,'Nickvision::Helpers::CodeHelpers']]],
-  ['connect_7',['connect',['../class_nickvision_1_1_network_1_1_socket.html#a83f2732020127b13b30954a142a078b2',1,'Nickvision::Network::Socket::connect()'],['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html#a0249b596960af2cf9124860896860fc7',1,'Nickvision::Taskbar::TaskbarItem::connect(HWND hwnd)'],['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html#a924323daf9df146aa52d5196240b14b5',1,'Nickvision::Taskbar::TaskbarItem::connect(const std::string &amp;desktopFile)']]],
-  ['connectivitychanged_8',['ConnectivityChanged',['../class_nickvision_1_1_network_1_1_network_monitor.html#a716303dcf0a7b8ac4f5fd4bc0db171ca',1,'Nickvision::Network::NetworkMonitor']]],
-  ['converturlmaptovector_9',['convertUrlMapToVector',['../class_nickvision_1_1_app_1_1_app_info.html#a74e2675fc54a56592a91b068a9577d59',1,'Nickvision::App::AppInfo']]],
-  ['count_10',['count',['../class_nickvision_1_1_events_1_1_event.html#a5c45bed9aa5e55137076fe6f851afad9',1,'Nickvision::Events::Event']]],
-  ['createstatement_11',['createStatement',['../class_nickvision_1_1_database_1_1_sql_database.html#a439e4d98a36c6c1847df76fe7e4718a1',1,'Nickvision::Database::SqlDatabase']]],
-  ['credential_12',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html#a6bb26f7c348038009c3fb52e8fef8e09',1,'Nickvision::Keyring::Credential']]]
+  ['cancel_0',['cancel',['../classNickvision_1_1Helpers_1_1CancellationToken.html#a273ae9110b707c60b097d32dbff66a64',1,'Nickvision::Helpers::CancellationToken']]],
+  ['cancellationtoken_1',['CancellationToken',['../classNickvision_1_1Helpers_1_1CancellationToken.html#a10e238384e1e89724bee1f474c3e9097',1,'Nickvision::Helpers::CancellationToken']]],
+  ['changed_2',['changed',['../classNickvision_1_1Filesystem_1_1FileSystemWatcher.html#a3fea2675b8d3cfe28a4e0ccbde494f90',1,'Nickvision::Filesystem::FileSystemWatcher']]],
+  ['changelanguage_3',['changeLanguage',['../namespaceNickvision_1_1Localization_1_1Gettext.html#aa1e5a324933d57c4deeaa3263b55580c',1,'Nickvision::Localization::Gettext']]],
+  ['clearextensionfilters_4',['clearExtensionFilters',['../classNickvision_1_1Filesystem_1_1FileSystemWatcher.html#a17665ec109b473d792d6e29e03958223',1,'Nickvision::Filesystem::FileSystemWatcher']]],
+  ['clearvariable_5',['clearVariable',['../namespaceNickvision_1_1System_1_1Environment.html#a923dbd69dbc2c760290ce20f252fbb8d',1,'Nickvision::System::Environment']]],
+  ['combinehash_6',['combineHash',['../namespaceNickvision_1_1Helpers_1_1CodeHelpers.html#a634dc79e872d4092d324e4255611c6f5',1,'Nickvision::Helpers::CodeHelpers']]],
+  ['connectivitychanged_7',['ConnectivityChanged',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a716303dcf0a7b8ac4f5fd4bc0db171ca',1,'Nickvision::Network::NetworkMonitor']]],
+  ['contains_8',['contains',['../classNickvision_1_1Helpers_1_1JsonFileBase.html#a3df3c5e9b73d8a3eccef4f585bc6ef89',1,'Nickvision::Helpers::JsonFileBase']]],
+  ['converturlmaptovector_9',['convertUrlMapToVector',['../namespaceNickvision_1_1Helpers_1_1CodeHelpers.html#aaca5c5328012b30b618785d94591097f',1,'Nickvision::Helpers::CodeHelpers']]],
+  ['count_10',['count',['../classNickvision_1_1Events_1_1Event.html#a9827050651eb29a03cb21b15d4c6b607',1,'Nickvision::Events::Event']]],
+  ['create_11',['create',['../namespaceNickvision_1_1System_1_1Credentials.html#a0bbd544f9f0dd515c6f4dc5b73812a6c',1,'Nickvision::System::Credentials']]],
+  ['createstatement_12',['createStatement',['../classNickvision_1_1Database_1_1SqliteDatabase.html#a7ce981a6b977fefa807686c8f73c6aad',1,'Nickvision::Database::SqliteDatabase']]],
+  ['credential_13',['Credential',['../classNickvision_1_1Keyring_1_1Credential.html#ac6d3b34aeefea6947285830e3a31903e',1,'Nickvision::Keyring::Credential::Credential()=default'],['../classNickvision_1_1Keyring_1_1Credential.html#a78306268fac82d89707fd67db82cdd8e',1,'Nickvision::Keyring::Credential::Credential(const std::string &amp;name, const std::string &amp;uri, const std::string &amp;username, const std::string &amp;password) noexcept']]]
 ];

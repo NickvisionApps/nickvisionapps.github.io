@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['networkconnectionpropertychanged_0',['NetworkConnectionPropertyChanged',['../class_nickvision_1_1_network_1_1_network_monitor.html#a03597f6af1664ab62c9aadf1b880b698',1,'Nickvision::Network::NetworkMonitor']]],
-  ['networkmonitor_1',['NetworkMonitor',['../class_nickvision_1_1_network_1_1_network_monitor.html#aadb6f2f7af73d5b5c3ee332cd581f383',1,'Nickvision::Network::NetworkMonitor']]],
-  ['networkstatechangedeventargs_2',['NetworkStateChangedEventArgs',['../class_nickvision_1_1_network_1_1_network_state_changed_event_args.html#a64de39a974e6ca00e4cb8206506243a8',1,'Nickvision::Network::NetworkStateChangedEventArgs']]],
-  ['newguid_3',['newGuid',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#ab4e773ed06578f94e8681d92ab391ab6',1,'Nickvision::Helpers::StringHelpers']]],
-  ['newuuid_4',['newUuid',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a1fadfaf6f95c972c91e8cfa9a65b6ca2',1,'Nickvision::Helpers::StringHelpers']]],
-  ['next_5',['next',['../class_nickvision_1_1_keyring_1_1_password_generator.html#a93d9b8ca750e60a431e7ad4db6664be8',1,'Nickvision::Keyring::PasswordGenerator']]],
-  ['normalizeforfilename_6',['normalizeForFilename',['../namespace_nickvision_1_1_helpers_1_1_string_helpers.html#a9a875c80187b20111e113a3c5b5107c4',1,'Nickvision::Helpers::StringHelpers']]],
-  ['notificationsenteventargs_7',['NotificationSentEventArgs',['../class_nickvision_1_1_notifications_1_1_notification_sent_event_args.html#a80cd09dacb7c9d965bbf3d638612596d',1,'Nickvision::Notifications::NotificationSentEventArgs']]]
+  ['networkconnectionpropertychanged_0',['NetworkConnectionPropertyChanged',['../classNickvision_1_1Network_1_1NetworkMonitor.html#a03597f6af1664ab62c9aadf1b880b698',1,'Nickvision::Network::NetworkMonitor']]],
+  ['networkmonitor_1',['NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html#aadb6f2f7af73d5b5c3ee332cd581f383',1,'Nickvision::Network::NetworkMonitor']]],
+  ['networkstatechangedeventargs_2',['NetworkStateChangedEventArgs',['../classNickvision_1_1Network_1_1NetworkStateChangedEventArgs.html#aed5082fc5e5c02bd9780da0624ae3121',1,'Nickvision::Network::NetworkStateChangedEventArgs']]],
+  ['newguid_3',['newGuid',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a940fe706c6be7c26546a1da360984b74',1,'Nickvision::Helpers::StringHelpers']]],
+  ['newuuid_4',['newUuid',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a43034d618f82a487303b737f59c01600',1,'Nickvision::Helpers::StringHelpers']]],
+  ['next_5',['next',['../classNickvision_1_1Keyring_1_1PasswordGenerator.html#acdc72969fc23d48dc195c50f88fbd535',1,'Nickvision::Keyring::PasswordGenerator']]],
+  ['normalizeforfilename_6',['normalizeForFilename',['../namespaceNickvision_1_1Helpers_1_1StringHelpers.html#a311b33b256c47d5d97c86735eefe87ee',1,'Nickvision::Helpers::StringHelpers']]],
+  ['notificationsenteventargs_7',['NotificationSentEventArgs',['../classNickvision_1_1Notifications_1_1NotificationSentEventArgs.html#aa85e2dcaaac9e945589efa80dda526d5',1,'Nickvision::Notifications::NotificationSentEventArgs']]]
 ];

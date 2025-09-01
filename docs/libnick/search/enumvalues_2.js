@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['cache_0',['Cache',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238aab0cf104f39708eabd07b8cb67e149ba',1,'Nickvision::Filesystem::Cache'],['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaaab0cf104f39708eabd07b8cb67e149ba',1,'Nickvision::Filesystem::Cache']]],
-  ['client_1',['Client',['../namespace_nickvision_1_1_network.html#ad00a9e2f164a4fbceb0b578b85d57e04a577d7068826de925ea2aec01dbadf5e4',1,'Nickvision::Network']]],
-  ['completed_2',['Completed',['../namespace_nickvision_1_1_system.html#ad9747654191568ae53bcfeda785381d8a07ca5050e697392c9ed47e6453f1453f',1,'Nickvision::System']]],
-  ['config_3',['Config',['../namespace_nickvision_1_1_filesystem.html#a4717a89817d6be7efd53d2fc45261238afa535ffb25e1fd20341652f9be21e06e',1,'Nickvision::Filesystem::Config'],['../namespace_nickvision_1_1_filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaafa535ffb25e1fd20341652f9be21e06e',1,'Nickvision::Filesystem::Config']]],
-  ['connectedglobal_4',['ConnectedGlobal',['../namespace_nickvision_1_1_network.html#af978e12a27102d8b7e98d9dd38d624d9a7dd561df4865ee59407afac9726af562',1,'Nickvision::Network']]],
-  ['connectedlocal_5',['ConnectedLocal',['../namespace_nickvision_1_1_network.html#af978e12a27102d8b7e98d9dd38d624d9acbcd3a54bb7a42b9f842f6b2ddcc32f7',1,'Nickvision::Network']]],
-  ['created_6',['Created',['../namespace_nickvision_1_1_system.html#ad9747654191568ae53bcfeda785381d8a0eceeb45861f9585dd7a97a3e36f85c6',1,'Nickvision::System']]]
+  ['desktop_0',['Desktop',['../namespaceNickvision_1_1Filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaa2310408a63388fe57e3a4177168a8798',1,'Nickvision::Filesystem']]],
+  ['directoryname_1',['DirectoryName',['../namespaceNickvision_1_1Filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a0ea74e18ab553375efcef66e875be4f0',1,'Nickvision::Filesystem']]],
+  ['disconnected_2',['Disconnected',['../namespaceNickvision_1_1Network.html#af978e12a27102d8b7e98d9dd38d624d9aef70e46fd3bbc21e3e1f0b6815e750c0',1,'Nickvision::Network']]],
+  ['documents_3',['Documents',['../namespaceNickvision_1_1Filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaaf28128b38efbc6134dc40751ee21fd29',1,'Nickvision::Filesystem']]],
+  ['done_4',['Done',['../namespaceNickvision_1_1Database.html#a90c8ff936c463a1256cb424249cbd7d1af92965e2c8a7afb3c1b9a5c09a263636',1,'Nickvision::Database']]],
+  ['downloads_5',['Downloads',['../namespaceNickvision_1_1Filesystem.html#ad36e956435e29b3f3a7a3a4aaeef7cdaac20c35ef53bf1b70789ce94e66800147',1,'Nickvision::Filesystem']]]
 ];

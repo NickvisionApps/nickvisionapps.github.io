@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['bind_0',['bind',['../class_nickvision_1_1_database_1_1_sql_statement.html#aea2fb18f9468f94b47d65b8583ab9d86',1,'Nickvision::Database::SqlStatement::bind(int index, int value)'],['../class_nickvision_1_1_database_1_1_sql_statement.html#a5e203dde3e90d393c2d58ee47360ace6',1,'Nickvision::Database::SqlStatement::bind(int index, sqlite3_int64 value)'],['../class_nickvision_1_1_database_1_1_sql_statement.html#ad6521ec2ab24127d96b6645b13f8526d',1,'Nickvision::Database::SqlStatement::bind(int index, double value)'],['../class_nickvision_1_1_database_1_1_sql_statement.html#a9af2e8cd281b00d68265a229d1b57011',1,'Nickvision::Database::SqlStatement::bind(int index, bool value)'],['../class_nickvision_1_1_database_1_1_sql_statement.html#aaebc86079d9cbc6e94c4c3bab6bbde22',1,'Nickvision::Database::SqlStatement::bind(int index, const std::string &amp;value)'],['../class_nickvision_1_1_database_1_1_sql_statement.html#a61ebadaad3011c71003f50d8a38265c6',1,'Nickvision::Database::SqlStatement::bind(int index, void *value, int n)']]],
-  ['bytestogigabytes_1',['bytesToGigabytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a4d24a751b24b8004a2a8692f35688bf4',1,'Nickvision::Helpers::SizeHelpers']]],
-  ['bytestokilobytes_2',['bytesToKilobytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#ad9626c3a2d437db9c4336a14081d6a92',1,'Nickvision::Helpers::SizeHelpers']]],
-  ['bytestomegabytes_3',['bytesToMegabytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a67c1322577ee8f5bb9c229230c29d1af',1,'Nickvision::Helpers::SizeHelpers']]]
+  ['bind_0',['bind',['../classNickvision_1_1Database_1_1SqliteStatement.html#afb809ac76c66f565f0719e50a6d71964',1,'Nickvision::Database::SqliteStatement']]],
+  ['bytestogigabytes_1',['bytesToGigabytes',['../namespaceNickvision_1_1Helpers_1_1SizeHelpers.html#af2ea43215928ec1b4a49146c24560e1b',1,'Nickvision::Helpers::SizeHelpers']]],
+  ['bytestokilobytes_2',['bytesToKilobytes',['../namespaceNickvision_1_1Helpers_1_1SizeHelpers.html#a7a9ccfbca7e3fb69d24502451b678865',1,'Nickvision::Helpers::SizeHelpers']]],
+  ['bytestomegabytes_3',['bytesToMegabytes',['../namespaceNickvision_1_1Helpers_1_1SizeHelpers.html#ad7d1a9ebf7b6373acc654b5aee0f981c',1,'Nickvision::Helpers::SizeHelpers']]]
 ];

@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['removed_0',['Removed',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178a93f07b720ebf7d1246512569761a5804',1,'Nickvision::Filesystem']]],
-  ['renamed_1',['Renamed',['../namespace_nickvision_1_1_filesystem.html#a2ab0a9147887a01966de0ea9ec663178ab28f2757ce8f7bb1a72486d7a3500a4e',1,'Nickvision::Filesystem']]],
-  ['running_2',['Running',['../namespace_nickvision_1_1_system.html#ad9747654191568ae53bcfeda785381d8a5bda814c4aedb126839228f1a3d92f09',1,'Nickvision::System']]]
+  ['size_0',['Size',['../namespaceNickvision_1_1Filesystem.html#a860a02453443de2c3e705cbb7e9ec5b4a6f6cb72d544962fa333e2e34ce64f719',1,'Nickvision::Filesystem']]],
+  ['snap_1',['Snap',['../namespaceNickvision_1_1System.html#ad950e3ba1c2a0674bab8ab94a2f262a3a9ad09a90c3dbf80bdf18cf666f9d323e',1,'Nickvision::System']]],
+  ['space_2',['Space',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6ad511f8439ecde36647437fbba67a4394',1,'Nickvision::Keyring']]],
+  ['special_3',['Special',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6ab4c2b550635fe54fd29f2b64dfaca55d',1,'Nickvision::Keyring']]],
+  ['stable_4',['Stable',['../namespaceNickvision_1_1Update.html#a69dce6cf29b036c94933303281e37a5eafa3aff3c185c6dc7754235f397c2099a',1,'Nickvision::Update']]],
+  ['success_5',['Success',['../namespaceNickvision_1_1Notifications.html#aa17627dd724dc0f4b1c9453dea238026a505a83f220c02df2f85c3810cd9ceb38',1,'Nickvision::Notifications']]],
+  ['system_6',['System',['../namespaceNickvision_1_1System.html#a4309371e2ed3e575aa4a26b5cac2a8efaa45da96d0bf6575970f2d27af22be28a',1,'Nickvision::System']]]
 ];

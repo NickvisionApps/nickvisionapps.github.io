@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['2025_207_203_0',['2025.7.3',['../index.html#autotoc_md5',1,'']]]
+  ['classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
+  ['configuration_20files_1',['Working with Json configuration files',['../md_manual_2jsonfiles.html',1,'']]],
+  ['connectivity_2',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]]
 ];

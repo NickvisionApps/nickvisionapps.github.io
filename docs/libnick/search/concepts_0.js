@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['deriveddatafilebase_0',['DerivedDataFileBase',['../concept_nickvision_1_1_app_1_1_derived_data_file_base.html',1,'Nickvision::App']]],
-  ['derivedeventargs_1',['DerivedEventArgs',['../concept_nickvision_1_1_events_1_1_derived_event_args.html',1,'Nickvision::Events']]]
+  ['derivedeventargs_0',['DerivedEventArgs',['../conceptNickvision_1_1Events_1_1DerivedEventArgs.html',1,'Nickvision::Events']]],
+  ['derivedjsonserializable_1',['DerivedJsonSerializable',['../conceptNickvision_1_1Helpers_1_1DerivedJsonSerializable.html',1,'Nickvision::Helpers']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['credential_0',['Credential',['../class_nickvision_1_1_keyring_1_1_credential.html',1,'Nickvision::Keyring']]]
+  ['cancellationtoken_0',['CancellationToken',['../classNickvision_1_1Helpers_1_1CancellationToken.html',1,'Nickvision::Helpers']]],
+  ['credential_1',['Credential',['../classNickvision_1_1Keyring_1_1Credential.html',1,'Nickvision::Keyring']]]
 ];

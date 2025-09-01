@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['keyring_0',['Keyring',['../class_nickvision_1_1_keyring_1_1_keyring.html#a5e185c9cf81474d59877c3ce3665c5fb',1,'Nickvision::Keyring::Keyring']]],
-  ['kill_1',['kill',['../class_nickvision_1_1_system_1_1_process.html#a526abe9161f6f02c4a638eb0798b1440',1,'Nickvision::System::Process']]],
-  ['kilobytestobytes_2',['kilobytesToBytes',['../namespace_nickvision_1_1_helpers_1_1_size_helpers.html#a8413b980bba2b4f49ac48d8cdf3d1be3',1,'Nickvision::Helpers::SizeHelpers']]]
+  ['keyring_0',['Keyring',['../classNickvision_1_1Keyring_1_1Keyring.html#a5e185c9cf81474d59877c3ce3665c5fb',1,'Nickvision::Keyring::Keyring::Keyring(const std::string &amp;name)'],['../classNickvision_1_1Keyring_1_1Keyring.html#a4143097f13563b5057c47c383cea4b82',1,'Nickvision::Keyring::Keyring::Keyring(const Keyring &amp;)=delete'],['../classNickvision_1_1Keyring_1_1Keyring.html#aa27ee022b905a989cc05b3ab878b3857',1,'Nickvision::Keyring::Keyring::Keyring(Keyring &amp;&amp;other) noexcept']]],
+  ['kill_1',['kill',['../classNickvision_1_1System_1_1Process.html#a3ac92c183ba04ae6115168a02a157c47',1,'Nickvision::System::Process']]],
+  ['kilobytestobytes_2',['kilobytesToBytes',['../namespaceNickvision_1_1Helpers_1_1SizeHelpers.html#ad5a04db213555089cf9ba0376fb2bab7',1,'Nickvision::Helpers::SizeHelpers']]]
 ];

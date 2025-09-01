@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['dependencysearchoption_0',['DependencySearchOption',['../namespace_nickvision_1_1_system.html#a4309371e2ed3e575aa4a26b5cac2a8ef',1,'Nickvision::System']]],
-  ['deploymentmode_1',['DeploymentMode',['../namespace_nickvision_1_1_system.html#ad950e3ba1c2a0674bab8ab94a2f262a3',1,'Nickvision::System']]]
+  ['fileaction_0',['FileAction',['../namespaceNickvision_1_1Filesystem.html#a2ab0a9147887a01966de0ea9ec663178',1,'Nickvision::Filesystem']]]
 ];

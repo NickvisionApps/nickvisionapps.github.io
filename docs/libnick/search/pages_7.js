@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['events_20in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]]
+  ['monitoring_20network_20connectivity_0',['Monitoring Network Connectivity',['../md_manual_2netmonitor.html',1,'']]]
 ];

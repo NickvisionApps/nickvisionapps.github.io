@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['in_20your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]],
-  ['installing_1',['Installing',['../index.html#autotoc_md24',1,'']]],
-  ['installing_20manually_2',['Building and Installing Manually',['../index.html#autotoc_md15',1,'']]],
-  ['inter_20process_20communication_3',['Performing Inter-Process Communication',['../md_manual_2ipc.html',1,'']]]
+  ['with_20json_20configuration_20files_0',['Working with Json configuration files',['../md_manual_2jsonfiles.html',1,'']]],
+  ['working_20with_20json_20configuration_20files_1',['Working with Json configuration files',['../md_manual_2jsonfiles.html',1,'']]]
 ];

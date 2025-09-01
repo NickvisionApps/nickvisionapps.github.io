@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operatingsystem_0',['OperatingSystem',['../namespace_nickvision_1_1_system.html#adcb88658352c84f837dc8447677867e3',1,'Nickvision::System']]]
+  ['passwordcontent_0',['PasswordContent',['../namespaceNickvision_1_1Keyring.html#a2f686ca292f526beb67f50929496e3c6',1,'Nickvision::Keyring']]],
+  ['processstate_1',['ProcessState',['../namespaceNickvision_1_1System.html#ad9747654191568ae53bcfeda785381d8',1,'Nickvision::System']]]
 ];

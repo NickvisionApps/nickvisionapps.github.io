@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['_7edatafilebase_0',['~DataFileBase',['../class_nickvision_1_1_app_1_1_data_file_base.html#ae0dc0c55d30a2c04ae9df2498a5c8642',1,'Nickvision::App::DataFileBase']]],
-  ['_7efilesystemwatcher_1',['~FileSystemWatcher',['../class_nickvision_1_1_filesystem_1_1_file_system_watcher.html#a9fae14fdc5ba6aa344624a710f582150',1,'Nickvision::Filesystem::FileSystemWatcher']]],
-  ['_7enetworkmonitor_2',['~NetworkMonitor',['../class_nickvision_1_1_network_1_1_network_monitor.html#a64903548a6f6696c9aab5c66e74a09f6',1,'Nickvision::Network::NetworkMonitor']]],
-  ['_7eprocess_3',['~Process',['../class_nickvision_1_1_system_1_1_process.html#a1fd490c2fac5e9450eea55b4727e74bf',1,'Nickvision::System::Process']]],
-  ['_7esocket_4',['~Socket',['../class_nickvision_1_1_network_1_1_socket.html#a84237298aefb8fec17dd61f017ffdc59',1,'Nickvision::Network::Socket']]],
-  ['_7esuspendinhibitor_5',['~SuspendInhibitor',['../class_nickvision_1_1_system_1_1_suspend_inhibitor.html#a0f7b0c502f6fd4a25d2b6c95daaee9f1',1,'Nickvision::System::SuspendInhibitor']]],
-  ['_7etaskbaritem_6',['~TaskbarItem',['../class_nickvision_1_1_taskbar_1_1_taskbar_item.html#a617906079dfb1876eecbda928e8d803c',1,'Nickvision::Taskbar::TaskbarItem']]]
+  ['_7efilesystemwatcher_0',['~FileSystemWatcher',['../classNickvision_1_1Filesystem_1_1FileSystemWatcher.html#ab841017ad2e252f0f094186f4fb1531b',1,'Nickvision::Filesystem::FileSystemWatcher']]],
+  ['_7eijsonserializable_1',['~IJsonSerializable',['../classNickvision_1_1Helpers_1_1IJsonSerializable.html#ad6e4407786d87a440fa8e13da7b00c34',1,'Nickvision::Helpers::IJsonSerializable']]],
+  ['_7ejsonfilebase_2',['~JsonFileBase',['../classNickvision_1_1Helpers_1_1JsonFileBase.html#a85bb99d153f067ec708f99c969a89e13',1,'Nickvision::Helpers::JsonFileBase']]],
+  ['_7enetworkmonitor_3',['~NetworkMonitor',['../classNickvision_1_1Network_1_1NetworkMonitor.html#aac1ee0a39d29d0f6106df45b230dd096',1,'Nickvision::Network::NetworkMonitor']]],
+  ['_7eprocess_4',['~Process',['../classNickvision_1_1System_1_1Process.html#a2a9ecba5560cb24a21cd7fd8bfd44fa8',1,'Nickvision::System::Process']]],
+  ['_7esqlitedatabase_5',['~SqliteDatabase',['../classNickvision_1_1Database_1_1SqliteDatabase.html#a0bfbb35e91730bc40b0c142381d00fc8',1,'Nickvision::Database::SqliteDatabase']]],
+  ['_7esqlitestatement_6',['~SqliteStatement',['../classNickvision_1_1Database_1_1SqliteStatement.html#ae2b3cb7797aad6bb83110a5419c4312a',1,'Nickvision::Database::SqliteStatement']]],
+  ['_7esqlitevalue_7',['~SqliteValue',['../classNickvision_1_1Database_1_1SqliteValue.html#aacdd68e15e2383837fdc85124403792a',1,'Nickvision::Database::SqliteValue']]],
+  ['_7esuspendinhibitor_8',['~SuspendInhibitor',['../classNickvision_1_1System_1_1SuspendInhibitor.html#a6cfadbf4d9b358140d8708e1e6cb5a8c',1,'Nickvision::System::SuspendInhibitor']]]
 ];
