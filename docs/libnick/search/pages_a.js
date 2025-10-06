@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['your_20classes_0',['Defining Events In Your Classes',['../md_manual_2events.html',1,'']]]
+  ['json_20configuration_20files_0',['Working with Json configuration files',['../md_manual_2jsonfiles.html',1,'']]]
 ];
